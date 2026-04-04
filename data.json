@@ -1,0 +1,1137 @@
+{
+  "platformName": "EduCore Open Learning",
+  "description": "Free curated educational resources for Pakistani students (Matric to University)",
+  "categories": [
+    {
+      "id": "school",
+      "title": "🎒 School Level (Matric / O-Levels)",
+      "subjects": [
+        {
+          "subjectName": "Physics (Class 9th & 10th)",
+          "topics": [
+            {
+              "title": "Class 9 Physics Complete Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-physics",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Class 10 Physics Complete Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-10th-physics",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Physics MCQs Practice (Chapter-wise)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/physics-mcqs/",
+              "badge": "🛠️ MCQs"
+            },
+            {
+              "title": "PhET Interactive Simulations - Physics",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://phet.colorado.edu/en/simulations/filter?subjects=physics",
+              "badge": "🔬 Visual Labs"
+            }
+          ]
+        },
+        {
+          "subjectName": "Chemistry (Class 9th & 10th)",
+          "topics": [
+            {
+              "title": "Class 9 Chemistry Lectures (PGC)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/playlist?list=PLzUa4HInyJ_n24oP_2-tU7d6q8y-zG5Qo",
+              "badge": "🎥 PGC Videos"
+            },
+            {
+              "title": "Class 10 Chemistry Lectures (Sabaq)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-10th-chemistry",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Periodic Table - Interactive Tool",
+              "type": "Read",
+              "language": "English",
+              "url": "https://ptable.com/",
+              "badge": "📖 Interactive"
+            },
+            {
+              "title": "Chemistry Notes & Tests",
+              "type": "Read",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/9th-class/chemistry/",
+              "badge": "📝 IlmKiDunya"
+            }
+          ]
+        },
+        {
+          "subjectName": "Mathematics (Class 9th & 10th)",
+          "topics": [
+            {
+              "title": "Complete 9th Maths Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-maths",
+              "badge": "🎥 Sabaq Hub"
+            },
+            {
+              "title": "10th Maths Chapter-wise Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/playlist?list=PLzUa4HInyJ_mR-Y673v6XqXUeL7-hS6hB",
+              "badge": "🎥 PGC Lectures"
+            },
+            {
+              "title": "Interactive Math Practice (Khan Academy)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.khanacademy.org/math",
+              "badge": "🛠️ Khan Academy"
+            }
+          ]
+        },
+        {
+          "subjectName": "Biology (Class 9th & 10th)",
+          "topics": [
+            {
+              "title": "Biology 9th Class Full Course (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/playlist?list=PLzUa4HInyJ_n24oP_2-tU7d6q8y-zG5Qo",
+              "badge": "🎥 PGC Videos"
+            },
+            {
+              "title": "3D Biology Simulations",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://phet.colorado.edu/en/simulations/filter?subjects=biology",
+              "badge": "🔬 3D Labs"
+            },
+            {
+              "title": "Punjab Board Biology Textbook (PDF)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Textbook"
+            }
+          ]
+        },
+        {
+          "subjectName": "Computer Science (Matric & O-Levels)",
+          "topics": [
+            {
+              "title": "C++ Programming for Beginners (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/playlist?list=PLfVsf4B6X7mS-Z6p_rRIn-q_Uq8_K8lVd",
+              "badge": "🎥 Coding"
+            },
+            {
+              "title": "Intro to HTML/CSS (English)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.w3schools.com/html/",
+              "badge": "📖 Web Dev"
+            },
+            {
+              "title": "Python for Beginners Projects",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.freecodecamp.org/news/python-projects-for-beginners/",
+              "badge": "🐍 Python"
+            }
+          ]
+        },
+        {
+          "subjectName": "English (Grammar & Composition)",
+          "topics": [
+            {
+              "title": "English Grammar Course (Urdu/Hindi)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/playlist?list=PL1Y33d596w8vN-wZzG9V34g2574A1H12B",
+              "badge": "🎥 Grammar"
+            },
+            {
+              "title": "Active & Passive Voice Tricks (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=active+passive+voice+urdu",
+              "badge": "🎥 Tricks"
+            },
+            {
+              "title": "Interactive Grammar Exercises",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.perfect-english-grammar.com/grammar-exercises.html",
+              "badge": "🛠️ Exercises"
+            }
+          ]
+        },
+        {
+          "subjectName": "Islamiat (Class 9th & 10th)",
+          "topics": [
+            {
+              "title": "Quran Translation & Tafseer (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/playlist?list=PLC2C6B8C3F8F8F8F8",
+              "badge": "🎥 Tafseer"
+            },
+            {
+              "title": "Hadith & Seerah Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-islamiat",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Islamiat Notes (Punjab Board PDF)",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Textbook"
+            },
+            {
+              "title": "Islamic Studies MCQs Practice",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.pakistanbix.com/islamiat-mcqs/",
+              "badge": "🛠️ MCQs"
+            }
+          ]
+        },
+        {
+          "subjectName": "Pakistan Studies (Class 9th & 10th)",
+          "topics": [
+            {
+              "title": "Pakistan Movement History Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/playlist?list=PLzUa4HInyJ_n24oP_2-tU7d6q8y-zG5Qo",
+              "badge": "🎥 PGC Lectures"
+            },
+            {
+              "title": "Geography of Pakistan - Maps & Notes",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/9th-class/pakistan-studies/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Pak Studies MCQs (Chapter-wise)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/pakistan-studies-mcqs/",
+              "badge": "🛠️ MCQs"
+            }
+          ]
+        },
+        {
+          "subjectName": "Urdu (Grammar & Literature)",
+          "topics": [
+            {
+              "title": "Urdu Grammar Complete Course (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=urdu+grammar+lectures",
+              "badge": "🎥 Grammar"
+            },
+            {
+              "title": "Punjab Board Urdu Textbook (PDF)",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Textbook"
+            },
+            {
+              "title": "Urdu Essay & Letter Writing Guide",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/urdu-essays",
+              "badge": "📝 Writing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "college",
+      "title": "🎓 College Level (FSc / ICS / I.Com)",
+      "subjects": [
+        {
+          "subjectName": "Physics (FSc Part 1 & 2)",
+          "topics": [
+            {
+              "title": "FSc Physics Detailed Lectures (PGC)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/user/pgclectures",
+              "badge": "🎥 PGC Portal"
+            },
+            {
+              "title": "FSc Physics Solved Numericals",
+              "type": "Read",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/study-resources/fsc-part-1-physics-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Physics Concepts - Khan Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/science/physics",
+              "badge": "🎥 Concepts"
+            }
+          ]
+        },
+        {
+          "subjectName": "Chemistry (FSc Part 1 & 2)",
+          "topics": [
+            {
+              "title": "FSc Chemistry Complete Course (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-chemistry",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Organic Chemistry Mechanisms (English)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/science/organic-chemistry",
+              "badge": "🎥 Organic Chem"
+            },
+            {
+              "title": "Chemistry MCQs Practice",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/chemistry-mcqs/",
+              "badge": "🛠️ MCQs"
+            }
+          ]
+        },
+        {
+          "subjectName": "Mathematics (FSc Part 1 & 2)",
+          "topics": [
+            {
+              "title": "FSc Maths Lectures (Calculus - Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-maths",
+              "badge": "🎥 Calculus"
+            },
+            {
+              "title": "Linear Algebra - Khan Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/math/linear-algebra",
+              "badge": "🎥 Linear Algebra"
+            },
+            {
+              "title": "Math Practice Problems",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.khanacademy.org/math",
+              "badge": "🛠️ Practice"
+            }
+          ]
+        },
+        {
+          "subjectName": "Computer Science (ICS Part 1 & 2)",
+          "topics": [
+            {
+              "title": "C Language Full Course for ICS (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/playlist?list=PLfVsf4B6X7mS-Z6p_rRIn-q_Uq8_K8lVd",
+              "badge": "🎥 C Programming"
+            },
+            {
+              "title": "Database Concepts & SQL (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ics+computer+science+part+2+database",
+              "badge": "🎥 Databases"
+            },
+            {
+              "title": "Interactive SQL Practice",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.w3schools.com/sql/",
+              "badge": "🛠️ SQL Lab"
+            },
+            {
+              "title": "Data Structures Basics",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/data-structures/",
+              "badge": "📖 DSA Intro"
+            }
+          ]
+        },
+        {
+          "subjectName": "Biology (FSc Pre-Medical)",
+          "topics": [
+            {
+              "title": "FSc Biology Complete Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-biology",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Human Physiology - Khan Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/science/biology/human-biology",
+              "badge": "🎥 Physiology"
+            },
+            {
+              "title": "Biology Diagrams & Notes",
+              "type": "Read",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/fsc-part-1-biology-notes/",
+              "badge": "📖 Notes"
+            }
+          ]
+        },
+        {
+          "subjectName": "Islamiat (FSc Level)",
+          "topics": [
+            {
+              "title": "FSc Islamiat Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-islamiat",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Islamiat Notes (Punjab Board)",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Textbook"
+            }
+          ]
+        },
+        {
+          "subjectName": "Pakistan Studies (FSc Level)",
+          "topics": [
+            {
+              "title": "FSc Pak Studies Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/playlist?list=PLzUa4HInyJ_n24oP_2-tU7d6q8y-zG5Qo",
+              "badge": "🎥 PGC Lectures"
+            },
+            {
+              "title": "Pak Studies MCQs (FSc Level)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.pakistanbix.com/pakistan-studies-mcqs/",
+              "badge": "🛠️ MCQs"
+            }
+          ]
+        },
+        {
+          "subjectName": "Urdu (FSc Level)",
+          "topics": [
+            {
+              "title": "FSc Urdu Literature & Grammar",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=fsc+urdu+lectures",
+              "badge": "🎥 Urdu"
+            },
+            {
+              "title": "Urdu Essays & Letters (FSc)",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/urdu-essays",
+              "badge": "📝 Writing"
+            }
+          ]
+        },
+        {
+          "subjectName": "Economics (ICS/I.Com)",
+          "topics": [
+            {
+              "title": "Principles of Economics (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ics+economics+urdu",
+              "badge": "🎥 Economics"
+            },
+            {
+              "title": "Economics Notes (FSc Level)",
+              "type": "Read",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/fsc-part-1-economics-notes/",
+              "badge": "📖 Notes"
+            }
+          ]
+        },
+        {
+          "subjectName": "Accounting (I.Com)",
+          "topics": [
+            {
+              "title": "Principles of Accounting (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=i.com+accounting+urdu",
+              "badge": "🎥 Accounting"
+            },
+            {
+              "title": "Accounting Practice Problems",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.accountingcoach.com/practice",
+              "badge": "🛠️ Practice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "university",
+      "title": "🎓 University Level (CS / SE / IT)",
+      "subjects": [
+        {
+          "subjectName": "Data Structures & Algorithms (DSA)",
+          "topics": [
+            {
+              "title": "DSA Full Course (Jenny's Lectures)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMCE6WJvSdn_8F",
+              "badge": "🎥 Best Concepts"
+            },
+            {
+              "title": "DSA in C++ (Love Babbar - Hindi)",
+              "type": "Video",
+              "language": "Hindi",
+              "url": "https://www.youtube.com/playlist?list=PLDzePYchuz0Vp0mXp6iI_8yC5tZInL_YV",
+              "badge": "🎥 Coding Flow"
+            },
+            {
+              "title": "LeetCode Practice (Topic-wise)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://leetcode.com/problemset/all/",
+              "badge": "🛠️ Problem Solving"
+            },
+            {
+              "title": "DSA Notes & Cheatsheets",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/data-structures-and-algorithms/",
+              "badge": "📖 Reference"
+            }
+          ]
+        },
+        {
+          "subjectName": "Object Oriented Programming (OOP)",
+          "topics": [
+            {
+              "title": "OOP Concepts in C++/Java (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=oop+in+urdu",
+              "badge": "🎥 OOP Basics"
+            },
+            {
+              "title": "OOP Principles - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/",
+              "badge": "📖 Theory"
+            },
+            {
+              "title": "Practice OOP Problems",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript",
+              "badge": "🛠️ Coding"
+            }
+          ]
+        },
+        {
+          "subjectName": "Database Systems",
+          "topics": [
+            {
+              "title": "SQL & Database Design (Neso Academy)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM",
+              "badge": "🎥 DB Concepts"
+            },
+            {
+              "title": "SQL Tutorial - W3Schools",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.w3schools.com/sql/",
+              "badge": "📖 SQL Guide"
+            },
+            {
+              "title": "Interactive SQL Practice",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.sqlbolt.com/",
+              "badge": "🛠️ SQL Lab"
+            }
+          ]
+        },
+        {
+          "subjectName": "Operating Systems",
+          "topics": [
+            {
+              "title": "Operating Systems Lectures (Neso)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm",
+              "badge": "🎥 OS Theory"
+            },
+            {
+              "title": "OS Concepts - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/operating-systems/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "OS Simulation Exercises",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.os-book.com/OS9/practice-exer/index.html",
+              "badge": "🛠️ Simulations"
+            }
+          ]
+        },
+        {
+          "subjectName": "Web Development (Full Stack)",
+          "topics": [
+            {
+              "title": "Modern Web Dev Roadmap 2026",
+              "type": "Read",
+              "language": "English",
+              "url": "https://roadmap.sh/full-stack",
+              "badge": "📖 Roadmap"
+            },
+            {
+              "title": "freeCodeCamp - Full Web Dev Course",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.freecodecamp.org/learn",
+              "badge": "🛠️ Certification"
+            },
+            {
+              "title": "MDN Web Docs - HTML/CSS/JS",
+              "type": "Read",
+              "language": "English",
+              "url": "https://developer.mozilla.org/",
+              "badge": "📖 Official Docs"
+            },
+            {
+              "title": "Build Projects - CodePen",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://codepen.io/",
+              "badge": "🛠️ Live Coding"
+            }
+          ]
+        },
+        {
+          "subjectName": "Computer Networks",
+          "topics": [
+            {
+              "title": "Computer Networks Lectures (Neso)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
+              "badge": "🎥 Networks"
+            },
+            {
+              "title": "Networking Basics - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/computer-network-tutorials/",
+              "badge": "📖 Theory"
+            },
+            {
+              "title": "Packet Tracer Practice Labs",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.netacad.com/courses/packet-tracer",
+              "badge": "🛠️ Lab Sim"
+            }
+          ]
+        },
+        {
+          "subjectName": "Software Engineering",
+          "topics": [
+            {
+              "title": "Software Engineering Full Course",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM",
+              "badge": "🎥 SE Concepts"
+            },
+            {
+              "title": "SDLC & Agile Methodologies",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/software-engineering/",
+              "badge": "📖 Notes"
+            }
+          ]
+        },
+        {
+          "subjectName": "Artificial Intelligence",
+          "topics": [
+            {
+              "title": "AI Basics for Beginners",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM",
+              "badge": "🎥 AI Intro"
+            },
+            {
+              "title": "Machine Learning Crash Course",
+              "type": "Read",
+              "language": "English",
+              "url": "https://developers.google.com/machine-learning/crash-course",
+              "badge": "📖 ML Guide"
+            }
+          ]
+        },
+        {
+          "subjectName": "Cyber Security",
+          "topics": [
+            {
+              "title": "Ethical Hacking Basics",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM",
+              "badge": "🎥 Security"
+            },
+            {
+              "title": "Cyber Security Notes",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/cyber-security-tutorial/",
+              "badge": "📖 Notes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entry-test",
+      "title": "🎯 Entry Test Prep (MDCAT / ECAT / NTS)",
+      "subjects": [
+        {
+          "subjectName": "MDCAT Preparation (Medical)",
+          "topics": [
+            {
+              "title": "MDCAT Biology Complete Guidelines & Lectures",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=mdcat+biology+lectures",
+              "badge": "🎥 MDCAT Bio"
+            },
+            {
+              "title": "MDCAT Physics Shortcuts & Tricks",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=mdcat+physics+tricks",
+              "badge": "🎥 Shortcuts"
+            },
+            {
+              "title": "MDCAT Past Papers & MCQs Bank",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/mdcat-mcqs/",
+              "badge": "🛠️ Past Papers"
+            }
+          ]
+        },
+        {
+          "subjectName": "ECAT Preparation (Engineering)",
+          "topics": [
+            {
+              "title": "ECAT Mathematics Short Tricks (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ecat+math+tricks+urdu",
+              "badge": "🎥 Math Tricks"
+            },
+            {
+              "title": "ECAT Physics Conceptual MCQs",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ecat+physics+mcqs",
+              "badge": "🎥 Physics"
+            },
+            {
+              "title": "UET ECAT Past Papers Online Test",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/ecat-test-preparation-online/",
+              "badge": "🛠️ Mock Tests"
+            }
+          ]
+        },
+        {
+          "subjectName": "NTS (NAT/GAT) – General Test Prep",
+          "topics": [
+            {
+              "title": "NTS Quantitative Reasoning (Math)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=nts+quantitative+reasoning",
+              "badge": "🎥 Quant Prep"
+            },
+            {
+              "title": "NTS Analytical Reasoning Tricks",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=nts+analytical+reasoning",
+              "badge": "🎥 Analytical"
+            },
+            {
+              "title": "NTS NAT Online Practice Tests",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/nts-test-preparation-online/",
+              "badge": "🛠️ NTS Mock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commerce-arts",
+      "title": "📊 Commerce & Arts (I.Com / FA / B.Com)",
+      "subjects": [
+        {
+          "subjectName": "Accounting & Finance (I.Com / B.Com)",
+          "topics": [
+            {
+              "title": "Principles of Accounting Part 1 (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=i.com+part+1+accounting",
+              "badge": "🎥 Basic Acc"
+            },
+            {
+              "title": "Advanced Accounting (B.Com Level)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=b.com+advanced+accounting",
+              "badge": "🎥 Adv Acc"
+            },
+            {
+              "title": "Accounting Concepts & Quizzes",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.accountingcoach.com/",
+              "badge": "🛠️ Acc Coach"
+            }
+          ]
+        },
+        {
+          "subjectName": "Economics & Business Math",
+          "topics": [
+            {
+              "title": "Principles of Economics (I.Com/FA)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=principles+of+economics+urdu+lectures",
+              "badge": "🎥 Economics"
+            },
+            {
+              "title": "Business Math Complete Lectures",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=i.com+business+math",
+              "badge": "🎥 Bus. Math"
+            },
+            {
+              "title": "Economics Study Notes",
+              "type": "Read",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Notes"
+            }
+          ]
+        },
+        {
+          "subjectName": "Civics & Education (FA Arts)",
+          "topics": [
+            {
+              "title": "FA Civics (Ilm Sheriat) Lectures",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=fa+civics+lectures",
+              "badge": "🎥 Civics"
+            },
+            {
+              "title": "FA Education (Ilm-ul-Taleem) Notes",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Education"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "primary-middle",
+      "title": "🧒 Primary & Middle School (Grade 1 to 8)",
+      "subjects": [
+        {
+          "subjectName": "Mathematics (Grade 1-8)",
+          "topics": [
+            {
+              "title": "Math Antics - Basic Math Concepts",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/user/mathantics",
+              "badge": "🎥 Best Concepts"
+            },
+            {
+              "title": "Middle School Math (Urdu/Hindi)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-8th-maths",
+              "badge": "🎥 Sabaq Hub"
+            },
+            {
+              "title": "Khan Academy Kids (Interactive)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://learn.khanacademy.org/khan-academy-kids/",
+              "badge": "🛠️ Fun Learning"
+            }
+          ]
+        },
+        {
+          "subjectName": "Science & Discoveries (Grades 1-8)",
+          "topics": [
+            {
+              "title": "Dr. Binocs Show - Science Animations",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=dr+binocs+show",
+              "badge": "🎥 Animations"
+            },
+            {
+              "title": "Class 6 to 8 Science Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-8th-general-science",
+              "badge": "🎥 Sabaq Hub"
+            },
+            {
+              "title": "Science Max - Experiments at Home",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.youtube.com/c/ScienceMax",
+              "badge": "🛠️ Experiments"
+            }
+          ]
+        },
+        {
+          "subjectName": "Languages: Urdu & English Basics",
+          "topics": [
+            {
+              "title": "Urdu Qaida & Stories (Taleemabad)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/c/Taleemabad",
+              "badge": "🎥 Taleemabad"
+            },
+            {
+              "title": "Alphablocks - English Phonics",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/c/alphablocks",
+              "badge": "🎥 Phonics"
+            },
+            {
+              "title": "English Reading Practice Level 1",
+              "type": "Read",
+              "language": "English",
+              "url": "https://globaldigital-library.org/",
+              "badge": "📖 Storybooks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special-education",
+      "title": "🧩 Special Education & Autism Support",
+      "subjects": [
+        {
+          "subjectName": "Autism Learning & Sensory Support",
+          "topics": [
+            {
+              "title": "Sensory Calm Down & Visual Videos",
+              "type": "Video",
+              "language": "Music/Visual",
+              "url": "https://www.youtube.com/results?search_query=sensory+videos+for+autism",
+              "badge": "🎥 Sensory"
+            },
+            {
+              "title": "Visual Schedules & Flashcards",
+              "type": "Read",
+              "language": "English",
+              "url": "https://do2learn.com/picturecards/printcards/index.htm",
+              "badge": "📖 Printables"
+            },
+            {
+              "title": "Interactive Autism Games",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://pbskids.org/games/autism/",
+              "badge": "🛠️ Safe Games"
+            }
+          ]
+        },
+        {
+          "subjectName": "Speech & Language Therapy",
+          "topics": [
+            {
+              "title": "Miss Rachel - Toddler Learning & Speech",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/c/SongsforLittles",
+              "badge": "🎥 Speech Dev."
+            },
+            {
+              "title": "Articulation Exercises & Sounds",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=speech+therapy+exercises+for+kids",
+              "badge": "🎥 Articulation"
+            },
+            {
+              "title": "Speech Therapy Worksheets",
+              "type": "Read",
+              "language": "English",
+              "url": "https://mommyspeechtherapy.com/?page_id=55",
+              "badge": "📖 Worksheets"
+            }
+          ]
+        },
+        {
+          "subjectName": "Social Stories & Life Skills",
+          "topics": [
+            {
+              "title": "Social Stories for Special Kids",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=social+stories+for+autism",
+              "badge": "🎥 Social Skills"
+            },
+            {
+              "title": "Life Skills & Emotional Regulation",
+              "type": "Read",
+              "language": "English",
+              "url": "https://autismclassroomresources.com/free-resources/",
+              "badge": "📖 Teacher/Parent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olevels-igcse",
+      "title": "🌍 Cambridge O-Levels / IGCSE",
+      "subjects": [
+        {
+          "subjectName": "Mathematics (Syllabus D) & Add Math",
+          "topics": [
+            {
+              "title": "Zainematics - O Level Math (Urdu/Hindi)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/c/Zainematics",
+              "badge": "🎥 Top Tier Math"
+            },
+            {
+              "title": "O Level Math Past Papers Solved",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=o+level+math+past+papers+solved",
+              "badge": "🛠️ Past Papers"
+            },
+            {
+              "title": "O Level Math Notes (ZNotes)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://znotes.org/caie/o-level/maths-d-4024/",
+              "badge": "📖 ZNotes"
+            }
+          ]
+        },
+        {
+          "subjectName": "Sciences (Physics, Chemistry, Biology)",
+          "topics": [
+            {
+              "title": "Free Science Lessons (IGCSE/O-Level)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/c/Freesciencelessons",
+              "badge": "🎥 Crisp Concepts"
+            },
+            {
+              "title": "Physics & Chem Revision Notes (ZNotes)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://znotes.org/",
+              "badge": "📖 ZNotes"
+            },
+            {
+              "title": "Topical Past Papers Practice (Save My Exams)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.savemyexams.co.uk/o-level/",
+              "badge": "🛠️ SaveMyExams"
+            }
+          ]
+        },
+        {
+          "subjectName": "Computer Science (O Level 2210)",
+          "topics": [
+            {
+              "title": "O Level CS Complete Syllabus",
+              "type": "Video",
+              "language": "English/Urdu",
+              "url": "https://www.youtube.com/results?search_query=o+level+computer+science+2210",
+              "badge": "🎥 CS Syllabus"
+            },
+            {
+              "title": "CS Programming & Pseudocode",
+              "type": "Read",
+              "language": "English",
+              "url": "https://znotes.org/caie/o-level/computer-science-2210/",
+              "badge": "📖 Notes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
