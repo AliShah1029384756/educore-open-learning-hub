@@ -25,10 +25,14 @@ EduCore is a static, searchable hub aggregating 400+ educational resources acros
 - 🔍 **Real-time Search** — Filter by subject name, keywords, or learning type
 - 📂 **8 Curated Categories** — School → University → Entry Tests → Special Education
 - 🌍 **Multi-Language** — Urdu, English, Hindi mixed (maximize accessibility for Pakistani learners)
-- 📱 **Fully Responsive** — Optimized for mobile, tablet, and desktop
-- 🎨 **Visual Badges** — 🎥 Videos, 📖 Reading, 🛠️ Practice, 🔬 Labs
+- 📱 **Fully Responsive** — Optimized for mobile (hamburger menu), tablet, and desktop
+- 🎨 **Visual Badges** — 🎥 Videos, 📖 Reading, 🛠️ Practice, 🔬 Labs with color-coded types
+- 🌙 **Dark Mode Toggle** — Theme preference saved in browser (localStorage)
+- ❤️ **Bookmarking System** — Save favorite topics locally without login
+- ⭐ **Featured Categories** — Beautiful landing page with category overview
 - ⚡ **No Build Step** — Pure HTML/CSS/JavaScript, runs instantly in any browser
 - 🔗 **Direct Links** — All resources verified and linked (Sabaq.pk, Khan Academy, YouTube, etc.)
+- ♿ **Accessible Design** — WCAG AA compliance, keyboard navigation, semantic HTML
 
 ## 📚 Categories at a Glance
 
@@ -67,10 +71,14 @@ python -m http.server 8000
 
 ## 🛠️ Technology Stack
 
-- **Frontend:** Vanilla HTML5, CSS3, JavaScript (ES6+)
-- **Styling:** Tailwind CSS (responsive, modern, accessible)
+- **Frontend:** Vanilla HTML5, CSS3 (with Design System variables), JavaScript (ES6+)
+- **Styling:** Custom CSS with 40+ CSS variables (light/dark theme support)
+- **Icons:** Font Awesome 6.4.0 CDN
+- **Typography:** Inter (body) + Poppins (headings) from Google Fonts
 - **Data Source:** Local `data.json` (static, no backend)
 - **Deployment:** GitHub Pages (free, instant)
+- **Dark Mode:** CSS variables + localStorage persistence
+- **Bookmarking:** localStorage-based (no server needed)
 - **No Build Step:** Just open `index.html` and go
 
 ## 📖 How It Works
@@ -80,6 +88,46 @@ python -m http.server 8000
 3. **Filter by Category:** Click a tab, subjects update in real-time
 4. **Search:** Type keyword, matches filter subjects/topics
 5. **View Topic Details:** Click a subject, see all related topics with links
+
+## 🎨 Design System & UI Features
+
+### Modern Interface
+- **Hero Section:** Eye-catching landing with value proposition and featured category showcase
+- **Featured Categories:** 7 color-coded category cards (School=🧡 Orange, College=💙 Blue, University=💜 Purple, etc.)
+- **Enhanced Resource Cards:** Show resource count, dominant type badge (Video/PDF/Article), with smooth hover animations
+- **Smart Metadata Display:** Type badges, language flags (🇵🇰 Urdu, 🇬🇧 English, 🌐 Mixed), and resource counts on each topic
+
+### Responsive Design
+- **Desktop:** Full 3-column grid with sticky header and category tabs
+- **Tablet:** 2-column grid with responsive spacing
+- **Mobile:** Single-column layout with hamburger menu and slide-out sidebar
+
+### Dark Mode
+- **Toggle Button:** Sun/moon icon in header
+- **Smooth Transitions:** 0.3s fade-in when switching themes
+- **Persistent:** Your preference is saved in browser (localStorage)
+- **All-In:** Every element supports light and dark colors
+
+### Bookmarking (Local)
+- **Save Favorites:** Click the ❤️ icon on any topic to bookmark
+- **No Login Required:** Uses browser storage (no account needed)
+- **Persistent:** Bookmarks stay saved across browser sessions
+- **Filter View:** Click "Bookmarks" in sidebar to see all saved topics
+
+### Animations & Interactions
+- **Fade-In:** Content smoothly appears on page load
+- **Hover Effects:** Cards scale slightly and gain shadow on hover
+- **Slide Menu:** Mobile sidebar smoothly slides in from left
+- **Modal Animations:** Topic details slide up with smooth animation
+- **No Lag:** All animations use CSS (super fast)
+
+### Accessibility
+- **Keyboard Navigation:** Tab through buttons, Enter to open, Escape to close
+- **ARIA Labels:** Screen reader friendly
+- **Color Contrast:** WCAG AA compliant (4.5:1 minimum)
+- **Semantic HTML:** Proper use of buttons, modals, and navigation elements
+
+---
 
 ## 🔄 Adding New Categories or Subjects
 
@@ -117,20 +165,23 @@ Example: Adding "Statistics" to University category:
 
 ## 🚦 Roadmap
 
-### v1.1 (May 2026)
-- [ ] Bookmark functionality (save favorite resources)
-- [ ] Dark mode toggle
-- [ ] Category sidebar (sticky on desktop)
+### v1.1 ✅ COMPLETED (April 2026)
+- ✅ Bookmark functionality (save favorite resources locally)
+- ✅ Dark mode toggle with localStorage persistence
+- ✅ Responsive category sidebar (hamburger menu on mobile)
+- ✅ Featured categories landing page
+- ✅ Enhanced resource metadata display (type, language badges)
+- ✅ Smooth animations and transitions
 
 ### v1.2 (June 2026)
 - [ ] Offline support (Progressive Web App)
-- [ ] Export resources to PDF
-- [ ] User ratings & reviews for resources
+- [ ] Export search results to PDF
+- [ ] Community ratings & reviews for resources
 
 ### v2.0 (Q3 2026)
 - [ ] Multi-language UI (Urdu/English toggle)
 - [ ] Mobile app (React Native)
-- [ ] AI-powered resource recommendations
+- [ ] AI-powered resource recommendations based on bookmarks
 
 ## 🐛 Known Issues & Workarounds
 
