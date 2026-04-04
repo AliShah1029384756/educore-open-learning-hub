@@ -147,8 +147,7 @@ h6 {
 }
 
 .sticky-header {
-	position: sticky;
-	top: 0;
+	position: static;
 	z-index: 30;
 	margin: 1rem auto 0;
 }
@@ -1208,7 +1207,6 @@ select:focus-visible,
 
 @media (max-width: 768px) {
 	.sticky-header {
-		position: static;
 		margin-top: 0.7rem;
 	}
 

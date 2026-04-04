@@ -267,8 +267,9 @@ function setHeaderOffset() {
         return;
     }
 
+    const computedPosition = getComputedStyle(stickyHeader).position;
     const headerHeight = Math.ceil(stickyHeader.getBoundingClientRect().height);
-    const offset = headerHeight + 16;
+    const offset = computedPosition === 'sticky' ? headerHeight + 16 : 36;
     document.documentElement.style.setProperty('--header-offset', `${offset}px`);
 }
 
