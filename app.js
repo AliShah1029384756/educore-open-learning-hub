@@ -304,10 +304,10 @@ const uiLabels = {
 
 function mergeTopicLists(existingTopics = [], incomingTopics = []) {
     const merged = [...existingTopics];
-    const seen = new Set(existingTopics.map(topic => `${topic.title}::${topic.url}`));
+    const seen = new Set(existingTopics.map(topic => `${topic.title || topic.name || ''}::${topic.url || ''}`));
 
     incomingTopics.forEach(topic => {
-        const key = `${topic.title}::${topic.url}`;
+        const key = `${topic.title || topic.name || ''}::${topic.url || ''}`;
         if (!seen.has(key)) {
             seen.add(key);
             merged.push(topic);
@@ -315,6 +315,35 @@ function mergeTopicLists(existingTopics = [], incomingTopics = []) {
     });
 
     return merged;
+}
+
+function normalizeLearningData(data) {
+    if (!data || !Array.isArray(data.categories)) {
+        return data;
+    }
+
+    return {
+        ...data,
+        categories: data.categories.map(category => ({
+            ...category,
+            title: category.title || category.name || category.id,
+            name: category.name || category.title || category.id,
+            subjects: Array.isArray(category.subjects)
+                ? category.subjects.map(subject => ({
+                    ...subject,
+                    topics: Array.isArray(subject.topics)
+                        ? subject.topics.map(topic => ({
+                            ...topic,
+                            title: topic.title || topic.name || '',
+                            type: topic.type || 'Read',
+                            language: topic.language || 'English',
+                            url: topic.url || ''
+                        }))
+                        : []
+                }))
+                : []
+        }))
+    };
 }
 
 function mergeSupplementalData(supplementalData) {
@@ -668,17 +697,17 @@ function showToast(message) {
 
 async function loadData() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch(new URL('data.json', window.location.href));
         if (!response.ok) {
             throw new Error('Failed to load data');
         }
-        allData = await response.json();
+        allData = normalizeLearningData(await response.json());
         mergeCuratedAdditions();
 
         try {
-            const supplementalResponse = await fetch('subjects.json', { cache: 'no-store' });
+            const supplementalResponse = await fetch(new URL('subjects.json', window.location.href), { cache: 'no-store' });
             if (supplementalResponse.ok) {
-                const supplementalData = await supplementalResponse.json();
+                const supplementalData = normalizeLearningData(await supplementalResponse.json());
                 mergeSupplementalData(supplementalData);
             }
         } catch (supplementalError) {
@@ -722,11 +751,11 @@ function updateStats() {
 }
 
 function cleanCategoryTitle(title) {
-    return title.replace(/^\p{Extended_Pictographic}\s*/u, '').trim();
+    return (title || '').replace(/^\p{Extended_Pictographic}\s*/u, '').trim();
 }
 
 function getCategoryDisplayTitle(category) {
-    const base = cleanCategoryTitle(category.title);
+    const base = cleanCategoryTitle(category.title || category.name);
 
     if (languageMode === 'english') {
         return base;
@@ -756,7 +785,7 @@ function updateBreadcrumb() {
     }
 
     const category = allData.categories.find(item => item.id === activeCategory);
-    const categoryTitle = category ? cleanCategoryTitle(category.title) : 'All Tracks';
+    const categoryTitle = category ? cleanCategoryTitle(category.title || category.name) : 'All Tracks';
     breadcrumb.textContent = `${getUiText('breadcrumbHome')} / ${categoryTitle} / ${getUiText('breadcrumbSubjects')}`;
 }
 
@@ -789,11 +818,12 @@ function renderFeaturedCategories() {
         const icon = categoryIcons[category.id] || '📚';
         const color = categoryColors[category.id] || 'misc';
         const topicCount = category.subjects.reduce((sum, subject) => sum + subject.topics.length, 0);
-        const level = inferLevel(category.id, category.title, category.title);
+        const categoryTitle = category.title || category.name || '';
+        const level = inferLevel(category.id, categoryTitle, categoryTitle);
         const levelLabel = level.charAt(0).toUpperCase() + level.slice(1);
 
         return `
-            <article class="category-card ${color}" data-category="${category.id}" role="button" tabindex="0" aria-label="Open ${cleanCategoryTitle(category.title)} resources">
+            <article class="category-card ${color}" data-category="${category.id}" role="button" tabindex="0" aria-label="Open ${cleanCategoryTitle(categoryTitle)} resources">
                 <div class="category-icon">${icon}</div>
                 <h3 class="category-title">${getCategoryDisplayTitle(category)}</h3>
                 <p class="category-count">${topicCount} resources across ${category.subjects.length} subjects</p>
@@ -997,7 +1027,7 @@ function renderSubjects() {
         allData.categories.forEach(category => {
             category.subjects.forEach(subject => {
                 const subjectMatch = subject.subjectName.toLowerCase().includes(query);
-                const categoryMatch = cleanCategoryTitle(category.title).toLowerCase().includes(query);
+                const categoryMatch = cleanCategoryTitle(category.title || category.name).toLowerCase().includes(query);
                 const matchedTopics = subject.topics.filter(topic => {
                     const topicText = topic.title.toLowerCase();
                     const sourceText = getSourceFromUrl(topic.url).toLowerCase();
@@ -1093,7 +1123,7 @@ function renderSubjects() {
             <article class="subject-card fade-in" data-subject-key="${card.key}">
                 <div class="subject-head">
                     <h3 class="subject-title">${card.subject.subjectName}</h3>
-                    ${card.inSearch ? `<span class="subject-category-pill">${cleanCategoryTitle(card.category.title)}</span>` : ''}
+                    ${card.inSearch ? `<span class="subject-category-pill">${cleanCategoryTitle(card.category.title || card.category.name)}</span>` : ''}
                 </div>
 
                 <div class="card-metadata">
