@@ -9,99 +9,683 @@
         {
           "subjectName": "Physics (Class 9th & 10th)",
           "topics": [
-            { "title": "Class 9 Physics Complete Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-9th-physics", "badge": "🎥 Sabaq.pk" },
-            { "title": "Class 10 Physics Complete Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-10th-physics", "badge": "🎥 Sabaq.pk" },
-            { "title": "Physics Chapter Notes + Solved Exercises (9th)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/9th-class/physics/", "badge": "📖 Notes" },
-            { "title": "Physics Chapter Notes + Solved Exercises (10th)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/10th-class/physics/", "badge": "📖 Notes" },
-            { "title": "Physics MCQs Practice (Chapter-wise)", "type": "Practice", "language": "English", "url": "https://www.pakistanbix.com/physics-mcqs/", "badge": "🛠️ MCQs" },
-            { "title": "Punjab Board Physics Past Papers (5 Years)", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/9th-class-physics-past-papers/", "badge": "📝 Past Papers" },
-            { "title": "PhET Interactive Physics Simulations", "type": "Practice", "language": "English", "url": "https://phet.colorado.edu/en/simulations/filter?subjects=physics", "badge": "🔬 Visual Labs" },
-            { "title": "PCTB Physics Textbook (Punjab Board PDF)", "type": "Read", "language": "Urdu/English", "url": "https://pctb.punjab.gov.pk/E-Books", "badge": "📖 Textbook" }
+            {
+              "title": "Class 9 Physics Complete Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-physics",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Class 10 Physics Complete Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-10th-physics",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Physics Chapter Notes + Solved Exercises (9th)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/9th-class/physics/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Physics Chapter Notes + Solved Exercises (10th)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/10th-class/physics/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Physics MCQs Practice (Chapter-wise)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/physics-mcqs/",
+              "badge": "🛠️ MCQs"
+            },
+            {
+              "title": "Punjab Board Physics Past Papers (5 Years)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/9th-class-physics-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "PhET Interactive Physics Simulations",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://phet.colorado.edu/en/simulations/filter?subjects=physics",
+              "badge": "🔬 Visual Labs"
+            },
+            {
+              "title": "PCTB Physics Textbook (Punjab Board PDF)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Textbook"
+            },
+            {
+              "title": "Punjab Board Past Papers Hub (All Subjects)",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/",
+              "badge": "📝 Board Hub"
+            },
+            {
+              "title": "Sabaq Foundation Learning Portal",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk",
+              "badge": "🎥 Sabaq"
+            },
+            {
+              "title": "Physics Wallah Basics Playlist",
+              "type": "Video",
+              "language": "Hindi/Urdu",
+              "url": "https://www.youtube.com/results?search_query=physics+wallah+class+10+physics",
+              "badge": "🎥 Concept Boost"
+            }
           ]
         },
         {
           "subjectName": "Chemistry (Class 9th & 10th)",
           "topics": [
-            { "title": "Class 9 Chemistry Lectures (Sabaq.pk)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-9th-chemistry", "badge": "🎥 Sabaq.pk" },
-            { "title": "Class 10 Chemistry Lectures (Sabaq.pk)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-10th-chemistry", "badge": "🎥 Sabaq.pk" },
-            { "title": "Chemistry Notes & Solved MCQs (9th)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/9th-class/chemistry/", "badge": "📖 IlmKiDunya" },
-            { "title": "Chemistry Notes & Solved MCQs (10th)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/10th-class/chemistry/", "badge": "📖 IlmKiDunya" },
-            { "title": "Periodic Table - Interactive Tool", "type": "Read", "language": "English", "url": "https://ptable.com/", "badge": "📖 Interactive" },
-            { "title": "Chemistry Past Papers Punjab Board", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/9th-class-chemistry-past-papers/", "badge": "📝 Past Papers" },
-            { "title": "PhET Chemistry Simulations (Acids, Atoms)", "type": "Practice", "language": "English", "url": "https://phet.colorado.edu/en/simulations/filter?subjects=chemistry", "badge": "🔬 Labs" }
+            {
+              "title": "Class 9 Chemistry Lectures (Sabaq.pk)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-chemistry",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Class 10 Chemistry Lectures (Sabaq.pk)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-10th-chemistry",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Chemistry Notes & Solved MCQs (9th)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/9th-class/chemistry/",
+              "badge": "📖 IlmKiDunya"
+            },
+            {
+              "title": "Chemistry Notes & Solved MCQs (10th)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/10th-class/chemistry/",
+              "badge": "📖 IlmKiDunya"
+            },
+            {
+              "title": "Periodic Table - Interactive Tool",
+              "type": "Read",
+              "language": "English",
+              "url": "https://ptable.com/",
+              "badge": "📖 Interactive"
+            },
+            {
+              "title": "Chemistry Past Papers Punjab Board",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/9th-class-chemistry-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "PhET Chemistry Simulations (Acids, Atoms)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://phet.colorado.edu/en/simulations/filter?subjects=chemistry",
+              "badge": "🔬 Labs"
+            },
+            {
+              "title": "Punjab Board Past Papers Hub (All Subjects)",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/",
+              "badge": "📝 Board Hub"
+            },
+            {
+              "title": "Sabaq Foundation Learning Portal",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk",
+              "badge": "🎥 Sabaq"
+            },
+            {
+              "title": "PCTB Official eBooks Repository",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Official Books"
+            },
+            {
+              "title": "ChemCollective Virtual Lab Activities",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://chemcollective.org/activities",
+              "badge": "🧪 Virtual Lab"
+            }
           ]
         },
         {
           "subjectName": "Mathematics (Class 9th & 10th)",
           "topics": [
-            { "title": "9th Class Maths Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-9th-maths", "badge": "🎥 Sabaq.pk" },
-            { "title": "10th Class Maths Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-10th-maths", "badge": "🎥 Sabaq.pk" },
-            { "title": "Maths Solved Exercises + Notes (9th)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/9th-class/maths/", "badge": "📖 Notes" },
-            { "title": "Maths Solved Exercises + Notes (10th)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/10th-class/maths/", "badge": "📖 Notes" },
-            { "title": "Interactive Math Practice (Khan Academy)", "type": "Practice", "language": "English", "url": "https://www.khanacademy.org/math", "badge": "🛠️ Khan Academy" },
-            { "title": "Maths Past Papers (Board Exams)", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/9th-class-maths-past-papers/", "badge": "📝 Past Papers" },
-            { "title": "Formula Sheet - Matric Math", "type": "Read", "language": "English", "url": "https://www.slideshare.net/search?searchfrom=header&q=matric+maths+formulas", "badge": "📖 Formulas" }
+            {
+              "title": "9th Class Maths Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-maths",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "10th Class Maths Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-10th-maths",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Maths Solved Exercises + Notes (9th)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/9th-class/maths/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Maths Solved Exercises + Notes (10th)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/10th-class/maths/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Interactive Math Practice (Khan Academy)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.khanacademy.org/math",
+              "badge": "🛠️ Khan Academy"
+            },
+            {
+              "title": "Maths Past Papers (Board Exams)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/9th-class-maths-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Formula Sheet - Matric Math",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.slideshare.net/search?searchfrom=header&q=matric+maths+formulas",
+              "badge": "📖 Formulas"
+            },
+            {
+              "title": "Punjab Board Past Papers Hub (All Subjects)",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/",
+              "badge": "📝 Board Hub"
+            },
+            {
+              "title": "Sabaq Foundation Learning Portal",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk",
+              "badge": "🎥 Sabaq"
+            },
+            {
+              "title": "PCTB Official eBooks Repository",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Official Books"
+            },
+            {
+              "title": "IXL Math Skills Practice",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.ixl.com/math",
+              "badge": "🛠️ Skills"
+            },
+            {
+              "title": "Math Revision Worksheets (Printable)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.mathworksheets4kids.com/",
+              "badge": "📄 Worksheets"
+            }
           ]
         },
         {
           "subjectName": "Biology (Class 9th & 10th)",
           "topics": [
-            { "title": "Biology 9th Class Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-9th-biology", "badge": "🎥 Sabaq.pk" },
-            { "title": "Biology 10th Class Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-10th-biology", "badge": "🎥 Sabaq.pk" },
-            { "title": "Biology Notes + Diagrams (9th)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/9th-class/biology/", "badge": "📖 Notes" },
-            { "title": "Biology Notes + Diagrams (10th)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/10th-class/biology/", "badge": "📖 Notes" },
-            { "title": "3D Biology Simulations (PhET)", "type": "Practice", "language": "English", "url": "https://phet.colorado.edu/en/simulations/filter?subjects=biology", "badge": "🔬 3D Labs" },
-            { "title": "PCTB Biology Textbook (PDF)", "type": "Read", "language": "Urdu/English", "url": "https://pctb.punjab.gov.pk/E-Books", "badge": "📖 Textbook" },
-            { "title": "Biology Past Papers Punjab Board", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/9th-class-biology-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "Biology 9th Class Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-biology",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Biology 10th Class Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-10th-biology",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Biology Notes + Diagrams (9th)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/9th-class/biology/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Biology Notes + Diagrams (10th)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/10th-class/biology/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "3D Biology Simulations (PhET)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://phet.colorado.edu/en/simulations/filter?subjects=biology",
+              "badge": "🔬 3D Labs"
+            },
+            {
+              "title": "PCTB Biology Textbook (PDF)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Textbook"
+            },
+            {
+              "title": "Biology Past Papers Punjab Board",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/9th-class-biology-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Punjab Board Past Papers Hub (All Subjects)",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/",
+              "badge": "📝 Board Hub"
+            },
+            {
+              "title": "Sabaq Foundation Learning Portal",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk",
+              "badge": "🎥 Sabaq"
+            },
+            {
+              "title": "Biology Dictionary and Concepts",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.biologyonline.com/dictionary",
+              "badge": "📖 Dictionary"
+            },
+            {
+              "title": "Khan Academy Biology Unit Practice",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.khanacademy.org/science/biology",
+              "badge": "🛠️ Unit Practice"
+            }
           ]
         },
         {
           "subjectName": "Computer Science (Matric)",
           "topics": [
-            { "title": "Computer 9th Class Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-9th-computer-science", "badge": "🎥 Sabaq.pk" },
-            { "title": "Computer 10th Class Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-10th-computer-science", "badge": "🎥 Sabaq.pk" },
-            { "title": "Introduction to HTML/CSS (W3Schools)", "type": "Read", "language": "English", "url": "https://www.w3schools.com/html/", "badge": "📖 Web Dev" },
-            { "title": "Python Beginner Projects (freeCodeCamp)", "type": "Practice", "language": "English", "url": "https://www.freecodecamp.org/news/python-projects-for-beginners/", "badge": "🐍 Python" },
-            { "title": "Computer MCQs Chapter-wise", "type": "Practice", "language": "English/Urdu", "url": "https://www.pakistanbix.com/computer-mcqs/", "badge": "🛠️ MCQs" }
+            {
+              "title": "Computer 9th Class Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-computer-science",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Computer 10th Class Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-10th-computer-science",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Introduction to HTML/CSS (W3Schools)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.w3schools.com/html/",
+              "badge": "📖 Web Dev"
+            },
+            {
+              "title": "Python Beginner Projects (freeCodeCamp)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.freecodecamp.org/news/python-projects-for-beginners/",
+              "badge": "🐍 Python"
+            },
+            {
+              "title": "Computer MCQs Chapter-wise",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.pakistanbix.com/computer-mcqs/",
+              "badge": "🛠️ MCQs"
+            },
+            {
+              "title": "Punjab Board Past Papers Hub (All Subjects)",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/",
+              "badge": "📝 Board Hub"
+            },
+            {
+              "title": "Sabaq Foundation Learning Portal",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk",
+              "badge": "🎥 Sabaq"
+            },
+            {
+              "title": "PCTB Official eBooks Repository",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Official Books"
+            },
+            {
+              "title": "Scratch Coding Activities",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://scratch.mit.edu/ideas",
+              "badge": "🧩 Scratch"
+            },
+            {
+              "title": "CS Unplugged Activities",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.csunplugged.org/en/resources/",
+              "badge": "📖 CS Activities"
+            }
           ]
         },
         {
           "subjectName": "English (Grammar & Composition)",
           "topics": [
-            { "title": "English Grammar Course (Urdu Explanation)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=english+grammar+in+urdu+class+9", "badge": "🎥 Grammar" },
-            { "title": "Active & Passive Voice - Easy Tricks", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=active+passive+voice+tricks+urdu", "badge": "🎥 Tricks" },
-            { "title": "English Notes + Essays (Punjab Board)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/9th-class/english/", "badge": "📖 Notes" },
-            { "title": "Interactive Grammar Exercises", "type": "Practice", "language": "English", "url": "https://www.perfect-english-grammar.com/grammar-exercises.html", "badge": "🛠️ Exercises" },
-            { "title": "English Past Papers (Board Exams)", "type": "Practice", "language": "English", "url": "https://www.ilmkidunya.com/past-papers/9th-class-english-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "English Grammar Course (Urdu Explanation)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=english+grammar+in+urdu+class+9",
+              "badge": "🎥 Grammar"
+            },
+            {
+              "title": "Active & Passive Voice - Easy Tricks",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=active+passive+voice+tricks+urdu",
+              "badge": "🎥 Tricks"
+            },
+            {
+              "title": "English Notes + Essays (Punjab Board)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/9th-class/english/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Interactive Grammar Exercises",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.perfect-english-grammar.com/grammar-exercises.html",
+              "badge": "🛠️ Exercises"
+            },
+            {
+              "title": "English Past Papers (Board Exams)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.ilmkidunya.com/past-papers/9th-class-english-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Punjab Board Past Papers Hub (All Subjects)",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/",
+              "badge": "📝 Board Hub"
+            },
+            {
+              "title": "Sabaq Foundation Learning Portal",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk",
+              "badge": "🎥 Sabaq"
+            },
+            {
+              "title": "PCTB Official eBooks Repository",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Official Books"
+            },
+            {
+              "title": "Grammarly Writing Handbook",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.grammarly.com/blog/",
+              "badge": "📖 Writing"
+            },
+            {
+              "title": "Essay and Paragraph Practice Topics",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/urdu-essays",
+              "badge": "📝 Writing Practice"
+            }
           ]
         },
         {
           "subjectName": "Islamiat (Class 9th & 10th)",
           "topics": [
-            { "title": "Islamiat 9th Class Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-9th-islamiat", "badge": "🎥 Sabaq.pk" },
-            { "title": "Islamiat 10th Class Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-10th-islamiat", "badge": "🎥 Sabaq.pk" },
-            { "title": "Islamiat Notes + Short Questions", "type": "Read", "language": "Urdu", "url": "https://www.ilmkidunya.com/9th-class/islamiat/", "badge": "📖 Notes" },
-            { "title": "Islamic Studies MCQs Practice", "type": "Practice", "language": "English/Urdu", "url": "https://www.pakistanbix.com/islamiat-mcqs/", "badge": "🛠️ MCQs" },
-            { "title": "PCTB Islamiat Textbook (PDF)", "type": "Read", "language": "Urdu", "url": "https://pctb.punjab.gov.pk/E-Books", "badge": "📖 Textbook" }
+            {
+              "title": "Islamiat 9th Class Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-islamiat",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Islamiat 10th Class Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-10th-islamiat",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Islamiat Notes + Short Questions",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/9th-class/islamiat/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Islamic Studies MCQs Practice",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.pakistanbix.com/islamiat-mcqs/",
+              "badge": "🛠️ MCQs"
+            },
+            {
+              "title": "PCTB Islamiat Textbook (PDF)",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Textbook"
+            },
+            {
+              "title": "Punjab Board Past Papers Hub (All Subjects)",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/",
+              "badge": "📝 Board Hub"
+            },
+            {
+              "title": "Sabaq Foundation Learning Portal",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk",
+              "badge": "🎥 Sabaq"
+            },
+            {
+              "title": "Federal Board Model Papers",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://fbise.edu.pk/",
+              "badge": "📝 Federal Board"
+            },
+            {
+              "title": "Textbook Resource Center (PTB)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://ptb.punjab.gov.pk/",
+              "badge": "📖 PTB"
+            }
           ]
         },
         {
           "subjectName": "Pakistan Studies (Class 9th & 10th)",
           "topics": [
-            { "title": "Pakistan Studies 9th Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-9th-pak-studies", "badge": "🎥 Sabaq.pk" },
-            { "title": "Pakistan Studies 10th Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-10th-pak-studies", "badge": "🎥 Sabaq.pk" },
-            { "title": "Geography & History Notes + Maps", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/9th-class/pakistan-studies/", "badge": "📖 Notes" },
-            { "title": "Pak Studies MCQs (Chapter-wise)", "type": "Practice", "language": "English", "url": "https://www.pakistanbix.com/pakistan-studies-mcqs/", "badge": "🛠️ MCQs" },
-            { "title": "Pak Studies Past Papers", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/9th-class-pakistan-studies-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "Pakistan Studies 9th Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-9th-pak-studies",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Pakistan Studies 10th Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-10th-pak-studies",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Geography & History Notes + Maps",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/9th-class/pakistan-studies/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Pak Studies MCQs (Chapter-wise)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/pakistan-studies-mcqs/",
+              "badge": "🛠️ MCQs"
+            },
+            {
+              "title": "Pak Studies Past Papers",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/9th-class-pakistan-studies-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Punjab Board Past Papers Hub (All Subjects)",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/",
+              "badge": "📝 Board Hub"
+            },
+            {
+              "title": "Sabaq Foundation Learning Portal",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk",
+              "badge": "🎥 Sabaq"
+            },
+            {
+              "title": "PCTB Official eBooks Repository",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Official Books"
+            },
+            {
+              "title": "Federal Board Model Papers",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://fbise.edu.pk/",
+              "badge": "📝 Federal Board"
+            },
+            {
+              "title": "Textbook Resource Center (PTB)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://ptb.punjab.gov.pk/",
+              "badge": "📖 PTB"
+            }
           ]
         },
         {
           "subjectName": "Urdu (Grammar & Literature)",
           "topics": [
-            { "title": "Urdu Grammar Full Course (Sabaq.pk)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=urdu+grammar+class+9+10+lectures", "badge": "🎥 Grammar" },
-            { "title": "Punjab Board Urdu Textbook (PDF)", "type": "Read", "language": "Urdu", "url": "https://pctb.punjab.gov.pk/E-Books", "badge": "📖 Textbook" },
-            { "title": "Urdu Essay + Letter Writing Guide", "type": "Read", "language": "Urdu", "url": "https://www.ilmkidunya.com/urdu-essays", "badge": "📝 Writing" },
-            { "title": "Urdu Past Papers (Board Exams)", "type": "Practice", "language": "Urdu", "url": "https://www.ilmkidunya.com/past-papers/9th-class-urdu-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "Urdu Grammar Full Course (Sabaq.pk)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=urdu+grammar+class+9+10+lectures",
+              "badge": "🎥 Grammar"
+            },
+            {
+              "title": "Punjab Board Urdu Textbook (PDF)",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://pctb.punjab.gov.pk/E-Books",
+              "badge": "📖 Textbook"
+            },
+            {
+              "title": "Urdu Essay + Letter Writing Guide",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/urdu-essays",
+              "badge": "📝 Writing"
+            },
+            {
+              "title": "Urdu Past Papers (Board Exams)",
+              "type": "Practice",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/9th-class-urdu-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Punjab Board Past Papers Hub (All Subjects)",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/",
+              "badge": "📝 Board Hub"
+            },
+            {
+              "title": "Sabaq Foundation Learning Portal",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk",
+              "badge": "🎥 Sabaq"
+            },
+            {
+              "title": "Grammarly Writing Handbook",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.grammarly.com/blog/",
+              "badge": "📖 Writing"
+            }
           ]
         }
       ]
@@ -113,103 +697,723 @@
         {
           "subjectName": "Physics (FSc Part 1 & 2)",
           "topics": [
-            { "title": "FSc Part 1 Physics Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-physics", "badge": "🎥 Sabaq.pk" },
-            { "title": "FSc Part 2 Physics Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=fsc+part+2+physics+lectures+urdu", "badge": "🎥 Lectures" },
-            { "title": "FSc Physics Solved Numericals + Notes (Part 1)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/study-resources/fsc-part-1-physics-notes/", "badge": "📖 Notes" },
-            { "title": "FSc Physics Solved Numericals + Notes (Part 2)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/study-resources/fsc-part-2-physics-notes/", "badge": "📖 Notes" },
-            { "title": "Physics Concepts - Khan Academy", "type": "Video", "language": "English", "url": "https://www.khanacademy.org/science/physics", "badge": "🎥 Concepts" },
-            { "title": "FSc Physics Past Papers (5 Years)", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-physics-past-papers/", "badge": "📝 Past Papers" },
-            { "title": "Physics MCQs for FSc + Entry Test", "type": "Practice", "language": "English", "url": "https://www.pakistanbix.com/physics-mcqs/", "badge": "🛠️ MCQs" }
+            {
+              "title": "FSc Part 1 Physics Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-physics",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "FSc Part 2 Physics Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=fsc+part+2+physics+lectures+urdu",
+              "badge": "🎥 Lectures"
+            },
+            {
+              "title": "FSc Physics Solved Numericals + Notes (Part 1)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/fsc-part-1-physics-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "FSc Physics Solved Numericals + Notes (Part 2)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/fsc-part-2-physics-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Physics Concepts - Khan Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/science/physics",
+              "badge": "🎥 Concepts"
+            },
+            {
+              "title": "FSc Physics Past Papers (5 Years)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-physics-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Physics MCQs for FSc + Entry Test",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/physics-mcqs/",
+              "badge": "🛠️ MCQs"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            },
+            {
+              "title": "Topical MCQs for Entry Test Linkage",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/",
+              "badge": "🛠️ Topic MCQs"
+            },
+            {
+              "title": "Nearpeer Concept Videos",
+              "type": "Video",
+              "language": "Urdu/English",
+              "url": "https://nearpeer.net/",
+              "badge": "🎥 Nearpeer"
+            }
           ]
         },
         {
           "subjectName": "Chemistry (FSc Part 1 & 2)",
           "topics": [
-            { "title": "FSc Part 1 Chemistry Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-chemistry", "badge": "🎥 Sabaq.pk" },
-            { "title": "FSc Part 2 Chemistry Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=fsc+part+2+chemistry+lectures+urdu", "badge": "🎥 Lectures" },
-            { "title": "Organic Chemistry Mechanisms (Khan Academy)", "type": "Video", "language": "English", "url": "https://www.khanacademy.org/science/organic-chemistry", "badge": "🎥 Organic Chem" },
-            { "title": "FSc Chemistry Notes Part 1 (Solved)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/study-resources/fsc-part-1-chemistry-notes/", "badge": "📖 Notes" },
-            { "title": "FSc Chemistry Notes Part 2 (Solved)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/study-resources/fsc-part-2-chemistry-notes/", "badge": "📖 Notes" },
-            { "title": "Chemistry MCQs for Board + MDCAT", "type": "Practice", "language": "English", "url": "https://www.pakistanbix.com/chemistry-mcqs/", "badge": "🛠️ MCQs" },
-            { "title": "Chemistry Past Papers (FSc Punjab Board)", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-chemistry-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "FSc Part 1 Chemistry Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-chemistry",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "FSc Part 2 Chemistry Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=fsc+part+2+chemistry+lectures+urdu",
+              "badge": "🎥 Lectures"
+            },
+            {
+              "title": "Organic Chemistry Mechanisms (Khan Academy)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/science/organic-chemistry",
+              "badge": "🎥 Organic Chem"
+            },
+            {
+              "title": "FSc Chemistry Notes Part 1 (Solved)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/fsc-part-1-chemistry-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "FSc Chemistry Notes Part 2 (Solved)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/fsc-part-2-chemistry-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Chemistry MCQs for Board + MDCAT",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/chemistry-mcqs/",
+              "badge": "🛠️ MCQs"
+            },
+            {
+              "title": "Chemistry Past Papers (FSc Punjab Board)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-chemistry-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            },
+            {
+              "title": "Topical MCQs for Entry Test Linkage",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/",
+              "badge": "🛠️ Topic MCQs"
+            },
+            {
+              "title": "Nearpeer Concept Videos",
+              "type": "Video",
+              "language": "Urdu/English",
+              "url": "https://nearpeer.net/",
+              "badge": "🎥 Nearpeer"
+            }
           ]
         },
         {
           "subjectName": "Mathematics (FSc Part 1 & 2)",
           "topics": [
-            { "title": "FSc Maths Part 1 Full Lectures - Calculus & Algebra (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-maths", "badge": "🎥 Sabaq.pk" },
-            { "title": "FSc Maths Part 2 Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=fsc+part+2+maths+lectures+urdu", "badge": "🎥 Lectures" },
-            { "title": "Linear Algebra - Khan Academy", "type": "Video", "language": "English", "url": "https://www.khanacademy.org/math/linear-algebra", "badge": "🎥 Linear Algebra" },
-            { "title": "FSc Maths Solved Exercises + Notes (Part 1)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/study-resources/fsc-part-1-maths-notes/", "badge": "📖 Notes" },
-            { "title": "FSc Maths Solved Exercises + Notes (Part 2)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/study-resources/fsc-part-2-maths-notes/", "badge": "📖 Notes" },
-            { "title": "Maths Past Papers (FSc Board)", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-maths-past-papers/", "badge": "📝 Past Papers" },
-            { "title": "Math Practice Problems (Khan Academy)", "type": "Practice", "language": "English", "url": "https://www.khanacademy.org/math", "badge": "🛠️ Practice" }
+            {
+              "title": "FSc Maths Part 1 Full Lectures - Calculus & Algebra (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-maths",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "FSc Maths Part 2 Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=fsc+part+2+maths+lectures+urdu",
+              "badge": "🎥 Lectures"
+            },
+            {
+              "title": "Linear Algebra - Khan Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/math/linear-algebra",
+              "badge": "🎥 Linear Algebra"
+            },
+            {
+              "title": "FSc Maths Solved Exercises + Notes (Part 1)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/fsc-part-1-maths-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "FSc Maths Solved Exercises + Notes (Part 2)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/fsc-part-2-maths-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Maths Past Papers (FSc Board)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-maths-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Math Practice Problems (Khan Academy)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.khanacademy.org/math",
+              "badge": "🛠️ Practice"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            },
+            {
+              "title": "Paul's Online Math Notes",
+              "type": "Read",
+              "language": "English",
+              "url": "https://tutorial.math.lamar.edu/",
+              "badge": "📖 Advanced Notes"
+            },
+            {
+              "title": "Symbolab Practice Problems",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.symbolab.com/practice",
+              "badge": "🛠️ Solver Practice"
+            }
           ]
         },
         {
           "subjectName": "Biology (FSc Pre-Medical)",
           "topics": [
-            { "title": "FSc Part 1 Biology Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-biology", "badge": "🎥 Sabaq.pk" },
-            { "title": "FSc Part 2 Biology Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=fsc+part+2+biology+lectures+urdu", "badge": "🎥 Lectures" },
-            { "title": "Human Physiology - Khan Academy", "type": "Video", "language": "English", "url": "https://www.khanacademy.org/science/biology/human-biology", "badge": "🎥 Physiology" },
-            { "title": "Biology Notes + Diagrams (Part 1)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/fsc-part-1-biology-notes/", "badge": "📖 Notes" },
-            { "title": "Biology Notes + Diagrams (Part 2)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/fsc-part-2-biology-notes/", "badge": "📖 Notes" },
-            { "title": "Biology Past Papers (FSc Board)", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-biology-past-papers/", "badge": "📝 Past Papers" },
-            { "title": "Biology MCQs for MDCAT Prep", "type": "Practice", "language": "English", "url": "https://www.pakistanbix.com/biology-mcqs/", "badge": "🛠️ MCQs" }
+            {
+              "title": "FSc Part 1 Biology Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-biology",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "FSc Part 2 Biology Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=fsc+part+2+biology+lectures+urdu",
+              "badge": "🎥 Lectures"
+            },
+            {
+              "title": "Human Physiology - Khan Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/science/biology/human-biology",
+              "badge": "🎥 Physiology"
+            },
+            {
+              "title": "Biology Notes + Diagrams (Part 1)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/fsc-part-1-biology-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Biology Notes + Diagrams (Part 2)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/fsc-part-2-biology-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Biology Past Papers (FSc Board)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-biology-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Biology MCQs for MDCAT Prep",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/biology-mcqs/",
+              "badge": "🛠️ MCQs"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            },
+            {
+              "title": "Topical MCQs for Entry Test Linkage",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/",
+              "badge": "🛠️ Topic MCQs"
+            },
+            {
+              "title": "Nearpeer Concept Videos",
+              "type": "Video",
+              "language": "Urdu/English",
+              "url": "https://nearpeer.net/",
+              "badge": "🎥 Nearpeer"
+            }
           ]
         },
         {
           "subjectName": "Computer Science (ICS Part 1 & 2)",
           "topics": [
-            { "title": "ICS Part 1 Computer Science Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-ics-computer", "badge": "🎥 Sabaq.pk" },
-            { "title": "C Language Full Course for ICS (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=ics+computer+c+language+urdu", "badge": "🎥 C Programming" },
-            { "title": "Database Concepts & SQL (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=ics+computer+database+urdu", "badge": "🎥 Databases" },
-            { "title": "ICS Computer Notes (Solved)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/ics-part-1-computer-notes/", "badge": "📖 Notes" },
-            { "title": "Interactive SQL Practice (W3Schools)", "type": "Practice", "language": "English", "url": "https://www.w3schools.com/sql/", "badge": "🛠️ SQL Lab" },
-            { "title": "ICS Computer Past Papers", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/ics-part-1-computer-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "ICS Part 1 Computer Science Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-ics-computer",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "C Language Full Course for ICS (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ics+computer+c+language+urdu",
+              "badge": "🎥 C Programming"
+            },
+            {
+              "title": "Database Concepts & SQL (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ics+computer+database+urdu",
+              "badge": "🎥 Databases"
+            },
+            {
+              "title": "ICS Computer Notes (Solved)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/ics-part-1-computer-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Interactive SQL Practice (W3Schools)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.w3schools.com/sql/",
+              "badge": "🛠️ SQL Lab"
+            },
+            {
+              "title": "ICS Computer Past Papers",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/ics-part-1-computer-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            },
+            {
+              "title": "C++ Practice Problems (HackerRank)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.hackerrank.com/domains/cpp",
+              "badge": "🛠️ C++ Practice"
+            },
+            {
+              "title": "Programming Fundamentals Notes",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.geeksforgeeks.org/c-plus-plus/",
+              "badge": "📖 PF Notes"
+            }
           ]
         },
         {
           "subjectName": "Accounting (I.Com)",
           "topics": [
-            { "title": "Principles of Accounting Part 1 (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=icom+accounting+part+1+urdu", "badge": "🎥 Basic Acc" },
-            { "title": "Principles of Accounting Part 2 (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=icom+accounting+part+2+urdu", "badge": "🎥 Adv Acc" },
-            { "title": "Accounting Concepts & Quizzes (Online)", "type": "Practice", "language": "English", "url": "https://www.accountingcoach.com/", "badge": "🛠️ Acc Coach" },
-            { "title": "I.Com Accounting Notes (Solved)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/icom-part-1-accounting-notes/", "badge": "📖 Notes" },
-            { "title": "Accounting Past Papers (I.Com Board)", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/icom-part-1-accounting-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "Principles of Accounting Part 1 (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=icom+accounting+part+1+urdu",
+              "badge": "🎥 Basic Acc"
+            },
+            {
+              "title": "Principles of Accounting Part 2 (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=icom+accounting+part+2+urdu",
+              "badge": "🎥 Adv Acc"
+            },
+            {
+              "title": "Accounting Concepts & Quizzes (Online)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.accountingcoach.com/",
+              "badge": "🛠️ Acc Coach"
+            },
+            {
+              "title": "I.Com Accounting Notes (Solved)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/icom-part-1-accounting-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Accounting Past Papers (I.Com Board)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/icom-part-1-accounting-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            },
+            {
+              "title": "Investopedia Finance Basics",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.investopedia.com/financial-term-dictionary-4769738",
+              "badge": "📖 Glossary"
+            },
+            {
+              "title": "Quizizz Business/Economics Practice",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://quizizz.com/",
+              "badge": "🛠️ Quizzes"
+            }
           ]
         },
         {
           "subjectName": "Economics (ICS/I.Com/FA)",
           "topics": [
-            { "title": "Principles of Economics (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=ics+economics+urdu+lectures", "badge": "🎥 Economics" },
-            { "title": "Khan Academy Economics", "type": "Video", "language": "English", "url": "https://www.khanacademy.org/economics-finance-domain", "badge": "🎥 Khan Academy" },
-            { "title": "Economics Notes (FSc/I.Com Level)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/fsc-part-1-economics-notes/", "badge": "📖 Notes" },
-            { "title": "Economics Past Papers", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/icom-part-1-economics-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "Principles of Economics (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ics+economics+urdu+lectures",
+              "badge": "🎥 Economics"
+            },
+            {
+              "title": "Khan Academy Economics",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/economics-finance-domain",
+              "badge": "🎥 Khan Academy"
+            },
+            {
+              "title": "Economics Notes (FSc/I.Com Level)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/fsc-part-1-economics-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Economics Past Papers",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/icom-part-1-economics-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            },
+            {
+              "title": "Investopedia Finance Basics",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.investopedia.com/financial-term-dictionary-4769738",
+              "badge": "📖 Glossary"
+            },
+            {
+              "title": "Quizizz Business/Economics Practice",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://quizizz.com/",
+              "badge": "🛠️ Quizzes"
+            }
           ]
         },
         {
           "subjectName": "Islamiat (FSc/FA Level)",
           "topics": [
-            { "title": "FSc Islamiat Full Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-islamiat", "badge": "🎥 Sabaq.pk" },
-            { "title": "Islamiat Notes (FSc Punjab Board)", "type": "Read", "language": "Urdu", "url": "https://www.ilmkidunya.com/fsc-part-1-islamiat-notes/", "badge": "📖 Notes" },
-            { "title": "Islamiat Past Papers (FSc Board)", "type": "Practice", "language": "Urdu", "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-islamiat-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "FSc Islamiat Full Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-fsc-islamiat",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Islamiat Notes (FSc Punjab Board)",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/fsc-part-1-islamiat-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Islamiat Past Papers (FSc Board)",
+              "type": "Practice",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-islamiat-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            }
           ]
         },
         {
           "subjectName": "Pakistan Studies (FSc/FA Level)",
           "topics": [
-            { "title": "FSc Pak Studies Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=fsc+pakistan+studies+lectures+urdu", "badge": "🎥 Lectures" },
-            { "title": "Pak Studies Notes (FSc Level)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/fsc-part-1-pakistan-studies-notes/", "badge": "📖 Notes" },
-            { "title": "Pak Studies MCQs (FSc Level)", "type": "Practice", "language": "English/Urdu", "url": "https://www.pakistanbix.com/pakistan-studies-mcqs/", "badge": "🛠️ MCQs" }
+            {
+              "title": "FSc Pak Studies Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=fsc+pakistan+studies+lectures+urdu",
+              "badge": "🎥 Lectures"
+            },
+            {
+              "title": "Pak Studies Notes (FSc Level)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/fsc-part-1-pakistan-studies-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Pak Studies MCQs (FSc Level)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.pakistanbix.com/pakistan-studies-mcqs/",
+              "badge": "🛠️ MCQs"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            }
           ]
         },
         {
           "subjectName": "Urdu (FSc/FA Level)",
           "topics": [
-            { "title": "FSc Urdu Literature & Grammar (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=fsc+urdu+lectures", "badge": "🎥 Urdu" },
-            { "title": "Urdu Notes + Essays (FSc Punjab)", "type": "Read", "language": "Urdu", "url": "https://www.ilmkidunya.com/fsc-part-1-urdu-notes/", "badge": "📖 Notes" },
-            { "title": "Urdu Past Papers (FSc Board)", "type": "Practice", "language": "Urdu", "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-urdu-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "FSc Urdu Literature & Grammar (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=fsc+urdu+lectures",
+              "badge": "🎥 Urdu"
+            },
+            {
+              "title": "Urdu Notes + Essays (FSc Punjab)",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/fsc-part-1-urdu-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Urdu Past Papers (FSc Board)",
+              "type": "Practice",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/fsc-part-1-urdu-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Inter Part 1/2 Past Papers Mega Index",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/past-papers/intermediate-past-papers.aspx",
+              "badge": "📝 Inter Papers"
+            },
+            {
+              "title": "KIPS Notes and Study Resources Guide",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Study Resources"
+            },
+            {
+              "title": "One-Day Before Exam Revision Tips",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/articles/",
+              "badge": "📌 Exam Tips"
+            }
           ]
         }
       ]
@@ -221,46 +1425,285 @@
         {
           "subjectName": "MDCAT Preparation (Medical)",
           "topics": [
-            { "title": "MDCAT Biology Complete Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=mdcat+biology+lectures+urdu", "badge": "🎥 MDCAT Bio" },
-            { "title": "MDCAT Chemistry Crash Course (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=mdcat+chemistry+crash+course+urdu", "badge": "🎥 Chemistry" },
-            { "title": "MDCAT Physics Shortcuts & Tricks (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=mdcat+physics+tricks+urdu", "badge": "🎥 Shortcuts" },
-            { "title": "MDCAT Past Papers + MCQ Bank", "type": "Practice", "language": "English", "url": "https://www.pakistanbix.com/mdcat-mcqs/", "badge": "🛠️ Past Papers" },
-            { "title": "MDCAT Mock Tests Online (GoTest)", "type": "Practice", "language": "English", "url": "https://www.gotest.pk/mdcat-test-preparation-online/", "badge": "🛠️ Mock Tests" },
-            { "title": "PMC MDCAT Syllabus 2026 (Official)", "type": "Read", "language": "English", "url": "https://www.pmc.gov.pk/", "badge": "📖 Syllabus" },
-            { "title": "Nearpeer MDCAT Course (Free Content)", "type": "Video", "language": "Urdu/English", "url": "https://nearpeer.com/", "badge": "🎥 Nearpeer" }
+            {
+              "title": "MDCAT Biology Complete Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=mdcat+biology+lectures+urdu",
+              "badge": "🎥 MDCAT Bio"
+            },
+            {
+              "title": "MDCAT Chemistry Crash Course (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=mdcat+chemistry+crash+course+urdu",
+              "badge": "🎥 Chemistry"
+            },
+            {
+              "title": "MDCAT Physics Shortcuts & Tricks (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=mdcat+physics+tricks+urdu",
+              "badge": "🎥 Shortcuts"
+            },
+            {
+              "title": "MDCAT Past Papers + MCQ Bank",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/mdcat-mcqs/",
+              "badge": "🛠️ Past Papers"
+            },
+            {
+              "title": "MDCAT Mock Tests Online (GoTest)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/mdcat-test-preparation-online/",
+              "badge": "🛠️ Mock Tests"
+            },
+            {
+              "title": "PMC MDCAT Syllabus 2026 (Official)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.pmc.gov.pk/",
+              "badge": "📖 Syllabus"
+            },
+            {
+              "title": "Nearpeer MDCAT Course (Free Content)",
+              "type": "Video",
+              "language": "Urdu/English",
+              "url": "https://nearpeer.com/",
+              "badge": "🎥 Nearpeer"
+            },
+            {
+              "title": "Timed Mock Tests (General)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/",
+              "badge": "⏱️ Timed Mock"
+            },
+            {
+              "title": "Official Announcements and Dates",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.nts.org.pk/",
+              "badge": "📅 Official Dates"
+            },
+            {
+              "title": "Preparation Strategy by Toppers",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.youtube.com/results?search_query=mdcat+topper+strategy",
+              "badge": "🎯 Strategy"
+            },
+            {
+              "title": "MDCAT Past Paper Discussion Videos",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=mdcat+past+paper+discussion",
+              "badge": "🎥 Paper Discussion"
+            }
           ]
         },
         {
           "subjectName": "ECAT Preparation (Engineering)",
           "topics": [
-            { "title": "ECAT Mathematics Short Tricks (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=ecat+math+tricks+urdu", "badge": "🎥 Math Tricks" },
-            { "title": "ECAT Physics Conceptual MCQs (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=ecat+physics+mcqs+urdu", "badge": "🎥 Physics" },
-            { "title": "UET ECAT Past Papers Online Test", "type": "Practice", "language": "English", "url": "https://www.gotest.pk/ecat-test-preparation-online/", "badge": "🛠️ Mock Tests" },
-            { "title": "ECAT Full Preparation Guide", "type": "Read", "language": "English", "url": "https://www.pakistanbix.com/ecat-mcqs/", "badge": "📖 Guide" }
+            {
+              "title": "ECAT Mathematics Short Tricks (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ecat+math+tricks+urdu",
+              "badge": "🎥 Math Tricks"
+            },
+            {
+              "title": "ECAT Physics Conceptual MCQs (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ecat+physics+mcqs+urdu",
+              "badge": "🎥 Physics"
+            },
+            {
+              "title": "UET ECAT Past Papers Online Test",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/ecat-test-preparation-online/",
+              "badge": "🛠️ Mock Tests"
+            },
+            {
+              "title": "ECAT Full Preparation Guide",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.pakistanbix.com/ecat-mcqs/",
+              "badge": "📖 Guide"
+            },
+            {
+              "title": "Timed Mock Tests (General)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/",
+              "badge": "⏱️ Timed Mock"
+            },
+            {
+              "title": "Official Announcements and Dates",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.nts.org.pk/",
+              "badge": "📅 Official Dates"
+            },
+            {
+              "title": "Preparation Strategy by Toppers",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.youtube.com/results?search_query=mdcat+topper+strategy",
+              "badge": "🎯 Strategy"
+            }
           ]
         },
         {
           "subjectName": "NTS (NAT/GAT) - General Test Prep",
           "topics": [
-            { "title": "NTS Quantitative Reasoning - Math (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=nts+quantitative+reasoning+urdu", "badge": "🎥 Quant Prep" },
-            { "title": "NTS Analytical Reasoning Tricks (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=nts+analytical+reasoning+urdu", "badge": "🎥 Analytical" },
-            { "title": "NTS English Verbal Ability (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=nts+english+verbal+ability+urdu", "badge": "🎥 Verbal" },
-            { "title": "NTS NAT Online Practice Tests", "type": "Practice", "language": "English", "url": "https://www.gotest.pk/nts-test-preparation-online/", "badge": "🛠️ NTS Mock" },
-            { "title": "NTS Past Papers (Official)", "type": "Practice", "language": "English", "url": "https://www.nts.org.pk/", "badge": "📝 NTS Official" }
+            {
+              "title": "NTS Quantitative Reasoning - Math (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=nts+quantitative+reasoning+urdu",
+              "badge": "🎥 Quant Prep"
+            },
+            {
+              "title": "NTS Analytical Reasoning Tricks (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=nts+analytical+reasoning+urdu",
+              "badge": "🎥 Analytical"
+            },
+            {
+              "title": "NTS English Verbal Ability (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=nts+english+verbal+ability+urdu",
+              "badge": "🎥 Verbal"
+            },
+            {
+              "title": "NTS NAT Online Practice Tests",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/nts-test-preparation-online/",
+              "badge": "🛠️ NTS Mock"
+            },
+            {
+              "title": "NTS Past Papers (Official)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.nts.org.pk/",
+              "badge": "📝 NTS Official"
+            },
+            {
+              "title": "Timed Mock Tests (General)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/",
+              "badge": "⏱️ Timed Mock"
+            },
+            {
+              "title": "Preparation Strategy by Toppers",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.youtube.com/results?search_query=mdcat+topper+strategy",
+              "badge": "🎯 Strategy"
+            },
+            {
+              "title": "Analytical Reasoning Practice Sets",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.indiabix.com/logical-reasoning/questions-and-answers/",
+              "badge": "🧠 Reasoning"
+            }
           ]
         },
         {
           "subjectName": "NUMS Medical Entry Test",
           "topics": [
-            { "title": "NUMS Preparation Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=nums+entry+test+preparation+urdu", "badge": "🎥 NUMS Prep" },
-            { "title": "NUMS Past Papers + MCQs", "type": "Practice", "language": "English", "url": "https://www.gotest.pk/nums-test-preparation-online/", "badge": "🛠️ Mock Tests" }
+            {
+              "title": "NUMS Preparation Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=nums+entry+test+preparation+urdu",
+              "badge": "🎥 NUMS Prep"
+            },
+            {
+              "title": "NUMS Past Papers + MCQs",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/nums-test-preparation-online/",
+              "badge": "🛠️ Mock Tests"
+            },
+            {
+              "title": "Timed Mock Tests (General)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/",
+              "badge": "⏱️ Timed Mock"
+            },
+            {
+              "title": "Official Announcements and Dates",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.nts.org.pk/",
+              "badge": "📅 Official Dates"
+            },
+            {
+              "title": "Preparation Strategy by Toppers",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.youtube.com/results?search_query=mdcat+topper+strategy",
+              "badge": "🎯 Strategy"
+            }
           ]
         },
         {
           "subjectName": "HEC HAT (Undergraduate Admission Test)",
           "topics": [
-            { "title": "HEC HAT Preparation Guide (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=hec+hat+test+preparation+urdu", "badge": "🎥 HAT Prep" },
-            { "title": "HEC HAT Past Papers & Sample Tests", "type": "Practice", "language": "English", "url": "https://www.gotest.pk/hec-hat-test-preparation-online/", "badge": "🛠️ Practice" }
+            {
+              "title": "HEC HAT Preparation Guide (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=hec+hat+test+preparation+urdu",
+              "badge": "🎥 HAT Prep"
+            },
+            {
+              "title": "HEC HAT Past Papers & Sample Tests",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/hec-hat-test-preparation-online/",
+              "badge": "🛠️ Practice"
+            },
+            {
+              "title": "Timed Mock Tests (General)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.gotest.pk/",
+              "badge": "⏱️ Timed Mock"
+            },
+            {
+              "title": "Official Announcements and Dates",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.nts.org.pk/",
+              "badge": "📅 Official Dates"
+            },
+            {
+              "title": "Preparation Strategy by Toppers",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.youtube.com/results?search_query=mdcat+topper+strategy",
+              "badge": "🎯 Strategy"
+            },
+            {
+              "title": "Analytical Reasoning Practice Sets",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.indiabix.com/logical-reasoning/questions-and-answers/",
+              "badge": "🧠 Reasoning"
+            }
           ]
         }
       ]
@@ -272,125 +1715,801 @@
         {
           "subjectName": "Data Structures & Algorithms (DSA)",
           "topics": [
-            { "title": "DSA Full Course - Jenny's Lectures (English)", "type": "Video", "language": "English", "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMCE6WJvSdn_8F", "badge": "🎥 Best Course" },
-            { "title": "DSA in C++ - Love Babbar (Hindi/Urdu)", "type": "Video", "language": "Hindi", "url": "https://www.youtube.com/playlist?list=PLDzePYchuz0Vp0mXp6iI_8yC5tZInL_YV", "badge": "🎥 C++ DSA" },
-            { "title": "LeetCode Practice (Topic-wise Problems)", "type": "Practice", "language": "English", "url": "https://leetcode.com/problemset/all/", "badge": "🛠️ LeetCode" },
-            { "title": "DSA Notes & Cheatsheets (GeeksforGeeks)", "type": "Read", "language": "English", "url": "https://www.geeksforgeeks.org/data-structures-and-algorithms/", "badge": "📖 Reference" },
-            { "title": "MIT OpenCourseWare - Introduction to Algorithms", "type": "Video", "language": "English", "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/", "badge": "🎥 MIT OCW" },
-            { "title": "HackerRank DSA Challenges", "type": "Practice", "language": "English", "url": "https://www.hackerrank.com/domains/data-structures", "badge": "🛠️ Challenges" }
+            {
+              "title": "DSA Full Course - Jenny's Lectures (English)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMCE6WJvSdn_8F",
+              "badge": "🎥 Best Course"
+            },
+            {
+              "title": "DSA in C++ - Love Babbar (Hindi/Urdu)",
+              "type": "Video",
+              "language": "Hindi",
+              "url": "https://www.youtube.com/playlist?list=PLDzePYchuz0Vp0mXp6iI_8yC5tZInL_YV",
+              "badge": "🎥 C++ DSA"
+            },
+            {
+              "title": "LeetCode Practice (Topic-wise Problems)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://leetcode.com/problemset/all/",
+              "badge": "🛠️ LeetCode"
+            },
+            {
+              "title": "DSA Notes & Cheatsheets (GeeksforGeeks)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/data-structures-and-algorithms/",
+              "badge": "📖 Reference"
+            },
+            {
+              "title": "MIT OpenCourseWare - Introduction to Algorithms",
+              "type": "Video",
+              "language": "English",
+              "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+              "badge": "🎥 MIT OCW"
+            },
+            {
+              "title": "HackerRank DSA Challenges",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.hackerrank.com/domains/data-structures",
+              "badge": "🛠️ Challenges"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            },
+            {
+              "title": "NeetCode Roadmap",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://neetcode.io/roadmap",
+              "badge": "🛠️ DSA Roadmap"
+            }
           ]
         },
         {
           "subjectName": "Object Oriented Programming (OOP - C++/Java)",
           "topics": [
-            { "title": "OOP in C++ - Complete Course (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=oop+c%2B%2B+complete+course+urdu", "badge": "🎥 OOP Urdu" },
-            { "title": "Java OOP Full Course (English)", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=java+oop+full+course+beginners", "badge": "🎥 Java OOP" },
-            { "title": "OOP Principles - GeeksforGeeks", "type": "Read", "language": "English", "url": "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/", "badge": "📖 Theory" },
-            { "title": "OOP Practice Problems (HackerRank)", "type": "Practice", "language": "English", "url": "https://www.hackerrank.com/domains/java", "badge": "🛠️ Coding" },
-            { "title": "C++ Reference Documentation", "type": "Read", "language": "English", "url": "https://cppreference.com/", "badge": "📖 Docs" }
+            {
+              "title": "OOP in C++ - Complete Course (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=oop+c%2B%2B+complete+course+urdu",
+              "badge": "🎥 OOP Urdu"
+            },
+            {
+              "title": "Java OOP Full Course (English)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=java+oop+full+course+beginners",
+              "badge": "🎥 Java OOP"
+            },
+            {
+              "title": "OOP Principles - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/",
+              "badge": "📖 Theory"
+            },
+            {
+              "title": "OOP Practice Problems (HackerRank)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.hackerrank.com/domains/java",
+              "badge": "🛠️ Coding"
+            },
+            {
+              "title": "C++ Reference Documentation",
+              "type": "Read",
+              "language": "English",
+              "url": "https://cppreference.com/",
+              "badge": "📖 Docs"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            }
           ]
         },
         {
           "subjectName": "Database Systems (SQL & Design)",
           "topics": [
-            { "title": "SQL & Database Design - Neso Academy", "type": "Video", "language": "English", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM", "badge": "🎥 DB Concepts" },
-            { "title": "SQL Tutorial (W3Schools - Interactive)", "type": "Read", "language": "English", "url": "https://www.w3schools.com/sql/", "badge": "📖 SQL Guide" },
-            { "title": "SQLBolt - Interactive SQL Lessons", "type": "Practice", "language": "English", "url": "https://www.sqlbolt.com/", "badge": "🛠️ SQL Lab" },
-            { "title": "MySQL Crash Course (TechWithTim)", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=mysql+crash+course+beginners", "badge": "🎥 MySQL" },
-            { "title": "Database Design Concepts - GeeksforGeeks", "type": "Read", "language": "English", "url": "https://www.geeksforgeeks.org/database-management-system/", "badge": "📖 Notes" }
+            {
+              "title": "SQL & Database Design - Neso Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM",
+              "badge": "🎥 DB Concepts"
+            },
+            {
+              "title": "SQL Tutorial (W3Schools - Interactive)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.w3schools.com/sql/",
+              "badge": "📖 SQL Guide"
+            },
+            {
+              "title": "SQLBolt - Interactive SQL Lessons",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.sqlbolt.com/",
+              "badge": "🛠️ SQL Lab"
+            },
+            {
+              "title": "MySQL Crash Course (TechWithTim)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=mysql+crash+course+beginners",
+              "badge": "🎥 MySQL"
+            },
+            {
+              "title": "Database Design Concepts - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/database-management-system/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            },
+            {
+              "title": "Mode SQL Tutorial",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://mode.com/sql-tutorial/",
+              "badge": "🛠️ SQL Tutorial"
+            }
           ]
         },
         {
           "subjectName": "Operating Systems",
           "topics": [
-            { "title": "Operating Systems - Neso Academy (Full Course)", "type": "Video", "language": "English", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm", "badge": "🎥 OS Theory" },
-            { "title": "OS Concepts - GeeksforGeeks", "type": "Read", "language": "English", "url": "https://www.geeksforgeeks.org/operating-systems/", "badge": "📖 Notes" },
-            { "title": "MIT OCW - Operating Systems Engineering", "type": "Video", "language": "English", "url": "https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/", "badge": "🎥 MIT OCW" },
-            { "title": "Linux Command Line Basics (freeCodeCamp)", "type": "Practice", "language": "English", "url": "https://www.freecodecamp.org/news/linux-command-line-tutorial/", "badge": "🛠️ Linux" }
+            {
+              "title": "Operating Systems - Neso Academy (Full Course)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm",
+              "badge": "🎥 OS Theory"
+            },
+            {
+              "title": "OS Concepts - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/operating-systems/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "MIT OCW - Operating Systems Engineering",
+              "type": "Video",
+              "language": "English",
+              "url": "https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/",
+              "badge": "🎥 MIT OCW"
+            },
+            {
+              "title": "Linux Command Line Basics (freeCodeCamp)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.freecodecamp.org/news/linux-command-line-tutorial/",
+              "badge": "🛠️ Linux"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            },
+            {
+              "title": "Stanford CS Classroom Material",
+              "type": "Read",
+              "language": "English",
+              "url": "https://see.stanford.edu/Course",
+              "badge": "📖 Stanford"
+            }
           ]
         },
         {
           "subjectName": "Web Development (Full Stack)",
           "topics": [
-            { "title": "Full Stack Web Dev Roadmap 2026", "type": "Read", "language": "English", "url": "https://roadmap.sh/full-stack", "badge": "📖 Roadmap" },
-            { "title": "freeCodeCamp - Full Web Dev Certification", "type": "Practice", "language": "English", "url": "https://www.freecodecamp.org/learn", "badge": "🛠️ Certification" },
-            { "title": "MDN Web Docs - HTML/CSS/JS Reference", "type": "Read", "language": "English", "url": "https://developer.mozilla.org/", "badge": "📖 Official Docs" },
-            { "title": "React JS Full Course (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=react+js+full+course+urdu", "badge": "🎥 React Urdu" },
-            { "title": "Node.js + Express Crash Course", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=nodejs+express+crash+course", "badge": "🎥 Node.js" },
-            { "title": "Build Projects Live - CodePen", "type": "Practice", "language": "English", "url": "https://codepen.io/", "badge": "🛠️ Live Coding" }
+            {
+              "title": "Full Stack Web Dev Roadmap 2026",
+              "type": "Read",
+              "language": "English",
+              "url": "https://roadmap.sh/full-stack",
+              "badge": "📖 Roadmap"
+            },
+            {
+              "title": "freeCodeCamp - Full Web Dev Certification",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.freecodecamp.org/learn",
+              "badge": "🛠️ Certification"
+            },
+            {
+              "title": "MDN Web Docs - HTML/CSS/JS Reference",
+              "type": "Read",
+              "language": "English",
+              "url": "https://developer.mozilla.org/",
+              "badge": "📖 Official Docs"
+            },
+            {
+              "title": "React JS Full Course (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=react+js+full+course+urdu",
+              "badge": "🎥 React Urdu"
+            },
+            {
+              "title": "Node.js + Express Crash Course",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=nodejs+express+crash+course",
+              "badge": "🎥 Node.js"
+            },
+            {
+              "title": "Build Projects Live - CodePen",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://codepen.io/",
+              "badge": "🛠️ Live Coding"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            },
+            {
+              "title": "Frontend Mentor Projects",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.frontendmentor.io/challenges",
+              "badge": "🛠️ Real Projects"
+            }
           ]
         },
         {
           "subjectName": "Computer Networks",
           "topics": [
-            { "title": "Computer Networks - Neso Academy (Full Course)", "type": "Video", "language": "English", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O", "badge": "🎥 Networks" },
-            { "title": "Networking Basics - GeeksforGeeks", "type": "Read", "language": "English", "url": "https://www.geeksforgeeks.org/computer-network-tutorials/", "badge": "📖 Theory" },
-            { "title": "Packet Tracer Network Simulation Labs", "type": "Practice", "language": "English", "url": "https://www.netacad.com/courses/packet-tracer", "badge": "🛠️ Lab Sim" },
-            { "title": "Computer Networks - NPTEL (IIT Lectures)", "type": "Video", "language": "English", "url": "https://nptel.ac.in/courses/106105081", "badge": "🎥 NPTEL" }
+            {
+              "title": "Computer Networks - Neso Academy (Full Course)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
+              "badge": "🎥 Networks"
+            },
+            {
+              "title": "Networking Basics - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/computer-network-tutorials/",
+              "badge": "📖 Theory"
+            },
+            {
+              "title": "Packet Tracer Network Simulation Labs",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.netacad.com/courses/packet-tracer",
+              "badge": "🛠️ Lab Sim"
+            },
+            {
+              "title": "Computer Networks - NPTEL (IIT Lectures)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://nptel.ac.in/courses/106105081",
+              "badge": "🎥 NPTEL"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            },
+            {
+              "title": "Stanford CS Classroom Material",
+              "type": "Read",
+              "language": "English",
+              "url": "https://see.stanford.edu/Course",
+              "badge": "📖 Stanford"
+            }
           ]
         },
         {
           "subjectName": "Software Engineering",
           "topics": [
-            { "title": "Software Engineering - Neso Academy", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=software+engineering+neso+academy", "badge": "🎥 SE Concepts" },
-            { "title": "SDLC, Agile, Scrum - GeeksforGeeks", "type": "Read", "language": "English", "url": "https://www.geeksforgeeks.org/software-engineering/", "badge": "📖 Notes" },
-            { "title": "Agile & Scrum Full Course", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=agile+scrum+full+course+beginners", "badge": "🎥 Agile" },
-            { "title": "Git & GitHub - Version Control (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=git+github+tutorial+urdu", "badge": "🎥 Git Urdu" }
+            {
+              "title": "Software Engineering - Neso Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=software+engineering+neso+academy",
+              "badge": "🎥 SE Concepts"
+            },
+            {
+              "title": "SDLC, Agile, Scrum - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/software-engineering/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Agile & Scrum Full Course",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=agile+scrum+full+course+beginners",
+              "badge": "🎥 Agile"
+            },
+            {
+              "title": "Git & GitHub - Version Control (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=git+github+tutorial+urdu",
+              "badge": "🎥 Git Urdu"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            }
           ]
         },
         {
           "subjectName": "Artificial Intelligence & Machine Learning",
           "topics": [
-            { "title": "Machine Learning Crash Course (Google)", "type": "Read", "language": "English", "url": "https://developers.google.com/machine-learning/crash-course", "badge": "📖 ML Guide" },
-            { "title": "AI & ML - Coursera (Free Audit)", "type": "Video", "language": "English", "url": "https://www.coursera.org/learn/machine-learning", "badge": "🎥 Coursera" },
-            { "title": "Python for Data Science (freeCodeCamp)", "type": "Video", "language": "English", "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI", "badge": "🎥 Python DS" },
-            { "title": "Kaggle - Free ML Courses + Competitions", "type": "Practice", "language": "English", "url": "https://www.kaggle.com/learn", "badge": "🛠️ Kaggle" },
-            { "title": "MIT OCW - Introduction to Deep Learning", "type": "Video", "language": "English", "url": "http://introtodeeplearning.com/", "badge": "🎥 MIT Deep Learning" }
+            {
+              "title": "Machine Learning Crash Course (Google)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://developers.google.com/machine-learning/crash-course",
+              "badge": "📖 ML Guide"
+            },
+            {
+              "title": "AI & ML - Coursera (Free Audit)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/learn/machine-learning",
+              "badge": "🎥 Coursera"
+            },
+            {
+              "title": "Python for Data Science (freeCodeCamp)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI",
+              "badge": "🎥 Python DS"
+            },
+            {
+              "title": "Kaggle - Free ML Courses + Competitions",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.kaggle.com/learn",
+              "badge": "🛠️ Kaggle"
+            },
+            {
+              "title": "MIT OCW - Introduction to Deep Learning",
+              "type": "Video",
+              "language": "English",
+              "url": "http://introtodeeplearning.com/",
+              "badge": "🎥 MIT Deep Learning"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            },
+            {
+              "title": "Fast.ai Practical Deep Learning",
+              "type": "Video",
+              "language": "English",
+              "url": "https://course.fast.ai/",
+              "badge": "🎥 Fast.ai"
+            }
           ]
         },
         {
           "subjectName": "Cyber Security",
           "topics": [
-            { "title": "Ethical Hacking Full Course (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=ethical+hacking+full+course+urdu", "badge": "🎥 Hacking Urdu" },
-            { "title": "Cyber Security Tutorial - GeeksforGeeks", "type": "Read", "language": "English", "url": "https://www.geeksforgeeks.org/cyber-security-tutorial/", "badge": "📖 Notes" },
-            { "title": "TryHackMe - Hands-on Cyber Security Labs", "type": "Practice", "language": "English", "url": "https://tryhackme.com/", "badge": "🛠️ Labs" },
-            { "title": "CompTIA Security+ Free Study Notes", "type": "Read", "language": "English", "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/", "badge": "📖 Security+" }
+            {
+              "title": "Ethical Hacking Full Course (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=ethical+hacking+full+course+urdu",
+              "badge": "🎥 Hacking Urdu"
+            },
+            {
+              "title": "Cyber Security Tutorial - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/cyber-security-tutorial/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "TryHackMe - Hands-on Cyber Security Labs",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://tryhackme.com/",
+              "badge": "🛠️ Labs"
+            },
+            {
+              "title": "CompTIA Security+ Free Study Notes",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/",
+              "badge": "📖 Security+"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            },
+            {
+              "title": "OWASP Top 10",
+              "type": "Read",
+              "language": "English",
+              "url": "https://owasp.org/www-project-top-ten/",
+              "badge": "🛡️ OWASP"
+            }
           ]
         },
         {
           "subjectName": "Calculus & Linear Algebra (University Math)",
           "topics": [
-            { "title": "Calculus 1 - MIT OpenCourseWare (Free)", "type": "Video", "language": "English", "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/", "badge": "🎥 MIT OCW" },
-            { "title": "Linear Algebra - 3Blue1Brown (Visuals)", "type": "Video", "language": "English", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab", "badge": "🎥 Visuals" },
-            { "title": "Khan Academy Calculus + Differential Equations", "type": "Practice", "language": "English", "url": "https://www.khanacademy.org/math/calculus-1", "badge": "🛠️ Practice" },
-            { "title": "Calculus Urdu Lectures (University Level)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=calculus+university+level+urdu", "badge": "🎥 Urdu Math" }
+            {
+              "title": "Calculus 1 - MIT OpenCourseWare (Free)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/",
+              "badge": "🎥 MIT OCW"
+            },
+            {
+              "title": "Linear Algebra - 3Blue1Brown (Visuals)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+              "badge": "🎥 Visuals"
+            },
+            {
+              "title": "Khan Academy Calculus + Differential Equations",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.khanacademy.org/math/calculus-1",
+              "badge": "🛠️ Practice"
+            },
+            {
+              "title": "Calculus Urdu Lectures (University Level)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=calculus+university+level+urdu",
+              "badge": "🎥 Urdu Math"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            }
           ]
         },
         {
           "subjectName": "Business Administration / MBA",
           "topics": [
-            { "title": "Micro & Macroeconomics - MIT OCW (Free)", "type": "Video", "language": "English", "url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/", "badge": "🎥 MIT OCW" },
-            { "title": "Financial Accounting - Khan Academy", "type": "Video", "language": "English", "url": "https://www.khanacademy.org/economics-finance-domain/core-finance", "badge": "🎥 Finance" },
-            { "title": "Business Management - Coursera (Free Audit)", "type": "Video", "language": "English", "url": "https://www.coursera.org/learn/wharton-business-foundations", "badge": "🎥 Coursera" },
-            { "title": "Statistics for Business - NPTEL", "type": "Video", "language": "English", "url": "https://nptel.ac.in/courses/110105090", "badge": "🎥 NPTEL" },
-            { "title": "Investopedia - Business & Finance Guide", "type": "Read", "language": "English", "url": "https://www.investopedia.com/", "badge": "📖 Reference" }
+            {
+              "title": "Micro & Macroeconomics - MIT OCW (Free)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/",
+              "badge": "🎥 MIT OCW"
+            },
+            {
+              "title": "Financial Accounting - Khan Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "badge": "🎥 Finance"
+            },
+            {
+              "title": "Business Management - Coursera (Free Audit)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/learn/wharton-business-foundations",
+              "badge": "🎥 Coursera"
+            },
+            {
+              "title": "Statistics for Business - NPTEL",
+              "type": "Video",
+              "language": "English",
+              "url": "https://nptel.ac.in/courses/110105090",
+              "badge": "🎥 NPTEL"
+            },
+            {
+              "title": "Investopedia - Business & Finance Guide",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.investopedia.com/",
+              "badge": "📖 Reference"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            }
           ]
         },
         {
           "subjectName": "Electronics & Electrical Engineering",
           "topics": [
-            { "title": "Circuit Analysis - Khan Academy", "type": "Video", "language": "English", "url": "https://www.khanacademy.org/science/electrical-engineering", "badge": "🎥 Circuits" },
-            { "title": "Digital Electronics - Neso Academy", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=digital+electronics+neso+academy", "badge": "🎥 Digital" },
-            { "title": "Electronics Basics - NPTEL (IIT)", "type": "Video", "language": "English", "url": "https://nptel.ac.in/courses/108105132", "badge": "🎥 NPTEL" },
-            { "title": "Circuit Simulation Lab - CircuitLab", "type": "Practice", "language": "English", "url": "https://www.circuitlab.com/", "badge": "🛠️ Simulation" }
+            {
+              "title": "Circuit Analysis - Khan Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/science/electrical-engineering",
+              "badge": "🎥 Circuits"
+            },
+            {
+              "title": "Digital Electronics - Neso Academy",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=digital+electronics+neso+academy",
+              "badge": "🎥 Digital"
+            },
+            {
+              "title": "Electronics Basics - NPTEL (IIT)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://nptel.ac.in/courses/108105132",
+              "badge": "🎥 NPTEL"
+            },
+            {
+              "title": "Circuit Simulation Lab - CircuitLab",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.circuitlab.com/",
+              "badge": "🛠️ Simulation"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            }
           ]
         },
         {
           "subjectName": "Discrete Mathematics",
           "topics": [
-            { "title": "Discrete Mathematics - Neso Academy (Full Course)", "type": "Video", "language": "English", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJpDAdC1KuM4d097LZDM", "badge": "🎥 Full Course" },
-            { "title": "Discrete Math Notes - GeeksforGeeks", "type": "Read", "language": "English", "url": "https://www.geeksforgeeks.org/discrete-mathematics-tutorial/", "badge": "📖 Notes" },
-            { "title": "MIT OCW - Mathematics for Computer Science", "type": "Video", "language": "English", "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/", "badge": "🎥 MIT OCW" }
+            {
+              "title": "Discrete Mathematics - Neso Academy (Full Course)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJpDAdC1KuM4d097LZDM",
+              "badge": "🎥 Full Course"
+            },
+            {
+              "title": "Discrete Math Notes - GeeksforGeeks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.geeksforgeeks.org/discrete-mathematics-tutorial/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "MIT OCW - Mathematics for Computer Science",
+              "type": "Video",
+              "language": "English",
+              "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/",
+              "badge": "🎥 MIT OCW"
+            },
+            {
+              "title": "OpenStax Free University Textbooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://openstax.org/subjects",
+              "badge": "📚 Textbooks"
+            },
+            {
+              "title": "Coursera Free Audit Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.coursera.org/courses?query=computer%20science",
+              "badge": "🎥 Free Audit"
+            },
+            {
+              "title": "GitHub Student Developer Pack",
+              "type": "Read",
+              "language": "English",
+              "url": "https://education.github.com/pack",
+              "badge": "🎁 Student Pack"
+            }
           ]
         }
       ]
@@ -402,28 +2521,163 @@
         {
           "subjectName": "Accounting & Finance (I.Com / B.Com)",
           "topics": [
-            { "title": "Principles of Accounting Part 1 (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=icom+part+1+accounting+urdu", "badge": "🎥 Basic Acc" },
-            { "title": "Advanced Accounting (B.Com Level - Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=bcom+advanced+accounting+urdu", "badge": "🎥 Adv Acc" },
-            { "title": "Accounting Concepts, Quizzes & Exercises", "type": "Practice", "language": "English", "url": "https://www.accountingcoach.com/", "badge": "🛠️ Acc Coach" },
-            { "title": "I.Com Accounting Notes (Solved)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/icom-part-1-accounting-notes/", "badge": "📖 Notes" },
-            { "title": "Accounting Past Papers (I.Com Board)", "type": "Practice", "language": "English/Urdu", "url": "https://www.ilmkidunya.com/past-papers/icom-part-1-accounting-past-papers/", "badge": "📝 Past Papers" }
+            {
+              "title": "Principles of Accounting Part 1 (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=icom+part+1+accounting+urdu",
+              "badge": "🎥 Basic Acc"
+            },
+            {
+              "title": "Advanced Accounting (B.Com Level - Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=bcom+advanced+accounting+urdu",
+              "badge": "🎥 Adv Acc"
+            },
+            {
+              "title": "Accounting Concepts, Quizzes & Exercises",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.accountingcoach.com/",
+              "badge": "🛠️ Acc Coach"
+            },
+            {
+              "title": "I.Com Accounting Notes (Solved)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/icom-part-1-accounting-notes/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Accounting Past Papers (I.Com Board)",
+              "type": "Practice",
+              "language": "English/Urdu",
+              "url": "https://www.ilmkidunya.com/past-papers/icom-part-1-accounting-past-papers/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Punjab University Past Papers Archive",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://pu.edu.pk/",
+              "badge": "📝 University Papers"
+            },
+            {
+              "title": "OpenLearn Business Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.open.edu/openlearn/money-business",
+              "badge": "🎥 OpenLearn"
+            },
+            {
+              "title": "Business Case Studies Collection",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.thecasecentre.org/",
+              "badge": "📖 Case Studies"
+            }
           ]
         },
         {
           "subjectName": "Economics & Business Math",
           "topics": [
-            { "title": "Principles of Economics (Urdu - ICS/I.Com)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=principles+of+economics+urdu+lectures", "badge": "🎥 Economics" },
-            { "title": "Business Mathematics Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=icom+business+math+urdu", "badge": "🎥 Bus. Math" },
-            { "title": "Khan Academy Economics (Free)", "type": "Video", "language": "English", "url": "https://www.khanacademy.org/economics-finance-domain", "badge": "🎥 Khan Academy" },
-            { "title": "Economics Notes (I.Com / FA Level)", "type": "Read", "language": "Urdu/English", "url": "https://www.ilmkidunya.com/study-resources/", "badge": "📖 Notes" }
+            {
+              "title": "Principles of Economics (Urdu - ICS/I.Com)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=principles+of+economics+urdu+lectures",
+              "badge": "🎥 Economics"
+            },
+            {
+              "title": "Business Mathematics Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=icom+business+math+urdu",
+              "badge": "🎥 Bus. Math"
+            },
+            {
+              "title": "Khan Academy Economics (Free)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/economics-finance-domain",
+              "badge": "🎥 Khan Academy"
+            },
+            {
+              "title": "Economics Notes (I.Com / FA Level)",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Notes"
+            },
+            {
+              "title": "Punjab University Past Papers Archive",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://pu.edu.pk/",
+              "badge": "📝 University Papers"
+            },
+            {
+              "title": "OpenLearn Business Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.open.edu/openlearn/money-business",
+              "badge": "🎥 OpenLearn"
+            },
+            {
+              "title": "Business Case Studies Collection",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.thecasecentre.org/",
+              "badge": "📖 Case Studies"
+            }
           ]
         },
         {
           "subjectName": "Civics, Sociology & Education (FA Arts)",
           "topics": [
-            { "title": "FA Civics (Ilm Sheriat) Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=fa+civics+lectures+urdu", "badge": "🎥 Civics" },
-            { "title": "Sociology Basics (Urdu)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/results?search_query=sociology+lectures+urdu+beginners", "badge": "🎥 Sociology" },
-            { "title": "FA Education (Ilm-ul-Taleem) Notes", "type": "Read", "language": "Urdu", "url": "https://www.ilmkidunya.com/study-resources/", "badge": "📖 Education" }
+            {
+              "title": "FA Civics (Ilm Sheriat) Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=fa+civics+lectures+urdu",
+              "badge": "🎥 Civics"
+            },
+            {
+              "title": "Sociology Basics (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/results?search_query=sociology+lectures+urdu+beginners",
+              "badge": "🎥 Sociology"
+            },
+            {
+              "title": "FA Education (Ilm-ul-Taleem) Notes",
+              "type": "Read",
+              "language": "Urdu",
+              "url": "https://www.ilmkidunya.com/study-resources/",
+              "badge": "📖 Education"
+            },
+            {
+              "title": "Punjab University Past Papers Archive",
+              "type": "Practice",
+              "language": "Urdu/English",
+              "url": "https://pu.edu.pk/",
+              "badge": "📝 University Papers"
+            },
+            {
+              "title": "OpenLearn Business Courses",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.open.edu/openlearn/money-business",
+              "badge": "🎥 OpenLearn"
+            },
+            {
+              "title": "Business Case Studies Collection",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.thecasecentre.org/",
+              "badge": "📖 Case Studies"
+            }
           ]
         }
       ]
@@ -435,26 +2689,149 @@
         {
           "subjectName": "Mathematics (Grade 1-8)",
           "topics": [
-            { "title": "Math Antics - Basic Math Concepts (English)", "type": "Video", "language": "English", "url": "https://www.youtube.com/user/mathantics", "badge": "🎥 Best Concepts" },
-            { "title": "Middle School Math Lectures (Urdu - Sabaq)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-8th-maths", "badge": "🎥 Sabaq.pk" },
-            { "title": "Khan Academy Kids - Interactive Math (Free)", "type": "Practice", "language": "English", "url": "https://learn.khanacademy.org/khan-academy-kids/", "badge": "🛠️ Fun Learning" },
-            { "title": "Taleemabad - Urdu Math for Kids", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/@Taleemabad", "badge": "🎥 Taleemabad" }
+            {
+              "title": "Math Antics - Basic Math Concepts (English)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/user/mathantics",
+              "badge": "🎥 Best Concepts"
+            },
+            {
+              "title": "Middle School Math Lectures (Urdu - Sabaq)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-8th-maths",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Khan Academy Kids - Interactive Math (Free)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://learn.khanacademy.org/khan-academy-kids/",
+              "badge": "🛠️ Fun Learning"
+            },
+            {
+              "title": "Taleemabad - Urdu Math for Kids",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/@Taleemabad",
+              "badge": "🎥 Taleemabad"
+            },
+            {
+              "title": "National Book Foundation Kids eBooks",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://nbf.org.pk/",
+              "badge": "📖 Kids Books"
+            },
+            {
+              "title": "PBS Kids Learning Games",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://pbskids.org/games/",
+              "badge": "🧩 Learning Games"
+            },
+            {
+              "title": "Khan Academy Early Learning",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/khan-academy-kids",
+              "badge": "🎥 Early Learning"
+            }
           ]
         },
         {
           "subjectName": "Science & Discoveries (Grade 1-8)",
           "topics": [
-            { "title": "Dr. Binocs Show - Science Animations (English)", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=dr+binocs+show", "badge": "🎥 Animations" },
-            { "title": "Class 6-8 General Science Lectures (Urdu)", "type": "Video", "language": "Urdu", "url": "https://sabaq.pk/video-tutorials/pakistan-8th-general-science", "badge": "🎥 Sabaq.pk" },
-            { "title": "Science Max - Home Experiments for Kids", "type": "Practice", "language": "English", "url": "https://www.youtube.com/c/ScienceMax", "badge": "🛠️ Experiments" }
+            {
+              "title": "Dr. Binocs Show - Science Animations (English)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=dr+binocs+show",
+              "badge": "🎥 Animations"
+            },
+            {
+              "title": "Class 6-8 General Science Lectures (Urdu)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://sabaq.pk/video-tutorials/pakistan-8th-general-science",
+              "badge": "🎥 Sabaq.pk"
+            },
+            {
+              "title": "Science Max - Home Experiments for Kids",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.youtube.com/c/ScienceMax",
+              "badge": "🛠️ Experiments"
+            },
+            {
+              "title": "National Book Foundation Kids eBooks",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://nbf.org.pk/",
+              "badge": "📖 Kids Books"
+            },
+            {
+              "title": "PBS Kids Learning Games",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://pbskids.org/games/",
+              "badge": "🧩 Learning Games"
+            },
+            {
+              "title": "Khan Academy Early Learning",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/khan-academy-kids",
+              "badge": "🎥 Early Learning"
+            }
           ]
         },
         {
           "subjectName": "Languages: Urdu & English Basics",
           "topics": [
-            { "title": "Urdu Qaida & Children's Stories (Taleemabad)", "type": "Video", "language": "Urdu", "url": "https://www.youtube.com/@Taleemabad", "badge": "🎥 Taleemabad" },
-            { "title": "Alphablocks - English Phonics for Kids", "type": "Video", "language": "English", "url": "https://www.youtube.com/c/alphablocks", "badge": "🎥 Phonics" },
-            { "title": "Global Digital Library - Free Storybooks", "type": "Read", "language": "English", "url": "https://globaldigitallibrary.org/", "badge": "📖 Storybooks" }
+            {
+              "title": "Urdu Qaida & Children's Stories (Taleemabad)",
+              "type": "Video",
+              "language": "Urdu",
+              "url": "https://www.youtube.com/@Taleemabad",
+              "badge": "🎥 Taleemabad"
+            },
+            {
+              "title": "Alphablocks - English Phonics for Kids",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/c/alphablocks",
+              "badge": "🎥 Phonics"
+            },
+            {
+              "title": "Global Digital Library - Free Storybooks",
+              "type": "Read",
+              "language": "English",
+              "url": "https://globaldigitallibrary.org/",
+              "badge": "📖 Storybooks"
+            },
+            {
+              "title": "National Book Foundation Kids eBooks",
+              "type": "Read",
+              "language": "Urdu/English",
+              "url": "https://nbf.org.pk/",
+              "badge": "📖 Kids Books"
+            },
+            {
+              "title": "PBS Kids Learning Games",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://pbskids.org/games/",
+              "badge": "🧩 Learning Games"
+            },
+            {
+              "title": "Khan Academy Early Learning",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.khanacademy.org/khan-academy-kids",
+              "badge": "🎥 Early Learning"
+            }
           ]
         }
       ]
@@ -466,16 +2843,114 @@
         {
           "subjectName": "Autism Learning & Sensory Support",
           "topics": [
-            { "title": "Sensory Calm Down & Visual Videos for Autism", "type": "Video", "language": "Music/Visual", "url": "https://www.youtube.com/results?search_query=sensory+videos+for+autism+calming", "badge": "🎥 Sensory" },
-            { "title": "Visual Schedules & Flashcards (Do2Learn)", "type": "Read", "language": "English", "url": "https://do2learn.com/picturecards/printcards/index.htm", "badge": "📖 Flashcards" },
-            { "title": "Autism Speaks - Learning Resources (Parents)", "type": "Read", "language": "English", "url": "https://www.autismspeaks.org/", "badge": "📖 Guide" }
+            {
+              "title": "Sensory Calm Down & Visual Videos for Autism",
+              "type": "Video",
+              "language": "Music/Visual",
+              "url": "https://www.youtube.com/results?search_query=sensory+videos+for+autism+calming",
+              "badge": "🎥 Sensory"
+            },
+            {
+              "title": "Visual Schedules & Flashcards (Do2Learn)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://do2learn.com/picturecards/printcards/index.htm",
+              "badge": "📖 Flashcards"
+            },
+            {
+              "title": "Autism Speaks - Learning Resources (Parents)",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.autismspeaks.org/",
+              "badge": "📖 Guide"
+            },
+            {
+              "title": "Understood.org Parent Support Hub",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.understood.org/",
+              "badge": "📖 Parent Support"
+            },
+            {
+              "title": "Inclusive Teaching Strategies",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.readingrockets.org/",
+              "badge": "📖 Inclusion"
+            },
+            {
+              "title": "Special Learning Activities",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.twinkl.com/resources/special-education-needs",
+              "badge": "🛠️ Activities"
+            }
           ]
         },
         {
           "subjectName": "Speech & Communication Therapy",
           "topics": [
-            { "title": "Speech Therapy Exercises for Children (YouTube)", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=speech+therapy+exercises+for+children", "badge": "🎥 Speech" },
-            { "title": "AAC Communication Boards & Tools", "type": "Read", "language": "English", "url": "https://www.tobiidynavox.com/", "badge": "📖 AAC Tools" }
+            {
+              "title": "Speech Therapy Exercises for Children (YouTube)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=speech+therapy+exercises+for+children",
+              "badge": "🎥 Speech"
+            },
+            {
+              "title": "AAC Communication Boards & Tools",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.tobiidynavox.com/",
+              "badge": "📖 AAC Tools"
+            },
+            {
+              "title": "Understood.org Parent Support Hub",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.understood.org/",
+              "badge": "📖 Parent Support"
+            },
+            {
+              "title": "Inclusive Teaching Strategies",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.readingrockets.org/",
+              "badge": "📖 Inclusion"
+            },
+            {
+              "title": "Special Learning Activities",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.twinkl.com/resources/special-education-needs",
+              "badge": "🛠️ Activities"
+            }
+          ]
+        },
+        {
+          "subjectName": "Inclusive Classroom Tools",
+          "topics": [
+            {
+              "title": "UDL Guidelines",
+              "type": "Read",
+              "language": "English",
+              "url": "https://udlguidelines.cast.org/",
+              "badge": "📖 UDL"
+            },
+            {
+              "title": "Assistive Technology Resource Hub",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.wati.org/",
+              "badge": "🛠️ Assistive Tech"
+            },
+            {
+              "title": "Classroom Visual Supports Pack",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://do2learn.com/",
+              "badge": "🖼️ Visual Supports"
+            }
           ]
         }
       ]
@@ -487,24 +2962,114 @@
         {
           "subjectName": "Cambridge Mathematics (O-Level / IGCSE)",
           "topics": [
-            { "title": "IGCSE Maths Full Course - ExamSolutions", "type": "Video", "language": "English", "url": "https://www.examsolutions.net/", "badge": "🎥 ExamSolutions" },
-            { "title": "Cambridge Maths Past Papers (Free)", "type": "Practice", "language": "English", "url": "https://pastpapers.papacambridge.com/", "badge": "📝 Past Papers" },
-            { "title": "Khan Academy IGCSE Maths Topics", "type": "Practice", "language": "English", "url": "https://www.khanacademy.org/math", "badge": "🛠️ Practice" }
+            {
+              "title": "IGCSE Maths Full Course - ExamSolutions",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.examsolutions.net/",
+              "badge": "🎥 ExamSolutions"
+            },
+            {
+              "title": "Cambridge Maths Past Papers (Free)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://pastpapers.papacambridge.com/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Khan Academy IGCSE Maths Topics",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://www.khanacademy.org/math",
+              "badge": "🛠️ Practice"
+            },
+            {
+              "title": "Cambridge Official Learning Support",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/",
+              "badge": "📖 Official"
+            },
+            {
+              "title": "Save My Exams Revision Notes",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.savemyexams.com/",
+              "badge": "📖 Revision"
+            }
           ]
         },
         {
           "subjectName": "Cambridge Physics / Chemistry / Biology",
           "topics": [
-            { "title": "IGCSE Physics - Science with Hazel (YouTube)", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=igcse+physics+science+with+hazel", "badge": "🎥 Physics" },
-            { "title": "IGCSE Chemistry - Richard Thornley", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=igcse+chemistry+richard+thornley", "badge": "🎥 Chemistry" },
-            { "title": "Cambridge Science Past Papers (PapaCambridge)", "type": "Practice", "language": "English", "url": "https://pastpapers.papacambridge.com/", "badge": "📝 Past Papers" }
+            {
+              "title": "IGCSE Physics - Science with Hazel (YouTube)",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=igcse+physics+science+with+hazel",
+              "badge": "🎥 Physics"
+            },
+            {
+              "title": "IGCSE Chemistry - Richard Thornley",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=igcse+chemistry+richard+thornley",
+              "badge": "🎥 Chemistry"
+            },
+            {
+              "title": "Cambridge Science Past Papers (PapaCambridge)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://pastpapers.papacambridge.com/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Cambridge Official Learning Support",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/",
+              "badge": "📖 Official"
+            },
+            {
+              "title": "Save My Exams Revision Notes",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.savemyexams.com/",
+              "badge": "📖 Revision"
+            }
           ]
         },
         {
           "subjectName": "Cambridge Computer Science (O-Level)",
           "topics": [
-            { "title": "IGCSE Computer Science Crash Course", "type": "Video", "language": "English", "url": "https://www.youtube.com/results?search_query=igcse+computer+science+crash+course", "badge": "🎥 CS Course" },
-            { "title": "Cambridge CS Past Papers (Free Download)", "type": "Practice", "language": "English", "url": "https://pastpapers.papacambridge.com/", "badge": "📝 Past Papers" }
+            {
+              "title": "IGCSE Computer Science Crash Course",
+              "type": "Video",
+              "language": "English",
+              "url": "https://www.youtube.com/results?search_query=igcse+computer+science+crash+course",
+              "badge": "🎥 CS Course"
+            },
+            {
+              "title": "Cambridge CS Past Papers (Free Download)",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://pastpapers.papacambridge.com/",
+              "badge": "📝 Past Papers"
+            },
+            {
+              "title": "Cambridge Official Learning Support",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/",
+              "badge": "📖 Official"
+            },
+            {
+              "title": "Save My Exams Revision Notes",
+              "type": "Read",
+              "language": "English",
+              "url": "https://www.savemyexams.com/",
+              "badge": "📖 Revision"
+            }
           ]
         }
       ]
