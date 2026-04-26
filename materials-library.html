@@ -6,323 +6,102 @@
     <title>EduCore Materials Library | Variety Learning Content</title>
     <meta name="description" content="Explore EduCore Materials Library with videos, notes, practice sets, project kits, and instructor resources.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root {
-            --primary: #4f46e5;
-            --secondary: #2563eb;
-            --bg: #f8fafc;
-            --surface: #ffffff;
-            --soft: #eef2ff;
-            --text: #0f172a;
-            --muted: #475569;
-            --border: #cbd5e1;
-            --shadow: 0 16px 30px rgba(15, 23, 42, 0.12);
-        }
-
-        html[data-theme="dark"] {
-            --bg: #020617;
-            --surface: #0f172a;
-            --soft: #1e293b;
-            --text: #f8fafc;
-            --muted: #cbd5e1;
-            --border: #334155;
-            --shadow: 0 16px 30px rgba(0, 0, 0, 0.35);
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: "Segoe UI", Tahoma, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-        }
-
-        .container {
-            width: min(1120px, 92vw);
-            margin: 0 auto;
-        }
-
-        .topbar {
-            position: sticky;
-            top: 0;
-            z-index: 20;
-            background: var(--surface);
-            border-bottom: 1px solid var(--border);
-        }
-
-        .topbar-inner {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
-            padding: 0.9rem 0;
-        }
-
-        .brand {
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-            text-decoration: none;
-            color: var(--text);
-            font-weight: 700;
-        }
-
-        .brand-badge {
-            width: 36px;
-            height: 36px;
-            border-radius: 10px;
-            display: grid;
-            place-items: center;
-            color: #fff;
-            background: linear-gradient(130deg, var(--primary), var(--secondary));
-        }
-
-        .top-actions {
-            display: flex;
-            gap: 0.5rem;
-            align-items: center;
-        }
-
-        .btn {
-            border: 1px solid var(--border);
-            background: var(--surface);
-            color: var(--text);
-            border-radius: 999px;
-            padding: 0.5rem 0.8rem;
-            text-decoration: none;
-            font-size: 0.86rem;
-            font-weight: 600;
-            cursor: pointer;
-        }
-
-        .btn.primary {
-            color: #fff;
-            border-color: transparent;
-            background: linear-gradient(130deg, var(--primary), var(--secondary));
-        }
-
-        .hero {
-            margin-top: 1rem;
-            border-radius: 24px;
-            padding: 2.2rem 1.4rem;
-            color: #fff;
-            background: linear-gradient(120deg, #4338ca 0%, #2563eb 50%, #0284c7 100%);
-            box-shadow: var(--shadow);
-        }
-
-        .hero h1 {
-            font-size: clamp(1.7rem, 4vw, 2.8rem);
-            line-height: 1.15;
-            margin-bottom: 0.7rem;
-        }
-
-        .hero p {
-            max-width: 760px;
-            color: rgba(255, 255, 255, 0.92);
-        }
-
-        .grid {
-            margin-top: 1.25rem;
-            display: grid;
-            gap: 0.9rem;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        }
-
-        .card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 1rem;
-            box-shadow: var(--shadow);
-        }
-
-        .card h2 {
-            font-size: 1.06rem;
-            margin-bottom: 0.35rem;
-        }
-
-        .card p {
-            color: var(--muted);
-            font-size: 0.88rem;
-            margin-bottom: 0.8rem;
-        }
-
-        .chip-list {
-            display: flex;
-            gap: 0.45rem;
-            flex-wrap: wrap;
-        }
-
-        .chip {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.3rem;
-            border-radius: 999px;
-            border: 1px solid var(--border);
-            background: var(--soft);
-            color: var(--muted);
-            font-size: 0.75rem;
-            font-weight: 700;
-            padding: 0.22rem 0.55rem;
-        }
-
-        .section {
-            margin-top: 1.5rem;
-        }
-
-        .section h3 {
-            font-size: 1.2rem;
-            margin-bottom: 0.65rem;
-        }
-
-        .section-grid {
-            display: grid;
-            gap: 0.85rem;
-            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-        }
-
-        .resource-box {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 14px;
-            padding: 0.9rem;
-        }
-
-        .resource-box h4 {
-            font-size: 0.98rem;
-            margin-bottom: 0.3rem;
-        }
-
-        .resource-box ul {
-            margin-left: 1rem;
-            color: var(--muted);
-            font-size: 0.84rem;
-        }
-
-        .resource-box li + li {
-            margin-top: 0.22rem;
-        }
-
-        .footer {
-            margin: 2rem 0 1.2rem;
-            padding: 0.8rem 0;
-            border-top: 1px solid var(--border);
-            text-align: center;
-            color: var(--muted);
-            font-size: 0.85rem;
-        }
-
-        @media (max-width: 700px) {
-            .topbar-inner {
-                flex-direction: column;
-                align-items: stretch;
-            }
-
-            .top-actions {
-                justify-content: center;
-                flex-wrap: wrap;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="topbar">
-        <div class="container topbar-inner">
-            <a href="index.html" class="brand">
-                <span class="brand-badge"><i class="fas fa-book-open-reader"></i></span>
-                EduCore Materials Library
-            </a>
-            <div class="top-actions">
-                <a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Back to Hub</a>
-                <a href="about.html" class="btn"><i class="fas fa-bullseye"></i> About</a>
-                <a href="learning-paths.html" class="btn"><i class="fas fa-route"></i> Paths</a>
-                <a href="contribute.html" class="btn"><i class="fas fa-hand-holding-heart"></i> Contribute</a>
-                <button class="btn" id="themeToggle" type="button"><i class="fas fa-sun"></i> Theme</button>
-                <a href="https://github.com/AliShah1029384756/educore-open-learning-hub" class="btn primary" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Contribute</a>
+    <div class="page-shell">
+        <header class="page-topbar">
+            <div class="container shell-padding page-topbar-inner">
+                <a href="index.html" class="page-brand">
+                    <span class="page-brand-badge"><i class="fas fa-book-open-reader"></i></span>
+                    <span>EduCore Materials Library</span>
+                </a>
+                <div class="page-toolbar">
+                    <a href="index.html" class="page-nav-link"><i class="fas fa-arrow-left"></i> Back to Hub</a>
+                    <a href="about.html" class="page-nav-link"><i class="fas fa-bullseye"></i> About</a>
+                    <a href="learning-paths.html" class="page-nav-link"><i class="fas fa-route"></i> Paths</a>
+                    <a href="contribute.html" class="page-nav-link"><i class="fas fa-hand-holding-heart"></i> Contribute</a>
+                    <button id="themeToggle" class="page-btn secondary" type="button"><i class="fas fa-sun"></i> Theme</button>
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <main class="container">
-        <section class="hero">
+        <main class="container shell-padding">
+        <section class="page-hero">
             <h1>Full Variety Learning Materials For Every Type of Learner</h1>
             <p>Yahan aap ko videos, notes, practice sets, assessments, project kits, instructor templates, and tools milte hain. Is page ka purpose hai complete academic + skills ecosystem ek jaga dikhana.</p>
+            <a href="index.html" class="main-hub-cta"><i class="fas fa-layer-group"></i> Back to Discovery Hub</a>
         </section>
 
-        <section class="grid">
-            <article class="card">
+        <section class="page-section page-grid">
+            <article class="page-card">
                 <h2><i class="fas fa-video"></i> Video Learning Tracks</h2>
                 <p>Structured playlists by class level, topic depth, and exam focus.</p>
-                <div class="chip-list">
-                    <span class="chip">Lecture Series</span>
-                    <span class="chip">Crash Course</span>
-                    <span class="chip">Revision Sessions</span>
+                <div class="page-toolbar">
+                    <span class="page-btn secondary">Lecture Series</span>
+                    <span class="page-btn secondary">Crash Course</span>
+                    <span class="page-btn secondary">Revision Sessions</span>
                 </div>
             </article>
-            <article class="card">
+            <article class="page-card">
                 <h2><i class="fas fa-book"></i> Notes, Books, and Reading</h2>
                 <p>PDF notes, official books, solved explanations, and concept sheets.</p>
-                <div class="chip-list">
-                    <span class="chip">Board Notes</span>
-                    <span class="chip">Reference Books</span>
-                    <span class="chip">Quick Summaries</span>
+                <div class="page-toolbar">
+                    <span class="page-btn secondary">Board Notes</span>
+                    <span class="page-btn secondary">Reference Books</span>
+                    <span class="page-btn secondary">Quick Summaries</span>
                 </div>
             </article>
-            <article class="card">
+            <article class="page-card">
                 <h2><i class="fas fa-dumbbell"></i> Practice and Testing</h2>
                 <p>MCQs, coding practice, quiz sets, mock exams, and past papers.</p>
-                <div class="chip-list">
-                    <span class="chip">Topic MCQs</span>
-                    <span class="chip">Mock Tests</span>
-                    <span class="chip">Past Papers</span>
+                <div class="page-toolbar">
+                    <span class="page-btn secondary">Topic MCQs</span>
+                    <span class="page-btn secondary">Mock Tests</span>
+                    <span class="page-btn secondary">Past Papers</span>
                 </div>
             </article>
-            <article class="card">
+            <article class="page-card">
                 <h2><i class="fas fa-chalkboard-teacher"></i> Instructor Toolkit</h2>
                 <p>Lesson plans, class activities, rubric templates, and assessment formats.</p>
-                <div class="chip-list">
-                    <span class="chip">Lesson Plans</span>
-                    <span class="chip">Class Activities</span>
-                    <span class="chip">Rubrics</span>
+                <div class="page-toolbar">
+                    <span class="page-btn secondary">Lesson Plans</span>
+                    <span class="page-btn secondary">Class Activities</span>
+                    <span class="page-btn secondary">Rubrics</span>
                 </div>
             </article>
         </section>
 
-        <section class="section">
+        <section class="page-section">
             <h3>Core Material Bundles</h3>
-            <div class="section-grid">
-                <article class="resource-box">
+            <div class="page-grid">
+                <article class="page-card">
                     <h4>School Foundation Bundle</h4>
-                    <ul>
+                    <ul class="page-card-list">
                         <li>Concept-first video playlists</li>
                         <li>Chapter-wise notes + key formulas</li>
                         <li>Chapter MCQs and worksheets</li>
                     </ul>
                 </article>
-                <article class="resource-box">
+                <article class="page-card">
                     <h4>College Exam Power Bundle</h4>
-                    <ul>
+                    <ul class="page-card-list">
                         <li>FSc/ICS targeted revision modules</li>
                         <li>Past paper solved practice tracks</li>
                         <li>Speed drills for board exam prep</li>
                     </ul>
                 </article>
-                <article class="resource-box">
+                <article class="page-card">
                     <h4>University Skill and Project Bundle</h4>
-                    <ul>
+                    <ul class="page-card-list">
                         <li>DSA/OOP/DB projects and labs</li>
                         <li>System design and coding interview sets</li>
                         <li>Portfolio-ready capstone references</li>
                     </ul>
                 </article>
-                <article class="resource-box">
+                <article class="page-card">
                     <h4>Entry Test and Career Bundle</h4>
-                    <ul>
+                    <ul class="page-card-list">
                         <li>MDCAT/ECAT/NTS drill sequence</li>
                         <li>Timed mock environments</li>
                         <li>Interview and communication prep packs</li>
@@ -331,28 +110,28 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="page-section">
             <h3>High-Value Free Resource Map</h3>
-            <div class="section-grid">
-                <article class="resource-box">
+            <div class="page-grid">
+                <article class="page-card">
                     <h4>School + College Core</h4>
-                    <ul>
+                    <ul class="page-card-list">
                         <li><a href="https://sabaq.pk" target="_blank" rel="noopener noreferrer">Sabaq.pk</a> for Urdu lecture coverage</li>
                         <li><a href="https://www.ilmkidunya.com" target="_blank" rel="noopener noreferrer">IlmKiDunya</a> notes and board support</li>
                         <li><a href="https://pctb.punjab.gov.pk/E-Books" target="_blank" rel="noopener noreferrer">Punjab Textbooks</a> official books</li>
                     </ul>
                 </article>
-                <article class="resource-box">
+                <article class="page-card">
                     <h4>STEM + Interactive Practice</h4>
-                    <ul>
+                    <ul class="page-card-list">
                         <li><a href="https://www.khanacademy.org" target="_blank" rel="noopener noreferrer">Khan Academy</a> concept + exercises</li>
                         <li><a href="https://phet.colorado.edu" target="_blank" rel="noopener noreferrer">PhET Simulations</a> labs and visual learning</li>
                         <li><a href="https://www.geeksforgeeks.org" target="_blank" rel="noopener noreferrer">GeeksforGeeks</a> coding practice</li>
                     </ul>
                 </article>
-                <article class="resource-box">
+                <article class="page-card">
                     <h4>Entry Tests + MCQs</h4>
-                    <ul>
+                    <ul class="page-card-list">
                         <li><a href="https://www.pakistanbix.com" target="_blank" rel="noopener noreferrer">PakistanBIX</a> chapter-wise MCQs</li>
                         <li><a href="https://www.nts.org.pk" target="_blank" rel="noopener noreferrer">NTS Official</a> test information and patterns</li>
                         <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube curated playlists</a> revision and crash prep</li>
@@ -361,10 +140,13 @@
             </div>
         </section>
 
-        <section class="footer">
+        <section class="page-footer">
             EduCore Materials Library • April 2026 release • Built for students, instructors, and mentors.
         </section>
-    </main>
+        </main>
+    </div>
+
+    <script src="page-shell.js"></script>
 
     <script>
         const html = document.documentElement;

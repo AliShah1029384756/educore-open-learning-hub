@@ -33,6 +33,24 @@ const curatedAdditions = {
                 { title: 'Crash Course Kids Science Playlists', type: 'Video', language: 'English', url: 'https://www.youtube.com/@crashcoursekids', badge: '🎥 CrashCourse' },
                 { title: 'PhET Basics Simulations', type: 'Practice', language: 'English', url: 'https://phet.colorado.edu/', badge: '🔬 PhET' }
             ]
+        },
+        {
+            subjectName: 'Matric Physics Quick Revision',
+            topics: [
+                { title: 'Class 9 Physics Urdu Lectures', type: 'Video', language: 'Urdu', url: 'https://sabaq.pk/video-tutorials/pakistan-9th-physics', badge: '🎥 Sabaq.pk' },
+                { title: 'Class 10 Physics Urdu Lectures', type: 'Video', language: 'Urdu', url: 'https://sabaq.pk/video-tutorials/pakistan-10th-physics', badge: '🎥 Sabaq.pk' },
+                { title: 'Physics MCQs and Concept Review', type: 'Practice', language: 'Urdu/English', url: 'https://www.pakistanbix.com/physics-mcqs/', badge: '🛠️ PakistanBIX' },
+                { title: 'PhET Physics Visual Practice', type: 'Practice', language: 'English', url: 'https://phet.colorado.edu/en/simulations/filter?subjects=physics', badge: '🔬 PhET' }
+            ]
+        },
+        {
+            subjectName: 'Matric Mathematics Problem Solving',
+            topics: [
+                { title: '9th Maths Urdu Lectures', type: 'Video', language: 'Urdu', url: 'https://sabaq.pk/video-tutorials/pakistan-9th-maths', badge: '🎥 Sabaq.pk' },
+                { title: '10th Maths Chapter Lectures', type: 'Video', language: 'Urdu', url: 'https://www.youtube.com/results?search_query=10th+maths+urdu+lectures', badge: '🎥 Urdu Lectures' },
+                { title: 'Math MCQs and Short Questions', type: 'Practice', language: 'Urdu/English', url: 'https://www.ilmkidunya.com/9th-class/mathematics/', badge: '🛠️ IlmKiDunya' },
+                { title: 'Khan Academy Algebra Practice', type: 'Practice', language: 'English', url: 'https://www.khanacademy.org/math/algebra', badge: '📊 Khan Academy' }
+            ]
         }
     ],
     college: [
@@ -50,6 +68,22 @@ const curatedAdditions = {
                 { title: 'Khan Academy Statistics and Probability', type: 'Video', language: 'English', url: 'https://www.khanacademy.org/math/statistics-probability', badge: '📊 Khan Academy' },
                 { title: 'OpenIntro Statistics Textbook', type: 'Read', language: 'English', url: 'https://www.openintro.org/book/os/', badge: '📘 OpenIntro' },
                 { title: 'StatQuest Playlists', type: 'Video', language: 'English', url: 'https://www.youtube.com/@statquest', badge: '🎥 StatQuest' }
+            ]
+        },
+        {
+            subjectName: 'FSc Physics and Numericals',
+            topics: [
+                { title: 'FSc Physics Urdu Lectures', type: 'Video', language: 'Urdu', url: 'https://www.youtube.com/results?search_query=FSc+physics+urdu+lectures', badge: '🎥 Urdu Physics' },
+                { title: 'Physics Short Notes and Formulas', type: 'Read', language: 'Urdu', url: 'https://www.ilmkidunya.com/fsc-part-1/physics/', badge: '📖 IlmKiDunya' },
+                { title: 'Board Past Paper Practice', type: 'Practice', language: 'Urdu/English', url: 'https://www.pakistanbix.com/physics-mcqs/', badge: '🛠️ PakistanBIX' }
+            ]
+        },
+        {
+            subjectName: 'Intermediate Chemistry Concepts',
+            topics: [
+                { title: 'FSc Chemistry Urdu Lectures', type: 'Video', language: 'Urdu', url: 'https://www.youtube.com/results?search_query=FSc+chemistry+urdu+lectures', badge: '🎥 Urdu Chemistry' },
+                { title: 'Chemistry Notes and Solved Exercises', type: 'Read', language: 'Urdu', url: 'https://www.ilmkidunya.com/fsc-part-1/chemistry/', badge: '📖 IlmKiDunya' },
+                { title: 'Periodic Table and Visual Practice', type: 'Practice', language: 'English', url: 'https://ptable.com/', badge: '🔬 Interactive' }
             ]
         }
     ],
@@ -69,6 +103,22 @@ const curatedAdditions = {
                 { title: 'PostgreSQL Tutorial (Official Docs)', type: 'Read', language: 'English', url: 'https://www.postgresql.org/docs/', badge: '🗄️ PostgreSQL' },
                 { title: 'SQL Practice Problems', type: 'Practice', language: 'English', url: 'https://www.sql-practice.com/', badge: '🛠️ SQL Practice' }
             ]
+        },
+        {
+            subjectName: 'Data Structures and Algorithms',
+            topics: [
+                { title: 'DSA in Urdu for Beginners', type: 'Video', language: 'Urdu', url: 'https://www.youtube.com/results?search_query=data+structures+urdu+course', badge: '🎥 Urdu DSA' },
+                { title: 'freeCodeCamp Algorithms Course', type: 'Video', language: 'English', url: 'https://www.freecodecamp.org/learn/algorithms-and-data-structures/', badge: '🐍 freeCodeCamp' },
+                { title: 'LeetCode Practice Set', type: 'Practice', language: 'English', url: 'https://leetcode.com/problemset/', badge: '🛠️ LeetCode' }
+            ]
+        },
+        {
+            subjectName: 'Web Development and Frontend',
+            topics: [
+                { title: 'HTML CSS Urdu Tutorials', type: 'Video', language: 'Urdu', url: 'https://www.youtube.com/results?search_query=html+css+urdu+tutorial', badge: '🎥 Urdu Web' },
+                { title: 'MDN Web Docs', type: 'Read', language: 'English', url: 'https://developer.mozilla.org/', badge: '📚 MDN' },
+                { title: 'freeCodeCamp Responsive Web Design', type: 'Practice', language: 'English', url: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/', badge: '🛠️ freeCodeCamp' }
+            ]
         }
     ],
     'entry-tests': [
@@ -78,6 +128,22 @@ const curatedAdditions = {
                 { title: 'Khan Academy SAT and Test Prep', type: 'Video', language: 'English', url: 'https://www.khanacademy.org/test-prep', badge: '📝 Test Prep' },
                 { title: 'Physics and Math MCQ Banks', type: 'Practice', language: 'English', url: 'https://www.pakistanbix.com/', badge: '🛠️ MCQ Bank' },
                 { title: 'NTS Official Guide and Pattern', type: 'Read', language: 'English', url: 'https://www.nts.org.pk/', badge: '📌 NTS Official' }
+            ]
+        },
+        {
+            subjectName: 'Entry Test Biology Revision',
+            topics: [
+                { title: 'MDCAT Biology Urdu Lectures', type: 'Video', language: 'Urdu', url: 'https://www.youtube.com/results?search_query=mdcat+biology+urdu+lectures', badge: '🎥 Urdu Bio' },
+                { title: 'Biology Short Notes and Diagrams', type: 'Read', language: 'Urdu', url: 'https://www.ilmkidunya.com/mdcat/biology/', badge: '📖 IlmKiDunya' },
+                { title: 'Biology MCQs Practice', type: 'Practice', language: 'Urdu/English', url: 'https://www.pakistanbix.com/biology-mcqs/', badge: '🛠️ Practice' }
+            ]
+        },
+        {
+            subjectName: 'Entry Test English and Aptitude',
+            topics: [
+                { title: 'English Grammar for Entry Tests', type: 'Video', language: 'Urdu', url: 'https://www.youtube.com/results?search_query=english+grammar+entry+test+urdu', badge: '🎥 Grammar' },
+                { title: 'Aptitude and IQ Practice', type: 'Practice', language: 'English', url: 'https://www.indiabix.com/', badge: '🧠 Aptitude' },
+                { title: 'Vocabulary and Synonyms Guide', type: 'Read', language: 'Urdu/English', url: 'https://www.ilmkidunya.com/entry-test/english/', badge: '📘 IlmKiDunya' }
             ]
         }
     ],
@@ -89,6 +155,14 @@ const curatedAdditions = {
                 { title: 'Do2Learn Visual Supports', type: 'Practice', language: 'English', url: 'https://do2learn.com/', badge: '🖼️ Visual Learning' },
                 { title: 'Understood.org Learning Guidance', type: 'Read', language: 'English', url: 'https://www.understood.org/', badge: '💙 Understood' }
             ]
+        },
+        {
+            subjectName: 'Sensory Friendly Study Tools',
+            topics: [
+                { title: 'Visual Schedules and Support Tools', type: 'Practice', language: 'English', url: 'https://do2learn.com/picturecards/', badge: '🖼️ Visual' },
+                { title: 'Autism Support Articles', type: 'Read', language: 'English', url: 'https://www.autismspeaks.org/signs-autism', badge: '🧩 Support' },
+                { title: 'Calm Study Activities', type: 'Practice', language: 'English', url: 'https://www.understood.org/en/articles/what-are-sensory-strategies', badge: '💙 Calm Study' }
+            ]
         }
     ],
     research: [
@@ -99,6 +173,14 @@ const curatedAdditions = {
                 { title: 'Purdue OWL Academic Writing', type: 'Read', language: 'English', url: 'https://owl.purdue.edu/', badge: '✍️ Purdue OWL' },
                 { title: 'Google Scholar Search Skills', type: 'Practice', language: 'English', url: 'https://scholar.google.com/', badge: '📚 Google Scholar' }
             ]
+        },
+        {
+            subjectName: 'Literature Review and Citations',
+            topics: [
+                { title: 'Citation Style Guides', type: 'Read', language: 'English', url: 'https://www.bibme.org/citation-guide', badge: '📚 Citation' },
+                { title: 'Research Paper Writing Basics', type: 'Video', language: 'English', url: 'https://www.youtube.com/results?search_query=research+paper+writing+basics', badge: '🎥 Writing' },
+                { title: 'Reference Management Tips', type: 'Practice', language: 'English', url: 'https://www.zotero.org/support/', badge: '🗂️ Zotero' }
+            ]
         }
     ],
     miscellaneous: [
@@ -108,6 +190,14 @@ const curatedAdditions = {
                 { title: 'Google Digital Garage Free Courses', type: 'Video', language: 'English', url: 'https://learndigital.withgoogle.com/digitalgarage', badge: '🚀 Digital Garage' },
                 { title: 'Notion Learning Center', type: 'Read', language: 'English', url: 'https://www.notion.so/help/guides', badge: '🗂️ Productivity' },
                 { title: 'Pomofocus Study Timer', type: 'Practice', language: 'English', url: 'https://pomofocus.io/', badge: '⏱️ Focus Tool' }
+            ]
+        },
+        {
+            subjectName: 'Freelance and Digital Skills',
+            topics: [
+                { title: 'Freelancing Basics in Urdu', type: 'Video', language: 'Urdu', url: 'https://www.youtube.com/results?search_query=freelancing+urdu+course', badge: '🎥 Freelance' },
+                { title: 'GitHub Skills', type: 'Practice', language: 'English', url: 'https://skills.github.com/', badge: '💻 GitHub' },
+                { title: 'Digital Marketing Starter Guide', type: 'Read', language: 'English', url: 'https://learndigital.withgoogle.com/', badge: '🚀 Digital' }
             ]
         }
     ]
@@ -211,6 +301,47 @@ const uiLabels = {
         breadcrumbSubjects: 'Subjects / مضامین'
     }
 };
+
+function mergeTopicLists(existingTopics = [], incomingTopics = []) {
+    const merged = [...existingTopics];
+    const seen = new Set(existingTopics.map(topic => `${topic.title}::${topic.url}`));
+
+    incomingTopics.forEach(topic => {
+        const key = `${topic.title}::${topic.url}`;
+        if (!seen.has(key)) {
+            seen.add(key);
+            merged.push(topic);
+        }
+    });
+
+    return merged;
+}
+
+function mergeSupplementalData(supplementalData) {
+    if (!supplementalData || !Array.isArray(supplementalData.categories) || !Array.isArray(allData.categories)) {
+        return;
+    }
+
+    supplementalData.categories.forEach(incomingCategory => {
+        const targetCategory = allData.categories.find(category => category.id === incomingCategory.id);
+
+        if (!targetCategory) {
+            allData.categories.push(incomingCategory);
+            return;
+        }
+
+        (incomingCategory.subjects || []).forEach(incomingSubject => {
+            const existingSubject = targetCategory.subjects.find(subject => subject.subjectName === incomingSubject.subjectName);
+
+            if (!existingSubject) {
+                targetCategory.subjects.push(incomingSubject);
+                return;
+            }
+
+            existingSubject.topics = mergeTopicLists(existingSubject.topics, incomingSubject.topics || []);
+        });
+    });
+}
 
 const stickyHeader = document.querySelector('.sticky-header');
 const categoryNav = document.getElementById('categoryNav');
@@ -543,6 +674,16 @@ async function loadData() {
         }
         allData = await response.json();
         mergeCuratedAdditions();
+
+        try {
+            const supplementalResponse = await fetch('subjects.json', { cache: 'no-store' });
+            if (supplementalResponse.ok) {
+                const supplementalData = await supplementalResponse.json();
+                mergeSupplementalData(supplementalData);
+            }
+        } catch (supplementalError) {
+            console.warn('Supplemental subject data could not be loaded:', supplementalError);
+        }
     } catch (error) {
         console.error('Error loading resources:', error);
         subjectsContainer.innerHTML = `
@@ -833,6 +974,11 @@ function getTypeIcon(type) {
     if (type === 'read') return 'fa-book-open';
     if (type === 'practice') return 'fa-dumbbell';
     return 'fa-layer-group';
+}
+
+function createWhatsAppShareUrl(title, url) {
+    const message = `EduCore par free resource: ${title} - ${url}`;
+    return `https://wa.me/?text=${encodeURIComponent(message)}`;
 }
 
 function renderSubjects() {
@@ -1219,9 +1365,11 @@ function showTopicModal(subjectName, category, topicsOverride = null) {
         const source = getSourceFromUrl(topic.url);
         const duration = inferDuration(topic.type);
         const levelLabel = level.charAt(0).toUpperCase() + level.slice(1);
+        const previewUrl = topic.previewUrl || topic.url;
+        const shareUrl = createWhatsAppShareUrl(topic.title, topic.url);
 
         return `
-            <article class="topic-item" data-topic-id="${topicId}">
+            <article class="topic-item" data-topic-id="${topicId}" data-topic-url="${topic.url}" data-topic-title="${topic.title}">
                 <div class="topic-badge-group">
                     <span class="badge type-${type}">${topic.badge || topic.type}</span>
                     <span class="badge language">${topic.language || 'Mixed'}</span>
@@ -1237,9 +1385,21 @@ function showTopicModal(subjectName, category, topicsOverride = null) {
                         <i class="fas fa-arrow-up-right-from-square"></i>
                         ${getUiText('openResource')}
                     </a>
+                    <button type="button" class="topic-link topic-preview-btn" data-topic-preview="${previewUrl}" data-topic-title="${topic.title}">
+                        <i class="fas fa-eye"></i>
+                        Preview
+                    </button>
+                    <a href="${shareUrl}" target="_blank" rel="noopener noreferrer" class="topic-link topic-share-btn">
+                        <i class="fab fa-whatsapp"></i>
+                        Share
+                    </a>
                     <button type="button" class="bookmark-btn ${marked ? 'bookmarked' : ''}" data-topic-id="${topicId}" aria-label="${marked ? 'Remove bookmark' : 'Save bookmark'}">
                         ${marked ? '<i class="fas fa-heart"></i>' : '<i class="far fa-heart"></i>'}
                     </button>
+                </div>
+                <div class="topic-preview-panel hidden" data-preview-panel="${topicId}">
+                    <iframe src="${previewUrl}" title="Preview for ${topic.title}" loading="lazy"></iframe>
+                    <p class="topic-preview-note">If the preview does not load, use Open Resource for the live page.</p>
                 </div>
             </article>
         `;
@@ -1270,11 +1430,30 @@ function showTopicModal(subjectName, category, topicsOverride = null) {
         `;
     }
 
-    document.querySelectorAll('.bookmark-btn').forEach(button => {
+    modalTopics.querySelectorAll('.bookmark-btn').forEach(button => {
         button.addEventListener('click', event => {
             event.preventDefault();
             event.stopPropagation();
             toggleBookmark(button.dataset.topicId);
+        });
+    });
+
+    modalTopics.querySelectorAll('.topic-preview-btn').forEach(button => {
+        button.addEventListener('click', event => {
+            event.preventDefault();
+            event.stopPropagation();
+
+            const article = button.closest('.topic-item');
+            if (!article) {
+                return;
+            }
+
+            const previewPanel = article.querySelector('.topic-preview-panel');
+            if (!previewPanel) {
+                return;
+            }
+
+            previewPanel.classList.toggle('hidden');
         });
     });
 

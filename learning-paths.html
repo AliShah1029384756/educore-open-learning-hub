@@ -7,99 +7,97 @@
     <meta name="description" content="Structured learning paths for school, college, entry tests, and university students.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .paths-wrap { max-width: 1040px; margin: 0 auto; padding: 1.2rem; }
-        .paths-nav { display: flex; gap: .6rem; flex-wrap: wrap; margin: 1rem 0; }
-        .paths-nav a { text-decoration: none; border: 1px solid var(--border); background: var(--bg-surface); color: var(--text-soft); padding: .45rem .75rem; border-radius: 999px; font-size: .8rem; font-weight: 700; }
-        .paths-nav a.active, .paths-nav a:hover { color: #fff; border-color: transparent; background: linear-gradient(120deg, var(--primary), var(--secondary)); }
-        .paths-hero { border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--bg-surface); box-shadow: var(--shadow-sm); padding: 1rem; }
-        .paths-grid { margin-top: 1rem; display: grid; gap: .9rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-        .path-card { border: 1px solid var(--border); border-radius: 14px; background: var(--bg-surface); padding: .95rem; }
-        .path-card h2 { font-size: 1.02rem; margin-bottom: .3rem; }
-        .path-card p { color: var(--text-soft); font-size: .87rem; margin-bottom: .5rem; }
-        .path-steps { margin-left: 1rem; color: var(--text-soft); font-size: .84rem; }
-        .path-steps li + li { margin-top: .25rem; }
-        .path-actions { margin-top: .7rem; display: flex; gap: .5rem; flex-wrap: wrap; }
-        .path-btn { text-decoration: none; border-radius: 10px; border: 1px solid var(--border); padding: .45rem .7rem; font-size: .78rem; font-weight: 700; color: var(--text-soft); background: var(--bg-soft); }
-    </style>
 </head>
 <body>
-    <main class="paths-wrap">
-        <nav class="paths-nav" aria-label="Page navigation">
-            <a href="index.html"><i class="fas fa-house"></i> Home</a>
-            <a href="about.html"><i class="fas fa-bullseye"></i> About / Maqsad</a>
-            <a href="materials-library.html"><i class="fas fa-layer-group"></i> Materials</a>
-            <a href="learning-paths.html" class="active"><i class="fas fa-route"></i> Learning Paths</a>
-            <a href="contribute.html"><i class="fas fa-hand-holding-heart"></i> Contribute</a>
-        </nav>
+    <div class="page-shell">
+        <header class="page-topbar">
+            <div class="container shell-padding page-topbar-inner">
+                <a href="index.html" class="page-brand">
+                    <span class="page-brand-badge"><i class="fas fa-book-open-reader"></i></span>
+                    <span>EduCore</span>
+                </a>
+                <div class="page-toolbar">
+                    <a href="index.html" class="page-nav-link"><i class="fas fa-house"></i> Home</a>
+                    <a href="about.html" class="page-nav-link"><i class="fas fa-bullseye"></i> About / Maqsad</a>
+                    <a href="materials-library.html" class="page-nav-link"><i class="fas fa-layer-group"></i> Materials</a>
+                    <a href="contribute.html" class="page-nav-link"><i class="fas fa-hand-holding-heart"></i> Contribute</a>
+                    <button id="themeToggle" class="page-btn secondary" type="button"><i class="fas fa-sun"></i> Theme</button>
+                </div>
+            </div>
+        </header>
 
-        <section class="paths-hero">
+        <main class="container shell-padding">
+        <section class="page-hero">
             <p class="mission-label">Structured Progress</p>
             <h1>Pick your path and follow a clear sequence.</h1>
             <p>Har path mein simple rule follow karein: Concept videos → Reading notes → Practice drills.</p>
+            <a href="materials-library.html" class="main-hub-cta"><i class="fas fa-route"></i> Browse Learning Kits</a>
         </section>
 
-        <section class="paths-grid">
-            <article class="path-card">
+        <section class="page-section page-grid">
+            <article class="page-card">
                 <h2>School Foundation Path (Matric/O-Levels)</h2>
                 <p>Core science, maths, English, Islamiat, and Pak Studies ke liye strong base.</p>
-                <ol class="path-steps">
+                <ol class="page-card-list">
                     <li>2 concept videos per chapter</li>
                     <li>1 reading summary or textbook reference</li>
                     <li>20-40 MCQs practice</li>
                     <li>Weekly revision test</li>
                 </ol>
-                <div class="path-actions">
-                    <a class="path-btn" href="index.html">Open School Track</a>
-                    <a class="path-btn" href="materials-library.html">Practice Materials</a>
+                <div class="page-toolbar">
+                    <a class="page-btn primary" href="index.html">Open School Track</a>
+                    <a class="page-btn secondary" href="materials-library.html">Practice Materials</a>
                 </div>
             </article>
 
-            <article class="path-card">
+            <article class="page-card">
                 <h2>College Exam Path (FSc/ICS/FA)</h2>
                 <p>Board prep + conceptual depth for Physics, Chemistry, Biology, Maths, and CS.</p>
-                <ol class="path-steps">
+                <ol class="page-card-list">
                     <li>Daily topic lecture blocks</li>
                     <li>Past paper mapping per chapter</li>
                     <li>Timed drill sessions</li>
                     <li>Weak area remediation</li>
                 </ol>
-                <div class="path-actions">
-                    <a class="path-btn" href="index.html">Open College Track</a>
-                    <a class="path-btn" href="materials-library.html">Board Resources</a>
+                <div class="page-toolbar">
+                    <a class="page-btn primary" href="index.html">Open College Track</a>
+                    <a class="page-btn secondary" href="materials-library.html">Board Resources</a>
                 </div>
             </article>
 
-            <article class="path-card">
+            <article class="page-card">
                 <h2>Entry Test Sprint (MDCAT/ECAT/NTS)</h2>
                 <p>Speed, accuracy, and timed practice ke liye focused test strategy path.</p>
-                <ol class="path-steps">
+                <ol class="page-card-list">
                     <li>Topic revision capsules</li>
                     <li>Daily MCQ mixed sets</li>
                     <li>Timed mock every 3 days</li>
                     <li>Error log and targeted retry</li>
                 </ol>
-                <div class="path-actions">
-                    <a class="path-btn" href="index.html">Open Entry Tests</a>
-                    <a class="path-btn" href="materials-library.html">Mock Packs</a>
+                <div class="page-toolbar">
+                    <a class="page-btn primary" href="index.html">Open Entry Tests</a>
+                    <a class="page-btn secondary" href="materials-library.html">Mock Packs</a>
                 </div>
             </article>
 
-            <article class="path-card">
+            <article class="page-card">
                 <h2>University Skill Path (CS/SE/IT)</h2>
                 <p>Programming, DSA, databases, web/backend, and project execution path.</p>
-                <ol class="path-steps">
+                <ol class="page-card-list">
                     <li>Concept + tutorial combo</li>
                     <li>Weekly mini project</li>
                     <li>Problem solving set</li>
                     <li>Portfolio-ready capstone</li>
                 </ol>
-                <div class="path-actions">
-                    <a class="path-btn" href="index.html">Open University Track</a>
-                    <a class="path-btn" href="materials-library.html">Project Kits</a>
+                <div class="page-toolbar">
+                    <a class="page-btn primary" href="index.html">Open University Track</a>
+                    <a class="page-btn secondary" href="materials-library.html">Project Kits</a>
                 </div>
             </article>
         </section>
-    </main>
+        </main>
+    </div>
+
+    <script src="page-shell.js"></script>
 </body>
 </html>

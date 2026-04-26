@@ -7,64 +7,63 @@
     <meta name="description" content="EduCore mission page explaining the vision for free and structured education access in Pakistan.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .simple-page-wrap { max-width: 1000px; margin: 0 auto; padding: 1.2rem; }
-        .simple-top-nav { display: flex; gap: .6rem; flex-wrap: wrap; margin: 1rem 0; }
-        .simple-top-nav a { text-decoration: none; border: 1px solid var(--border); background: var(--bg-surface); color: var(--text-soft); padding: .45rem .75rem; border-radius: 999px; font-size: .8rem; font-weight: 700; }
-        .simple-top-nav a.active, .simple-top-nav a:hover { color: #fff; border-color: transparent; background: linear-gradient(120deg, var(--primary), var(--secondary)); }
-        .simple-hero { border: 1px solid var(--border); border-radius: var(--radius-md); background: linear-gradient(120deg, var(--bg-surface), var(--bg-soft)); padding: 1.2rem; box-shadow: var(--shadow-sm); }
-        .simple-hero h1 { margin-bottom: .5rem; }
-        .mission-grid { display: grid; gap: .9rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-top: 1rem; }
-        .mission-card { border: 1px solid var(--border); border-radius: 14px; background: var(--bg-surface); padding: .95rem; }
-        .mission-card h2 { font-size: 1.02rem; margin-bottom: .35rem; }
-        .mission-card p { font-size: .88rem; color: var(--text-soft); }
-        .dua-block { margin-top: 1rem; border: 1px dashed var(--border); border-radius: 14px; padding: .95rem; background: var(--bg-surface); }
-        .dua-block p { color: var(--text-soft); font-size: .9rem; }
-    </style>
 </head>
 <body>
-    <main class="simple-page-wrap">
-        <nav class="simple-top-nav" aria-label="Page navigation">
-            <a href="index.html"><i class="fas fa-house"></i> Home</a>
-            <a href="about.html" class="active"><i class="fas fa-bullseye"></i> About / Maqsad</a>
-            <a href="materials-library.html"><i class="fas fa-layer-group"></i> Materials</a>
-            <a href="learning-paths.html"><i class="fas fa-route"></i> Learning Paths</a>
-            <a href="contribute.html"><i class="fas fa-hand-holding-heart"></i> Contribute</a>
-        </nav>
+    <div class="page-shell">
+        <header class="page-topbar">
+            <div class="container shell-padding page-topbar-inner">
+                <a href="index.html" class="page-brand">
+                    <span class="page-brand-badge"><i class="fas fa-book-open-reader"></i></span>
+                    <span>EduCore</span>
+                </a>
+                <div class="page-toolbar">
+                    <a href="index.html" class="page-nav-link"><i class="fas fa-house"></i> Home</a>
+                    <a href="materials-library.html" class="page-nav-link"><i class="fas fa-layer-group"></i> Materials</a>
+                    <a href="learning-paths.html" class="page-nav-link"><i class="fas fa-route"></i> Learning Paths</a>
+                    <a href="contribute.html" class="page-nav-link"><i class="fas fa-hand-holding-heart"></i> Contribute</a>
+                    <button id="themeToggle" class="page-btn secondary" type="button"><i class="fas fa-sun"></i> Theme</button>
+                </div>
+            </div>
+        </header>
 
-        <section class="simple-hero">
+        <main class="container shell-padding">
+        <section class="page-hero">
             <p class="mission-label">EduCore Vision Statement</p>
             <h1>Free, structured, and high-quality learning for every student.</h1>
             <p>Taleem sab ka bunyadi haq hai, aur behtareen taleem bilkul free honi chahiye. EduCore ka maqsad internet par bikhray hue quality educational resources ko ek practical, organized, aur student-friendly platform par lana hai.</p>
+            <a href="materials-library.html" class="main-hub-cta"><i class="fas fa-layer-group"></i> Explore Materials</a>
         </section>
 
-        <section class="mission-grid">
-            <article class="mission-card">
+        <section class="page-section page-grid">
+            <article class="page-card">
                 <h2>1. One-Stop Discovery</h2>
                 <p>Student ka waqt sirf sahi video ya notes dhoondne mein zaya na ho. EduCore pre-filtered links ke sath quick learning start karwata hai.</p>
             </article>
-            <article class="mission-card">
+            <article class="page-card">
                 <h2>2. Complete Learning Cycle</h2>
                 <p>Watch, Read, Practice model: concept samjho, theory parho, phir MCQs/labs se mastery build karo.</p>
             </article>
-            <article class="mission-card">
+            <article class="page-card">
                 <h2>3. Inclusive for Every Level</h2>
                 <p>School, college, entry tests, university, and special-learning needs sab ke liye level-appropriate resources.</p>
             </article>
-            <article class="mission-card">
+            <article class="page-card">
                 <h2>4. 100% Free and Fisabillah</h2>
                 <p>Yeh project commercial profit ke liye nahi bana. Core niyat community give-back aur free education access hai.</p>
             </article>
-            <article class="mission-card">
+            <article class="page-card">
                 <h2>5. Sadqa-e-Jariya Mindset</h2>
                 <p>Knowledge share karna ek long-term impact hai. Is platform ko waqt ke sath learners aur educators mil kar better banayenge.</p>
             </article>
         </section>
 
-        <section class="dua-block">
+        <section class="page-section page-card">
             <h2>Community Note</h2>
             <p>Agar aap student, teacher, ya mentor hain aur high-value free resource jantay hain, to Contribute page se submit karen. Har verified addition kisi ek student ka raasta asaan kar sakta hai.</p>
         </section>
-    </main>
+        </main>
+    </div>
+
+    <script src="page-shell.js"></script>
 </body>
 </html>
