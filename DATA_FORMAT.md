@@ -1,10 +1,12 @@
-# Data Format Documentation
+# EduCore Data Format
 
-## JSON Schema
+EduCore uses a hierarchical structure:
 
-EduCore uses a hierarchical JSON structure: Categories → Subjects → Topics → Resource Details.
+**Category → Subject → Topic → Resource details**
 
-### Complete Schema
+The primary dataset is `data.json`. `subjects.json` is a supplemental dataset merged by `app.js`.
+
+## Resource Schema
 
 ```json
 {
@@ -12,18 +14,18 @@ EduCore uses a hierarchical JSON structure: Categories → Subjects → Topics �
   "description": "Free curated educational resources for Pakistani students",
   "categories": [
     {
-      "id": "unique-identifier",
-      "title": "📚 Category Name (With Emoji)",
+      "id": "university",
+      "title": "🎓 University Level",
       "subjects": [
         {
-          "subjectName": "Subject Name",
+          "subjectName": "Data Structures and Algorithms",
           "topics": [
             {
-              "title": "Resource Title - Descriptive",
-              "type": "Video|Read|Practice",
-              "language": "Urdu|English|Hindi",
-              "url": "https://...",
-              "badge": "🎥 Platform Name"
+              "title": "LeetCode Practice",
+              "type": "Practice",
+              "language": "English",
+              "url": "https://leetcode.com/problemset/",
+              "badge": "🛠️ LeetCode"
             }
           ]
         }
@@ -33,143 +35,147 @@ EduCore uses a hierarchical JSON structure: Categories → Subjects → Topics �
 }
 ```
 
-### Field Definitions
+## Fields
 
-| Field | Type | Required | Example |
-|-------|------|----------|---------|
-| `platformName` | String | Yes | "EduCore Open Learning" |
-| `description` | String | Yes | "Free curated educational resources..." |
-| `categories` | Array | Yes | `[{...}, {...}]` |
-| `id` | String | Yes | "school", "university" |
-| `title` | String | Yes | "🎒 School Level (Matric)" |
-| `subjects` | Array | Yes | `[{...}]` |
-| `subjectName` | String | Yes | "Physics (Class 9th & 10th)" |
-| `topics` | Array | Yes | `[{...}]` |
-| `title` (resource) | String | Yes | "Complete Physics Lectures" |
-| `type` | String (enum) | Yes | "Video", "Read", "Practice" |
-| `language` | String (enum) | Yes | "Urdu", "English", "Hindi" |
-| `url` | String (URL) | Yes | "https://sabaq.pk/..." |
-| `badge` | String | Yes | "🎥 Sabaq.pk" |
+| Field | Type | Required | Notes |
+|---|---|---:|---|
+| `platformName` | string | Yes | Dataset/platform name |
+| `description` | string | Yes | Short dataset description |
+| `categories` | array | Yes | Learning categories |
+| `id` | string | Yes | Unique category identifier |
+| `title` | string | Yes | Category display title |
+| `subjects` | array | Yes | Subjects within a category |
+| `subjectName` | string | Yes | Subject display name |
+| `topics` | array | Yes | Resources for the subject |
+| `title` | string | Yes | Clear resource title |
+| `type` | enum | Yes | `Video`, `Read`, or `Practice` |
+| `language` | string | Yes | Actual resource language |
+| `url` | URL | Yes | Direct HTTP/HTTPS destination |
+| `badge` | string | Recommended | Short source/type label |
 
-### Valid Values
+## Valid Resource Types
 
-**Type:**
-- `Video` — YouTube videos, lecture series, tutorials, recorded courses
-- `Read` — Articles, notes, PDFs, textbooks, documentation, reference materials
-- `Practice` — Coding exercises, quizzes, problem sets, MCQs, simulations, interactive labs
+- **Video** — lectures, tutorials, recorded courses, video playlists
+- **Read** — articles, notes, books, documentation, reference material
+- **Practice** — quizzes, MCQs, coding problems, simulations and interactive exercises
 
-**Language:**
-- `Urdu` — Urdu language content
-- `English` — English language content
-- `Hindi` — Hindi or Hindustani content (for shared understanding across South Asia)
+## Language Metadata
 
-**Badge Format:**
-- Pattern: `"🎥 Platform Name"` (emoji + space + platform)
-- Common emojis:
-  - 🎥 Video resources
-  - 📖 Reading/textbook
-  - 🛠️ Practice/exercises
-  - 🔬 Labs/simulations
-  - 📝 Writing/composition
-  - 📊 Data/statistics
-  - 🐍 Python specific
-  - etc. (match intent)
+Use the language that best represents the linked resource:
 
-### Validation Rules
+- `Urdu`
+- `English`
+- `Urdu/English` for genuinely mixed resources
+- Other language values are acceptable when the resource is genuinely delivered in that language.
 
-1. **No missing quotes** — All strings must be in `"double quotes"`
-2. **No trailing commas** — Last item in array/object: no comma
-3. **Valid URLs** — Must start with `http://` or `https://`
-4. **Unique IDs** — Category IDs must be unique
-5. **Minimum resources** — New subjects require minimum 3 topics
-6. **No special characters in IDs** — Only lowercase letters, hyphens, underscores
-7. **Proper escaping** — Special characters in strings must be escaped
+Do not label a resource Urdu merely because the target audience is Pakistani.
 
-### Example: Adding Physics to School Category
+## Category IDs
+
+Category IDs should be:
+
+- unique
+- lowercase
+- stable
+- composed of letters, numbers, hyphens or underscores
+
+Examples: `school`, `college`, `university`, `entry-tests`, `autism-special`.
+
+## Curation Rules
+
+1. Use reputable or genuinely useful educational sources.
+2. Prefer direct resource pages over generic homepages when possible.
+3. Titles must accurately describe what the link provides.
+4. Do not claim “past papers”, “complete course”, “official”, “free”, etc. unless the destination supports that claim.
+5. Do not add duplicate resources simply to increase counts.
+6. Keep the resource type aligned with the actual destination.
+7. Verify URLs before adding them.
+8. Keep at least three useful topics when creating a new subject unless the subject is intentionally a small curated collection.
+
+## Duplicate Handling
+
+`app.js` loads `data.json`, then merges `curatedAdditions`, then loads `subjects.json` as supplemental data.
+
+Supplemental topics are deduplicated using:
+
+```text
+normalized title + URL
+```
+
+This prevents an identical title/URL pair from being inserted twice during supplemental merging.
+
+However, two resources with different titles but the same destination may still exist. When curating data, prefer a single strong title unless the two entries represent genuinely different learning uses.
+
+## Validation
+
+GitHub Actions automatically validates the two JSON datasets for:
+
+- valid JSON
+- required category arrays
+- non-empty resource titles
+- valid HTTP/HTTPS URLs
+- duplicate URL warnings
+
+See `.github/workflows/quality-check.yml`.
+
+Before opening a pull request, also manually check:
+
+- [ ] Resource title accurately represents the destination
+- [ ] Type is correct
+- [ ] Language is correct
+- [ ] Category and subject are appropriate
+- [ ] URL opens successfully
+- [ ] Search finds the resource
+- [ ] No obvious duplicate has been introduced
+
+## Example: Adding a Subject
 
 ```json
 {
-  "subjectName": "Physics (Class 9th & 10th)",
+  "subjectName": "Introductory Python",
   "topics": [
     {
-      "title": "Class 9 Physics Complete Lectures (Urdu)",
+      "title": "CS50 Python",
       "type": "Video",
-      "language": "Urdu",
-      "url": "https://sabaq.pk/video-tutorials/pakistan-9th-physics",
-      "badge": "🎥 Sabaq.pk"
+      "language": "English",
+      "url": "https://cs50.harvard.edu/python/",
+      "badge": "🎥 Harvard CS50"
     },
     {
-      "title": "Physics MCQs Practice (Chapter-wise)",
-      "type": "Practice",
+      "title": "Python Tutorial",
+      "type": "Read",
       "language": "English",
-      "url": "https://www.pakistanbix.com/physics-mcqs/",
-      "badge": "🛠️ PakistanBix"
+      "url": "https://docs.python.org/3/tutorial/",
+      "badge": "📖 Python Docs"
     },
     {
-      "title": "PhET Interactive Simulations - Physics",
+      "title": "Python Practice",
       "type": "Practice",
       "language": "English",
-      "url": "https://phet.colorado.edu/en/simulations/filter?subjects=physics",
-      "badge": "🔬 PhET Labs"
+      "url": "https://www.hackerrank.com/domains/python",
+      "badge": "🛠️ HackerRank"
     }
   ]
 }
 ```
 
-### Adding a Complete Category
+## Testing Locally
 
-When adding a new category, follow this structure:
+Run a local HTTP server:
 
-```json
-{
-  "id": "category-id",
-  "title": "📌 Category Title (With Emoji)",
-  "subjects": [
-    {
-      "subjectName": "Subject 1",
-      "topics": [
-        { "title": "Resource 1", "type": "Video", "language": "Urdu", "url": "https://...", "badge": "🎥 Source" },
-        { "title": "Resource 2", "type": "Read", "language": "English", "url": "https://...", "badge": "📖 Source" },
-        { "title": "Resource 3", "type": "Practice", "language": "English", "url": "https://...", "badge": "🛠️ Source" }
-      ]
-    }
-  ]
-}
+```bash
+python -m http.server 8000
 ```
 
-### JSON Validation Checklist
+Then check:
 
-Before submitting a PR, validate your JSON:
-
-- [ ] Use [JSONLint.com](https://jsonlint.com/) to check syntax
-- [ ] All `{` have matching `}`
-- [ ] All `[` have matching `]`
-- [ ] All strings in double quotes `"..."`
-- [ ] Commas between items (but not after last item)
-- [ ] URLs are valid and accessible
-- [ ] Languages match enum values
-- [ ] Types match enum values
-- [ ] IDs are unique and kebab-case
-
-### Common JSON Errors
-
-| Error | Example | Fix |
-|-------|---------|-----|
-| Missing comma | `{"a": 1} {"b": 2}` | Add comma: `{"a": 1}, {"b": 2}` |
-| Single quotes | `'url': 'https://...'` | Use double: `"url": "https://..."` |
-| Unescaped characters | `"title": "Learn C++"` | Escape if needed: `"title": "Learn C++"` |
-| Trailing comma | `[{...},]` | Remove: `[{...}]` |
-
-### Testing Your Changes
-
-After editing `data.json`:
-
-1. **Validate syntax** — Use JSONLint
-2. **Check in browser** — Open `index.html` and verify category/search works
-3. **Check console** — Press F12, look for errors
-4. **Test category filter** — Click each new category tab
-5. **Test search** — Type keywords from your new resources
+1. Homepage loads.
+2. Category navigation works.
+3. Search returns the new resource.
+4. Type/language/level filters behave correctly.
+5. Resource opens in a new tab.
+6. No console errors appear.
 
 ---
 
-**Last Updated:** April 4, 2026
+**Last updated:** August 2026
