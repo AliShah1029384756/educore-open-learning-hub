@@ -3,79 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contribute Resources | EduCore</title>
-    <meta name="description" content="Submit free educational resources to improve EduCore for students across Pakistan.">
-    <meta name="keywords" content="EduCore contribute, submit resources, free education Pakistan, Google form, GitHub issue">
+    <title>Contribute to EduCore | Suggest a Learning Resource</title>
+    <meta name="description" content="Suggest a useful free learning resource for EduCore. Learn what makes a submission useful and how review works.">
     <link rel="canonical" href="https://alishah1029384756.github.io/educore-open-learning-hub/contribute.html">
-    <meta property="og:title" content="Contribute Resources | EduCore">
-    <meta property="og:description" content="Submit free educational resources to improve EduCore for students across Pakistan.">
+    <meta property="og:title" content="Contribute to EduCore | Suggest a Learning Resource">
+    <meta property="og:description" content="Help improve EduCore by suggesting useful, free and relevant educational resources.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://alishah1029384756.github.io/educore-open-learning-hub/contribute.html">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="global.css">
+    <style>
+        .contribute-hero { padding:2.5rem 0 1.5rem; }
+        .contribute-hero h1 { max-width:850px; margin:.45rem 0 .75rem; font-size:clamp(2.1rem,4.5vw,3.5rem); }
+        .contribute-hero > p { max-width:760px; color:var(--text-soft); line-height:1.7; }
+        .contribute-actions { display:flex; gap:.7rem; flex-wrap:wrap; margin-top:1.2rem; }
+        .contribute-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin:1rem 0 2rem; }
+        .contribute-card { padding:1.2rem; border:1px solid var(--border); border-radius:18px; background:var(--bg-surface); box-shadow:var(--shadow-sm); }
+        .contribute-card h2 { margin:.45rem 0 .5rem; }
+        .contribute-card p { color:var(--text-soft); line-height:1.6; margin:0; }
+        .step-list { display:grid; grid-template-columns:repeat(3,1fr); gap:.8rem; margin-top:1rem; }
+        .step { padding:1rem; border:1px solid var(--border); border-radius:16px; background:var(--bg-soft); }
+        .step-number { display:inline-grid; place-items:center; width:30px; height:30px; border-radius:50%; background:var(--bg-surface); font-weight:900; }
+        .step strong { display:block; margin:.7rem 0 .3rem; }
+        .step span { color:var(--text-muted); font-size:.86rem; line-height:1.5; }
+        .checklist { display:grid; gap:.65rem; margin:1rem 0 0; padding:0; list-style:none; }
+        .checklist li { display:flex; gap:.7rem; align-items:flex-start; padding:.7rem; border:1px solid var(--border); border-radius:12px; }
+        .checklist i { margin-top:.15rem; }
+        .format-table { width:100%; border-collapse:collapse; margin-top:1rem; }
+        .format-table th,.format-table td { padding:.75rem; text-align:left; border-bottom:1px solid var(--border); vertical-align:top; }
+        .format-table th { color:var(--text-muted); font-size:.78rem; text-transform:uppercase; letter-spacing:.04em; }
+        .review-note { border-left:4px solid var(--primary); }
+        @media(max-width:750px){.contribute-grid,.step-list{grid-template-columns:1fr;}.format-table{font-size:.88rem;}}
+    </style>
 </head>
 <body>
-    <div class="page-shell">
-        <div id="globalHeader"></div>
-
-        <main class="container shell-padding global-main">
-        <section class="page-hero">
-            <p class="mission-label">Open Source Contribution</p>
-            <h1>Help students by submitting verified free resources.</h1>
-            <p>Har contribution se kisi student ka waqt bachta hai. Sirf high-quality, free, and relevant educational links add karein.</p>
-            <a href="https://forms.gle/cBMXGcVu5hZKciDg7" target="_blank" rel="noopener noreferrer" class="main-hub-cta"><i class="fas fa-plus-circle"></i> Submit via Google Form</a>
-        </section>
-
-        <section class="page-section page-grid">
-            <article class="page-card">
-                <h2>Rule 1: Free and Accessible</h2>
-                <p>Resource free ho, paywall-heavy na ho, aur region-blocked na ho.</p>
-            </article>
-            <article class="page-card">
-                <h2>Rule 2: Academic Relevance</h2>
-                <p>School, college, entry test, university, ya skill-track ke liye directly useful ho.</p>
-            </article>
-            <article class="page-card">
-                <h2>Rule 3: Clear Metadata</h2>
-                <p>Type, language, level, and source mention karna zaroori hai.</p>
-            </article>
-            <article class="page-card">
-                <h2>Rule 4: No Spam</h2>
-                <p>Self-promotion, irrelevant channels, ya low-quality links reject kiye jayenge.</p>
-            </article>
-        </section>
-
-        <section class="page-section page-card">
-            <h2>Submission Format</h2>
-            <ul class="page-card-list">
-                <li>Title: concise and topic-focused</li>
-                <li>Type: Video / Read / Practice</li>
-                <li>Language: Urdu / English / Mixed</li>
-                <li>Level: Beginner / Intermediate / Advanced</li>
-                <li>URL: direct and working</li>
-                <li>Short reason: why this resource is valuable</li>
-            </ul>
-
-            <div class="page-toolbar">
-                <a class="page-btn primary" href="https://forms.gle/cBMXGcVu5hZKciDg7" target="_blank" rel="noopener noreferrer"><i class="fas fa-plus-circle"></i> Submit via Google Form</a>
-                <a class="page-btn secondary" href="https://github.com/AliShah1029384756/educore-open-learning-hub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Open Repository</a>
+<div class="page-shell">
+    <div id="globalHeader"></div>
+    <main class="container shell-padding global-main">
+        <section class="contribute-hero">
+            <p class="mission-label">Open Contribution</p>
+            <h1>Know a resource worth sharing?</h1>
+            <p>Help another learner find it faster. EduCore welcomes useful, freely accessible educational resources that are relevant, understandable and worth recommending.</p>
+            <div class="contribute-actions">
+                <a href="https://forms.gle/cBMXGcVu5hZKciDg7" target="_blank" rel="noopener noreferrer" class="main-hub-cta"><i class="fas fa-plus-circle"></i> Suggest a Resource</a>
+                <a href="https://github.com/AliShah1029384756/educore-open-learning-hub/issues/new" target="_blank" rel="noopener noreferrer" class="bookmark-shortcut"><i class="fab fa-github"></i> Open GitHub Issue</a>
             </div>
         </section>
 
-        <section class="page-section page-card">
-            <h2>Submit a Resource the Easy Way</h2>
-            <p>Google account ke sath direct form use karo. Is se review fast hota hai aur GitHub account ki zaroorat nahi hoti.</p>
-            <div class="page-toolbar">
-                <a class="page-btn primary" href="https://forms.gle/cBMXGcVu5hZKciDg7" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-lines"></i> Open Google Form</a>
-                <a class="page-btn secondary" href="https://github.com/AliShah1029384756/educore-open-learning-hub/issues/new" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Submit via GitHub Issue</a>
+        <section class="page-section">
+            <p class="mission-label">How It Works</p>
+            <h2>Three simple steps</h2>
+            <div class="step-list">
+                <div class="step"><span class="step-number">1</span><strong>Suggest</strong><span>Send the resource link and a few useful details.</span></div>
+                <div class="step"><span class="step-number">2</span><strong>Review</strong><span>The resource is checked for relevance, accessibility and metadata quality.</span></div>
+                <div class="step"><span class="step-number">3</span><strong>Curate</strong><span>Useful approved resources can be added to the appropriate EduCore category.</span></div>
             </div>
         </section>
-        </main>
 
-        <div id="globalFooter"></div>
-    </div>
+        <section class="contribute-grid">
+            <article class="contribute-card">
+                <p class="mission-label">Good Submission</p>
+                <h2>What we want</h2>
+                <ul class="checklist">
+                    <li><i class="fas fa-check" aria-hidden="true"></i><span>Free or genuinely open access for learners</span></li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i><span>Directly useful for a subject, exam, skill or learning level</span></li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i><span>Working, trustworthy and reasonably maintained source</span></li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i><span>Clear title, language, type and learner-level information</span></li>
+                </ul>
+            </article>
+            <article class="contribute-card">
+                <p class="mission-label">Please Avoid</p>
+                <h2>What weakens a submission</h2>
+                <ul class="checklist">
+                    <li><i class="fas fa-xmark" aria-hidden="true"></i><span>Spam, unrelated promotion or referral-heavy links</span></li>
+                    <li><i class="fas fa-xmark" aria-hidden="true"></i><span>Broken, inaccessible or misleading resources</span></li>
+                    <li><i class="fas fa-xmark" aria-hidden="true"></i><span>Duplicate resources already present in the collection</span></li>
+                    <li><i class="fas fa-xmark" aria-hidden="true"></i><span>Claims about content that the linked source does not actually provide</span></li>
+                </ul>
+            </article>
+        </section>
 
-    <script src="site-shell.js"></script>
+        <section class="page-section contribute-card">
+            <p class="mission-label">Useful Metadata</p>
+            <h2>What to include</h2>
+            <table class="format-table">
+                <thead><tr><th>Field</th><th>Example</th><th>Why it matters</th></tr></thead>
+                <tbody>
+                    <tr><td>Title</td><td>Intro to Python</td><td>Helps students understand the resource immediately.</td></tr>
+                    <tr><td>Type</td><td>Video / Read / Practice</td><td>Makes filtering and discovery easier.</td></tr>
+                    <tr><td>Language</td><td>English / Urdu / Mixed</td><td>Lets learners choose material they can follow.</td></tr>
+                    <tr><td>Level</td><td>Beginner / Intermediate / Advanced</td><td>Sets an appropriate expectation.</td></tr>
+                    <tr><td>URL</td><td>Direct working link</td><td>Allows the resource to be checked quickly.</td></tr>
+                    <tr><td>Reason</td><td>Why is it useful?</td><td>Provides context for the reviewer.</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="page-section contribute-card review-note">
+            <h2>One important thing</h2>
+            <p>Submitting a resource does not guarantee publication. EduCore is curated deliberately so the collection stays useful instead of becoming a large unreviewed link dump.</p>
+            <div class="contribute-actions">
+                <a href="https://forms.gle/cBMXGcVu5hZKciDg7" target="_blank" rel="noopener noreferrer" class="main-hub-cta"><i class="fas fa-file-lines"></i> Submit Through Form</a>
+                <a href="https://github.com/AliShah1029384756/educore-open-learning-hub" target="_blank" rel="noopener noreferrer" class="bookmark-shortcut"><i class="fab fa-github"></i> View Repository</a>
+            </div>
+        </section>
+    </main>
+    <div id="globalFooter"></div>
+</div>
+<script src="site-shell.js"></script>
 </body>
 </html>
