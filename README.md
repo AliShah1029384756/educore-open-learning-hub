@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://alishah1029384756.github.io/educore-open-learning-hub/"><img src="https://img.shields.io/badge/Live-EduCore-2ea44f" alt="Live site"></a>
-  <img src="https://img.shields.io/badge/resources-400%2B-orange" alt="400 plus resources">
+  <img src="https://img.shields.io/badge/resources-400%2B-orange" alt="400+ resources">
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license">
   <img src="https://img.shields.io/badge/frontend-Vanilla%20JS-yellow" alt="Vanilla JavaScript">
 </p>
@@ -18,7 +18,7 @@
 
 **[Open EduCore](https://alishah1029384756.github.io/educore-open-learning-hub/)**
 
-**[Explore Learning Paths](https://alishah1029384756.github.io/educore-open-learning-hub/learning-paths.html)** · **[Browse Materials](https://alishah1029384756.github.io/educore-open-learning-hub/materials-library.html)**
+**[Learning Paths](https://alishah1029384756.github.io/educore-open-learning-hub/learning-paths.html)** · **[Materials Library](https://alishah1029384756.github.io/educore-open-learning-hub/materials-library.html)** · **[About EduCore](https://alishah1029384756.github.io/educore-open-learning-hub/about.html)**
 
 ---
 
@@ -26,7 +26,7 @@
 
 Students often know **what** they want to learn but waste time finding **where** to learn it.
 
-EduCore is built around a simple idea:
+EduCore is built around a simple flow:
 
 **Find → Choose → Learn → Continue**
 
@@ -55,25 +55,29 @@ Instead of creating another course platform, EduCore acts as a curated discovery
 - 📊 Track learning-path progress locally
 - 🌍 Support Urdu and English resource metadata
 - 🌙 Remember light/dark theme preference
-- 📱 Work across desktop and mobile
-- ♿ Use semantic and keyboard-friendly controls
-- 🚫 Require no account or backend for core discovery
+- 📱 Responsive desktop and mobile experience
+- ♿ Semantic, labelled and keyboard-friendly controls
+- 🚫 No account or backend required for core discovery
 
 ## 🧩 Product Flow
 
 ```text
-EduCore
-   │
-   ├── Search / Categories / Learning Paths
-   │
-   ▼
-Curated Resources
-   │
-   ├── Open Resource
-   └── Save / Continue
-          │
-          ▼
-    Local Progress
+                    EduCore
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+       Search      Materials   Learning Paths
+          │            │            │
+          └────────────┼────────────┘
+                       ▼
+                Curated Resources
+                       │
+                ┌──────┴──────┐
+                ▼             ▼
+              Learn        Save / Continue
+                               │
+                               ▼
+                        Local Progress
 ```
 
 ## 🛠️ Technology
@@ -94,23 +98,25 @@ EduCore intentionally remains lightweight. There is no application server or dat
 
 ```text
 educore-open-learning-hub/
-├── index.html                 # Main discovery experience
-├── learning-paths.html        # Structured learning paths
-├── learning-paths.js          # Path progress logic
-├── materials-library.html     # Resource/library view
-├── app.js                     # Core search, filtering and rendering
-├── discovery-enhancements.js  # Search UX enhancements
-├── learning-dashboard.js      # Continue-learning / local dashboard
-├── subjects.json              # Curated subject/resource data
-├── data.json                  # Main project dataset
-├── styles.css                 # Main UI styles
-├── global.css                 # Shared shell/navigation styles
-├── site-shell.js              # Shared site shell behavior
-├── header.html                # Shared navigation
-├── footer.html                # Shared footer
-├── CONTRIBUTING.md            # Contribution workflow
-├── DATA_FORMAT.md             # Data schema and conventions
-└── LICENSE                    # MIT License
+├── index.html                    # Main discovery experience
+├── about.html                    # Mission, principles and project story
+├── materials-library.html        # Resource/material discovery
+├── learning-paths.html           # Structured learning paths
+├── contribute.html               # Resource contribution workflow
+├── app.js                        # Core search, filtering and rendering
+├── learning-paths.js             # Learning-path logic
+├── learning-dashboard.js         # Continue-learning/local dashboard
+├── discovery-enhancements.js     # Search UX enhancements
+├── site-shell.js                 # Shared shell/navigation behavior
+├── data.json                     # Main curated dataset
+├── subjects.json                 # Supplemental subject/resource data
+├── styles.css                    # Main UI styles
+├── global.css                    # Shared UI styles
+├── CONTRIBUTING.md               # Contribution guidelines
+├── DATA_FORMAT.md                # Data schema and conventions
+├── WEBSITE-GUIDE.md              # Architecture and maintenance guide
+├── LICENSE                       # MIT License
+└── .github/workflows/            # Automated data/quality checks
 ```
 
 ## 🚀 Run Locally
@@ -123,7 +129,7 @@ python -m http.server 8000
 
 Open **http://localhost:8000**.
 
-> A local HTTP server is recommended because the site loads local data and shared HTML files through browser requests.
+> A local HTTP server is recommended because the site loads local data and shared assets through browser requests.
 
 ## 📚 Curation Philosophy
 
@@ -135,8 +141,9 @@ When adding a resource, prefer:
 2. Direct and working URLs
 3. Clear titles that do not overclaim what the link provides
 4. Correct subject/category placement
-5. Useful language and level metadata
+5. Useful language, type and level metadata
 6. Genuine learning value
+7. Resources that are accessible without unnecessary barriers
 
 External links can change over time, so link verification remains an ongoing maintenance responsibility.
 
@@ -145,11 +152,13 @@ External links can change over time, so link verification remains an ongoing mai
 1. Read [`CONTRIBUTING.md`](CONTRIBUTING.md).
 2. Check the existing dataset before adding a resource.
 3. Follow [`DATA_FORMAT.md`](DATA_FORMAT.md).
-4. Verify the external URL.
+4. Verify the external URL and metadata.
 5. Test search/filter behaviour locally.
 6. Open a focused pull request explaining the improvement.
 
 Good contributions include **better resources, corrected metadata, accessibility improvements, UX fixes, documentation, and maintenance tooling**.
+
+You can also use the site's **Contribute** page to suggest a resource.
 
 ## 🔒 Privacy by Simplicity
 
@@ -174,11 +183,13 @@ Progress is therefore **not synchronized between devices or browsers**.
 - [x] Local learning-path progress
 - [x] Responsive navigation
 - [x] Shareable search queries
+- [x] Contribution workflow and documentation
+- [x] Automated dataset/quality checks
 
 ### Future possibilities
 
 - [ ] Automated external-link health checks
-- [ ] Better resource-quality metadata
+- [ ] More detailed resource-quality metadata
 - [ ] Offline / PWA support
 - [ ] Optional cloud sync
 - [ ] Community contribution workflow improvements
