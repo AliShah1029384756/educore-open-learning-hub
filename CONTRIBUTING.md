@@ -1,132 +1,169 @@
 # Contributing to EduCore
 
-Thank you for wanting to improve EduCore! We welcome contributions of new subjects, resources, and improvements.
+Thank you for helping improve EduCore. The project values **useful resources, accurate metadata, accessibility, maintainability, and a focused student experience** over simply increasing the number of links.
 
-## 🎯 How to Contribute
+## 🎯 What You Can Contribute
 
-### Adding a New Subject
+Good contributions include:
 
-1. **Open [data.json](data.json)** in your text editor
-2. **Find the category** you want to add to (e.g., "university", "college", "school")
-3. **Follow this JSON structure:**
+- New high-quality learning resources
+- Corrected or improved metadata
+- New subjects or carefully justified categories
+- Accessibility improvements
+- Search, filtering, navigation, or UX fixes
+- Documentation improvements
+- Automated quality and maintenance tooling
+- Broken-link reports and replacement suggestions
 
-```json
-{
-  "subjectName": "Subject Name (e.g., Statistics & Probability)",
-  "topics": [
-    {
-      "title": "Resource Title (descriptive, e.g., 'Probability Basics Videos')",
-      "type": "Video",
-      "language": "English",
-      "url": "https://example.com/resource",
-      "badge": "🎥 Source Name"
-    }
-  ]
-}
+## ➕ Adding a Resource
+
+Before adding anything:
+
+1. Check `data.json` and `subjects.json` for an existing resource or duplicate URL.
+2. Make sure the external resource is genuinely useful and accessible.
+3. Choose the correct category and subject.
+4. Use an accurate title and metadata.
+5. Verify the URL in a browser.
+6. Test the affected page locally.
+
+A typical resource entry follows the project's existing schema. Check [`DATA_FORMAT.md`](DATA_FORMAT.md) before editing the dataset rather than copying an outdated example.
+
+### Quality checklist
+
+- [ ] URL works
+- [ ] Resource is relevant to the selected subject/category
+- [ ] Title accurately describes the resource
+- [ ] Type is correct (`Video`, `Read`, or `Practice`)
+- [ ] Language metadata is accurate
+- [ ] Level/category metadata is appropriate where supported
+- [ ] Resource is not already present elsewhere in the dataset
+- [ ] No misleading claims are added
+
+## 📚 Adding a Subject
+
+A new subject should solve a real discovery gap rather than simply increasing the subject count.
+
+Before opening a PR:
+
+1. Confirm that the subject does not already exist under another name.
+2. Choose the correct category.
+3. Add several genuinely useful resources.
+4. Keep titles and metadata consistent with nearby entries.
+5. Explain why the subject is useful in the PR description.
+
+If a proposed subject/category is substantial or uncertain, open an issue first so the structure can be discussed.
+
+## 🧹 Data Quality Rules
+
+EduCore uses curated JSON datasets. Keep the data consistent:
+
+| Rule | Expectation |
+|---|---|
+| URLs | Valid, direct and tested where possible |
+| Titles | Clear and accurate; no exaggerated claims |
+| Types | `Video`, `Read`, or `Practice` |
+| Language | Match the actual resource |
+| Categories | Use the existing project taxonomy |
+| Duplicates | Avoid duplicate URLs and duplicate resources |
+| Badges | Follow existing project conventions |
+
+Automated quality checks in GitHub Actions may reject invalid or inconsistent data. Treat those checks as part of the contribution contract.
+
+## 🧪 Test Locally
+
+Because EduCore is a static site, run a local HTTP server before testing:
+
+```bash
+python -m http.server 8000
 ```
 
-4. **Requirements for new subjects:**
-   - Minimum 3 resources per subject
-   - All links must be tested and working
-   - Descriptions should be clear and accurate
-   - Include emoji badge matching resource type
+Then open:
 
-5. **Submit your changes:**
-   ```bash
-   git checkout -b add-subject-name
-   git commit -m "Add [Subject Name] resources for [Category]"
-   git push origin add-subject-name
-   ```
-   Then open a **Pull Request** (PR) on GitHub.
+`http://localhost:8000`
 
-### Adding a Category
+Check at minimum:
 
-Want to add an entirely new category (e.g., "Vocational Training")? 
+- Search
+- Category navigation
+- Language/type/level filters
+- Resource links
+- Bookmarks
+- Continue-learning behaviour
+- Learning-path progress
+- Mobile navigation
+- Theme/language controls
 
-1. Open an **Issue** first to discuss
-2. Follow the category structure in [DATA_FORMAT.md](DATA_FORMAT.md)
-3. Include 5+ subjects minimum
-4. Submit PR with category + documentation changes
+Do not rely only on opening `index.html` directly; browser security rules can affect local file requests.
 
-## ✅ Quality Standards
+## 🔀 Pull Request Process
 
-Before submitting:
+1. Fork the repository or create a feature branch.
+2. Make one focused improvement.
+3. Test it locally.
+4. Run the repository's available quality checks.
+5. Commit with a clear message.
+6. Push your branch.
+7. Open a focused pull request.
 
-- [ ] All URLs are tested and accessible
-- [ ] No broken links
-- [ ] JSON is valid (use a JSON validator online if unsure)
-- [ ] Subject has at least 3 resources
-- [ ] Resource titles are descriptive
-- [ ] Languages are accurate (Urdu/English/Hindi)
-- [ ] Badges are appropriate (🎥 Video, 📖 Reading, 🛠️ Practice, etc.)
+Example:
 
-## 📋 JSON Validation
-
-Unsure if your JSON is valid? Use this free tool:
-- [JSONLint.com](https://jsonlint.com/) — Paste your code, click "Validate"
-
-## 🚩 Common Mistakes to Avoid
-
-| Mistake | Fix |
-|---------|-----|
-| Missing comma between objects | Add `,` after `}` (except last item) |
-| Quotes around URL | URLs must be in double quotes: `"url": "https://..."` |
-| Invalid language | Use only: "Urdu", "English", "Hindi" |
-| Emoji in wrong place | Badge should be: `"badge": "🎥 Source"` |
-| Dead link | Test URL in browser before submitting |
-
-## 🔄 Pull Request Process
-
-1. **Fork** the repository
-2. **Create a branch:** `git checkout -b feature/your-feature-name`
-3. **Make changes** to `data.json` (or other files)
-4. **Test locally:** Open `index.html` and verify changes render correctly
-5. **Commit:** `git commit -m "Add [description of change]"`
-6. **Push:** `git push origin feature/your-feature-name`
-7. **Open PR on GitHub** with a clear description
-
-### PR Description Template
-
+```bash
+git checkout -b improve-resource-metadata
+git add .
+git commit -m "Improve resource metadata"
+git push origin improve-resource-metadata
 ```
-## What's being added?
-[Brief description of new subject/category/resource]
 
-## Category
-[ ] School  [ ] College  [ ] University  [ ] Entry Tests  [ ] Other: ___
+### PR description
+
+Include:
+
+```text
+## What changed?
+Brief description of the improvement.
+
+## Why?
+What problem does this solve for learners or maintainers?
 
 ## Testing
-- [ ] JSON validated
-- [ ] All URLs tested (working)
-- [ ] Page renders without errors
-- [ ] Category filter works
-- [ ] Search works
-
-## Resources Added
-- List 3+ resources added
+- [ ] JSON/data validation passed
+- [ ] Search/filter tested
+- [ ] Resource links checked
+- [ ] Mobile behaviour checked where relevant
+- [ ] No unrelated files changed
 ```
 
-## 📝 Reporting Issues
+## 🐛 Reporting Issues
 
-Found a broken link or incorrect info? 
+For broken links, incorrect information, or UI problems, open a GitHub Issue and include:
 
-1. Go to [GitHub Issues](https://github.com/AliShah1029384756/educore-open-learning-hub/issues)
-2. Click **New Issue**
-3. Title: "Broken: [Subject Name] - [Resource Title]"
-4. Description: Include the broken URL and suggest replacement if possible
+- Page or subject affected
+- Resource/title if applicable
+- URL if applicable
+- What is wrong
+- Suggested correction, if known
 
-## 🎨 Style Guide
+For a broken external resource, replacement suggestions are especially helpful.
 
-- **Subject Names:** Use proper nouns (Physics, not physics)
-- **Resource Titles:** Be descriptive ("Complete Physics Lectures (Urdu)" not "Physics")
-- **Badges:** Emojis + Platform (🎥 Khan Academy, 📖 IlmKiDunya, 🛠️ LeetCode)
-- **Types:** Use "Video", "Read", or "Practice" (capitalized)
+## 🎨 Content & Style Principles
 
-## ❓ Questions?
+- Prefer **clear and useful** over promotional wording.
+- Do not claim a resource teaches something unless the linked source supports that claim.
+- Keep subject names consistent and readable.
+- Avoid duplicate categories created only because of naming differences.
+- Preserve the project's student-first tone.
+- Do not add private, copyrighted, or restricted material simply to increase the collection size.
 
-- Comment on a PR or Issue
-- Email: shahyed99@gmail.com
-- GitHub Discussions (coming soon)
+## 🔐 Safety & Privacy
+
+EduCore's core personalization is browser-local. Do not introduce unnecessary collection of personal information just to add a feature.
+
+## ❓ Questions
+
+For substantial changes, open an Issue before implementation. For smaller fixes, a focused PR is welcome.
+
+GitHub: https://github.com/AliShah1029384756/educore-open-learning-hub
 
 ---
 
-**Thank you for helping make education accessible! 🙏**
+**Thank you for helping make useful learning resources easier to find.**
