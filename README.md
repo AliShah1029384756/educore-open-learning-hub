@@ -1,61 +1,119 @@
 # EduCore Open Learning Hub
 
-![MIT License](https://img.shields.io/badge/license-MIT-blue)
-![Status - Live](https://img.shields.io/badge/status-live-green)
-![Resources - 400+](https://img.shields.io/badge/resources-400+-orange)
-![Categories - 8](https://img.shields.io/badge/categories-8-brightgreen)
+<p align="center">
+  <strong>Free, curated learning resources for Pakistani students.</strong><br>
+  <sub>Discover useful material faster — from school and college to university and entry-test preparation.</sub>
+</p>
 
-> **Free curated educational resources for Pakistani students** — from school and college through university and entry-test preparation. No paywalls. No signups. Just learning.
+<p align="center">
+  <a href="https://alishah1029384756.github.io/educore-open-learning-hub/"><img src="https://img.shields.io/badge/Live-EduCore-2ea44f" alt="Live site"></a>
+  <img src="https://img.shields.io/badge/resources-400%2B-orange" alt="400 plus resources">
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license">
+  <img src="https://img.shields.io/badge/frontend-Vanilla%20JS-yellow" alt="Vanilla JavaScript">
+</p>
 
-## 🎯 Overview
+> **Maqsad:** Bikhray hue free educational resources ko ek simple, searchable aur student-friendly system mein lana — without paywalls and without mandatory signup.
 
-EduCore is a static, searchable learning hub aggregating **400+ resources across 8 learning categories**. Students can discover resources by subject, resource type, learning level, and language, with direct links to external learning platforms.
+## 🌐 Live Demo
 
-### Who This Is For
+**[Open EduCore](https://alishah1029384756.github.io/educore-open-learning-hub/)**
 
-- Class 9–10 / Matric / O-Levels
-- FSc / ICS / I.Com students
-- CS / SE / IT undergraduates
+**[Explore Learning Paths](https://alishah1029384756.github.io/educore-open-learning-hub/learning-paths.html)** · **[Browse Materials](https://alishah1029384756.github.io/educore-open-learning-hub/materials-library.html)**
+
+---
+
+## 🎯 Why EduCore?
+
+Students often know **what** they want to learn but waste time finding **where** to learn it.
+
+EduCore is built around a simple idea:
+
+**Find → Choose → Learn → Continue**
+
+Instead of creating another course platform, EduCore acts as a curated discovery layer over useful free resources already available across the web.
+
+### Designed for
+
+- Matric / O-Levels students
+- FSc / ICS / I.Com learners
 - MDCAT / ECAT / NTS preparation
-- Commerce and Arts learners
+- CS / SE / IT university students
 - Primary and middle-school learners
-- Special education and autism-support learning
-- Cambridge O-Levels / IGCSE learners
+- Commerce and Arts learners
+- Special-education and autism-support learning
+- Cambridge O-Level / IGCSE learners
 
-## ✨ Features
+## ✨ What It Does
 
-- 🔍 **Real-time search** across subjects and topics
-- 📂 **8 curated categories** with structured subject collections
-- 🌍 **Multi-language resources** including Urdu and English content
-- 📱 **Responsive interface** for desktop, tablet, and mobile
-- 🎨 **Resource-type badges** for Video, Reading, Practice, and Labs
-- 🌙 **Dark mode** with browser-side preference persistence
-- ❤️ **Local bookmarks** without requiring an account
-- ⭐ **Featured category discovery** on the landing page
-- ⚡ **No build step** — plain HTML, CSS, and JavaScript
-- 🔗 **Direct external resource links** for practical learning
-- ♿ **Accessibility-focused UI** with semantic controls and keyboard support
+- 🔍 Search subjects and resources in real time
+- 🧭 Browse by learning category
+- 🎛️ Filter by language, resource type and level
+- 🛣️ Follow structured learning paths
+- ▶️ Open curated external learning resources directly
+- ❤️ Save local bookmarks
+- 🕘 Continue recently opened learning resources
+- 📊 Track learning-path progress locally
+- 🌍 Support Urdu and English resource metadata
+- 🌙 Remember light/dark theme preference
+- 📱 Work across desktop and mobile
+- ♿ Use semantic and keyboard-friendly controls
+- 🚫 Require no account or backend for core discovery
 
-## 📚 Categories at a Glance
+## 🧩 Product Flow
 
-| Category | Examples | Level |
-|---|---|---|
-| 🎒 School | Physics, Chemistry, Math, Biology, CS, English, Islamiat, Urdu, Pak Studies | Matric / O-Levels |
-| 🎓 College | Physics, Chemistry, Math, Biology, CS, Economics, Accounting, Islamiat, Urdu | FSc / ICS / I.Com |
-| 🎓 University | DSA, OOP, Databases, OS, Web Development, Networks, Software Engineering, AI, Cyber Security | CS / SE / IT |
-| 🎯 Entry Tests | MDCAT, ECAT, NTS preparation | Entry Tests |
-| 📊 Commerce & Arts | Accounting, Economics, Civics, Education | I.Com / FA |
-| 🧒 Primary & Middle | Math, Science, Languages, Digital Basics | Grades 1–8 |
-| 🧩 Special Education | Autism support, visual learning, life skills | Neurodiverse learners |
-| 🌍 Cambridge O-Levels | Math, Sciences, Computer Science | International |
+```text
+EduCore
+   │
+   ├── Search / Categories / Learning Paths
+   │
+   ▼
+Curated Resources
+   │
+   ├── Open Resource
+   └── Save / Continue
+          │
+          ▼
+    Local Progress
+```
 
-## 🚀 Quick Start
+## 🛠️ Technology
 
-### Online
+| Layer | Technology |
+|---|---|
+| UI | HTML5, CSS3 |
+| Application | Vanilla JavaScript (ES6+) |
+| Data | JSON-based curated dataset |
+| Persistence | Browser `localStorage` |
+| Icons | Font Awesome |
+| Hosting | GitHub Pages |
+| Build | No build step required |
 
-Visit the **[EduCore Live Site](https://alishah1029384756.github.io/educore-open-learning-hub/)** — no installation or account required.
+EduCore intentionally remains lightweight. There is no application server or database required for the core learning-discovery experience.
 
-### Local
+## 📁 Project Structure
+
+```text
+educore-open-learning-hub/
+├── index.html                 # Main discovery experience
+├── learning-paths.html        # Structured learning paths
+├── learning-paths.js          # Path progress logic
+├── materials-library.html     # Resource/library view
+├── app.js                     # Core search, filtering and rendering
+├── discovery-enhancements.js  # Search UX enhancements
+├── learning-dashboard.js      # Continue-learning / local dashboard
+├── subjects.json              # Curated subject/resource data
+├── data.json                  # Main project dataset
+├── styles.css                 # Main UI styles
+├── global.css                 # Shared shell/navigation styles
+├── site-shell.js              # Shared site shell behavior
+├── header.html                # Shared navigation
+├── footer.html                # Shared footer
+├── CONTRIBUTING.md            # Contribution workflow
+├── DATA_FORMAT.md             # Data schema and conventions
+└── LICENSE                    # MIT License
+```
+
+## 🚀 Run Locally
 
 ```bash
 git clone https://github.com/AliShah1029384756/educore-open-learning-hub.git
@@ -63,138 +121,93 @@ cd educore-open-learning-hub
 python -m http.server 8000
 ```
 
-Then open `http://localhost:8000` in your browser.
+Open **http://localhost:8000**.
 
-You can also open the project with VS Code Live Server.
+> A local HTTP server is recommended because the site loads local data and shared HTML files through browser requests.
 
-## 🛠️ Technology Stack
+## 📚 Curation Philosophy
 
-- **Frontend:** Vanilla HTML5, CSS3, JavaScript (ES6+)
-- **Styling:** Custom CSS design system with light/dark themes
-- **Icons:** Font Awesome CDN
-- **Typography:** Inter and Poppins
-- **Data:** Local `data.json` — no backend required
-- **Deployment:** GitHub Pages
-- **Client persistence:** `localStorage` for theme and bookmarks
-- **Build system:** None
+EduCore is not trying to win by having the biggest list of links. The goal is to make the collection **useful, understandable and maintainable**.
 
-## 📖 How It Works
+When adding a resource, prefer:
 
-```text
-Local data.json
-      │
-      ▼
-   app.js
-      │
-      ├── Category selection
-      ├── Search
-      ├── Language / type / level filters
-      ├── Topic rendering
-      └── Local bookmarks
-      │
-      ▼
-Responsive HTML/CSS interface
-```
+1. Reputable educational sources
+2. Direct and working URLs
+3. Clear titles that do not overclaim what the link provides
+4. Correct subject/category placement
+5. Useful language and level metadata
+6. Genuine learning value
 
-The application loads its curated dataset in the browser, builds category and subject views dynamically, and lets users search/filter the collection without a backend or account system.
+External links can change over time, so link verification remains an ongoing maintenance responsibility.
 
-## 🎨 UI & Accessibility
-
-- Responsive desktop, tablet, and mobile layouts
-- Light/dark theme support
-- Keyboard-friendly controls and semantic navigation
-- ARIA labels for interactive controls
-- Resource metadata for type and language
-- Modal-based topic details
-- CSS-based transitions and interaction states
-
-Accessibility claims should be treated as an ongoing quality target and verified against the current deployed interface rather than as a formal certification.
-
-## 🔖 Bookmarks
-
-Bookmarks are intentionally **local to the user's browser**. No account or server-side storage is required.
-
-- Save favorite topics
-- Keep bookmarks across browser sessions
-- Open a dedicated bookmarked view
-- Clear local bookmarks when desired
-
-Because bookmarks use `localStorage`, they are not synchronized across devices or browsers.
-
-## ➕ Adding Resources
-
-To contribute a new subject or resource:
+## ➕ Contributing
 
 1. Read [`CONTRIBUTING.md`](CONTRIBUTING.md).
-2. Edit [`data.json`](data.json) using the schema in [`DATA_FORMAT.md`](DATA_FORMAT.md).
-3. Validate the JSON and test the site locally.
-4. Verify external links before submitting a pull request.
+2. Check the existing dataset before adding a resource.
+3. Follow [`DATA_FORMAT.md`](DATA_FORMAT.md).
+4. Verify the external URL.
+5. Test search/filter behaviour locally.
+6. Open a focused pull request explaining the improvement.
 
-Each new subject should contain at least three useful, relevant resources according to the repository's contribution guidelines.
+Good contributions include **better resources, corrected metadata, accessibility improvements, UX fixes, documentation, and maintenance tooling**.
 
-## 📊 Current Resource Stats
+## 🔒 Privacy by Simplicity
 
-- **Total Subjects:** 68+
-- **Total Topics:** 400+
-- **Languages:** Urdu, English, Hindi
-- **Resource Types:** Video, Practice, Reading, Interactive Labs
-- **Platforms:** YouTube, Sabaq.pk, Khan Academy, IlmKiDunya, GeeksforGeeks, PhET, W3Schools, and others
+Core personalization features are intentionally browser-local:
 
-> Resource counts and external-link availability can change as the curated dataset evolves. The figures above describe the current project snapshot rather than a permanent guarantee.
+- Bookmarks use `localStorage`.
+- Continue-learning history uses browser storage.
+- Learning-path progress uses browser storage.
+- No account is required for these features.
+
+Progress is therefore **not synchronized between devices or browsers**.
 
 ## 🗺️ Roadmap
 
-### Completed
+### Current direction
 
-- Bookmark functionality
-- Dark mode with local persistence
-- Responsive category navigation
-- Featured category landing experience
-- Resource metadata badges
-- Search and filtering workflows
-- Multi-language resource metadata
+- [x] Curated resource discovery
+- [x] Search and filters
+- [x] Local bookmarks
+- [x] Continue learning
+- [x] Structured learning paths
+- [x] Local learning-path progress
+- [x] Responsive navigation
+- [x] Shareable search queries
 
-### Planned / Under Consideration
+### Future possibilities
 
-- Offline / Progressive Web App support
-- Search-result export
-- Community ratings and reviews
-- Expanded UI language support
-- AI-assisted resource recommendations
-- Optional mobile application
+- [ ] Automated external-link health checks
+- [ ] Better resource-quality metadata
+- [ ] Offline / PWA support
+- [ ] Optional cloud sync
+- [ ] Community contribution workflow improvements
+- [ ] AI-assisted resource recommendations
 
-## 🐛 Known Issues
+Future items are exploratory and do not imply a release schedule.
 
-External resources can change, move, or become unavailable because EduCore links to third-party platforms. Link validation is therefore an ongoing maintenance task.
+## 📊 Current Snapshot
 
-Browser-specific layout or search behaviour should be reported through GitHub Issues with the browser, device, and reproduction steps included.
+- **400+ curated learning resources**
+- **68+ subjects** in the current project snapshot
+- **Multiple learning categories** across school, college, university and entry-test education
+- **Urdu + English** resource metadata
+- **Open-source MIT-licensed project**
 
-## 🤝 Contributing
+Counts may change as the dataset is cleaned, expanded and reorganized.
 
-Contributions are welcome when they improve the quality, accessibility, or coverage of the learning hub.
+## 👨‍💻 Maintainer
 
-Before submitting resources:
+**Syed Muhammad Ali Naqvi**
 
-- Check that the resource is relevant and accessible.
-- Verify the URL.
-- Prefer reputable educational sources.
-- Provide Urdu/English diversity where practical.
-- Follow the existing `data.json` schema.
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full contribution workflow.
+- GitHub: [@AliShah1029384756](https://github.com/AliShah1029384756)
+- LinkedIn: [Ali Naqvi](https://linkedin.com/in/ali-naqvi-1a9576331)
+- Email: shahyed99@gmail.com
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
-
-## 📬 Contact
-
-- **Maintainer:** Syed Muhammad Ali Naqvi
-- **GitHub:** [@AliShah1029384756](https://github.com/AliShah1029384756)
-- **Email:** shahyed99@gmail.com
-- **LinkedIn:** [Ali Naqvi](https://linkedin.com/in/ali-naqvi-1a9576331)
-- **Issues:** [GitHub Issues](https://github.com/AliShah1029384756/educore-open-learning-hub/issues)
+Released under the **MIT License**. See [`LICENSE`](LICENSE).
 
 ---
 
-**Maintained as an open learning resource for students, with a focus on practical and accessible education.**
+<p align="center"><strong>Built to make learning resources easier to find, understand and use.</strong></p>
