@@ -3,258 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduCore Materials Library | Variety Learning Content</title>
-    <meta name="description" content="Explore EduCore Materials Library with videos, notes, practice sets, project kits, and instructor resources.">
-    <meta name="keywords" content="EduCore materials library, free learning resources, school notes, university practice, Pakistan education">
+    <title>Materials Library | EduCore</title>
+    <meta name="description" content="Browse EduCore's curated learning materials by learner stage and material type.">
     <link rel="canonical" href="https://alishah1029384756.github.io/educore-open-learning-hub/materials-library.html">
-    <meta property="og:title" content="EduCore Materials Library">
-    <meta property="og:description" content="Free videos, notes, past papers and practice resources for Pakistani students from School to University.">
+    <meta property="og:title" content="Materials Library | EduCore">
+    <meta property="og:description" content="A focused library of free videos, reading, practice and interactive learning resources.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://alishah1029384756.github.io/educore-open-learning-hub/materials-library.html">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="global.css">
+    <style>
+        .library-hero { padding: 2.4rem 0 1.2rem; }
+        .library-hero h1 { max-width: 850px; margin: .45rem 0 .7rem; font-size: clamp(2rem, 4vw, 3.3rem); }
+        .library-hero p { max-width: 760px; color: var(--text-soft); }
+        .library-actions { display:flex; gap:.75rem; flex-wrap:wrap; margin-top:1.25rem; }
+        .library-stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.8rem; margin:1.5rem 0 2rem; }
+        .library-stat { padding:1rem; border:1px solid var(--border); border-radius:16px; background:var(--bg-surface); }
+        .library-stat strong { display:block; font-size:1.45rem; }
+        .library-stat span { color:var(--text-muted); font-size:.82rem; }
+        .library-toolbar { display:flex; gap:.65rem; flex-wrap:wrap; align-items:center; margin:1.5rem 0; }
+        .library-filter { border:1px solid var(--border); border-radius:12px; padding:.65rem .8rem; background:var(--bg-surface); color:var(--text-main); }
+        .library-filter.active { border-color:var(--primary); }
+        .material-section { margin:2rem 0; }
+        .material-section-header { display:flex; justify-content:space-between; align-items:end; gap:1rem; margin-bottom:1rem; }
+        .material-section-header p { margin:0; color:var(--text-muted); }
+        .resource-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+        .resource-card { position:relative; display:flex; flex-direction:column; min-height:185px; padding:1rem; border:1px solid var(--border); border-radius:18px; background:var(--bg-surface); color:inherit; text-decoration:none; box-shadow:var(--shadow-sm); transition:transform .18s ease,border-color .18s ease; }
+        .resource-card:hover { transform:translateY(-3px); border-color:var(--primary); }
+        .resource-card.hidden { display:none; }
+        .rc-badge { display:inline-flex; align-self:flex-start; padding:.3rem .55rem; border-radius:999px; font-size:.7rem; font-weight:800; text-transform:uppercase; letter-spacing:.04em; background:var(--bg-soft); }
+        .rc-title { margin:.8rem 0 .4rem; font-size:1.08rem; font-weight:800; }
+        .rc-desc { color:var(--text-soft); font-size:.88rem; line-height:1.55; flex:1; }
+        .rc-lang { margin-top:.75rem; color:var(--text-muted); font-size:.78rem; }
+        .empty-library { display:none; padding:2rem; text-align:center; border:1px dashed var(--border); border-radius:18px; color:var(--text-muted); }
+        .empty-library.show { display:block; }
+        .library-note { padding:1rem 1.1rem; border:1px solid var(--border); border-radius:16px; background:var(--bg-soft); color:var(--text-soft); }
+        @media(max-width:900px){.resource-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.library-stats{grid-template-columns:repeat(2,minmax(0,1fr));}}
+        @media(max-width:600px){.resource-grid{grid-template-columns:1fr;}.library-stats{grid-template-columns:1fr 1fr;}.material-section-header{display:block;}}
+    </style>
 </head>
 <body>
-    <div class="page-shell">
-        <div id="globalHeader"></div>
-
-        <main class="container shell-padding global-main">
-        <section class="page-hero">
-            <h1>Full Variety Learning Materials For Every Type of Learner</h1>
-            <p>Yahan aap ko videos, notes, practice sets, assessments, project kits, instructor templates, and tools milte hain. Is page ka purpose hai complete academic + skills ecosystem ek jaga dikhana.</p>
-            <a href="index.html" class="main-hub-cta"><i class="fas fa-layer-group"></i> Back to Discovery Hub</a>
-        </section>
-
-        <section class="page-section page-grid">
-            <article class="page-card">
-                <h2><i class="fas fa-video"></i> Video Learning Tracks</h2>
-                <p>Structured playlists by class level, topic depth, and exam focus.</p>
-                <div class="page-toolbar">
-                    <span class="page-btn secondary">Lecture Series</span>
-                    <span class="page-btn secondary">Crash Course</span>
-                    <span class="page-btn secondary">Revision Sessions</span>
-                </div>
-            </article>
-            <article class="page-card">
-                <h2><i class="fas fa-book"></i> Notes, Books, and Reading</h2>
-                <p>PDF notes, official books, solved explanations, and concept sheets.</p>
-                <div class="page-toolbar">
-                    <span class="page-btn secondary">Board Notes</span>
-                    <span class="page-btn secondary">Reference Books</span>
-                    <span class="page-btn secondary">Quick Summaries</span>
-                </div>
-            </article>
-            <article class="page-card">
-                <h2><i class="fas fa-dumbbell"></i> Practice and Testing</h2>
-                <p>MCQs, coding practice, quiz sets, mock exams, and past papers.</p>
-                <div class="page-toolbar">
-                    <span class="page-btn secondary">Topic MCQs</span>
-                    <span class="page-btn secondary">Mock Tests</span>
-                    <span class="page-btn secondary">Past Papers</span>
-                </div>
-            </article>
-            <article class="page-card">
-                <h2><i class="fas fa-chalkboard-teacher"></i> Instructor Toolkit</h2>
-                <p>Lesson plans, class activities, rubric templates, and assessment formats.</p>
-                <div class="page-toolbar">
-                    <span class="page-btn secondary">Lesson Plans</span>
-                    <span class="page-btn secondary">Class Activities</span>
-                    <span class="page-btn secondary">Rubrics</span>
-                </div>
-            </article>
-        </section>
-
-        <section class="page-section">
-            <h3>Core Material Bundles</h3>
-            <div class="page-grid">
-                <article class="page-card">
-                    <h4>School Foundation Bundle</h4>
-                    <ul class="page-card-list">
-                        <li>Concept-first video playlists</li>
-                        <li>Chapter-wise notes + key formulas</li>
-                        <li>Chapter MCQs and worksheets</li>
-                    </ul>
-                </article>
-                <article class="page-card">
-                    <h4>College Exam Power Bundle</h4>
-                    <ul class="page-card-list">
-                        <li>FSc/ICS targeted revision modules</li>
-                        <li>Past paper solved practice tracks</li>
-                        <li>Speed drills for board exam prep</li>
-                    </ul>
-                </article>
-                <article class="page-card">
-                    <h4>University Skill and Project Bundle</h4>
-                    <ul class="page-card-list">
-                        <li>DSA/OOP/DB projects and labs</li>
-                        <li>System design and coding interview sets</li>
-                        <li>Portfolio-ready capstone references</li>
-                    </ul>
-                </article>
-                <article class="page-card">
-                    <h4>Entry Test and Career Bundle</h4>
-                    <ul class="page-card-list">
-                        <li>MDCAT/ECAT/NTS drill sequence</li>
-                        <li>Timed mock environments</li>
-                        <li>Interview and communication prep packs</li>
-                    </ul>
-                </article>
+<div class="page-shell">
+    <div id="globalHeader"></div>
+    <main class="container shell-padding global-main">
+        <section class="library-hero">
+            <p class="mission-label">EduCore Materials Library</p>
+            <h1>Useful material, without the clutter.</h1>
+            <p>Videos, reading, practice and interactive resources — grouped by learner stage so students can find the right kind of material quickly.</p>
+            <div class="library-actions">
+                <a href="index.html" class="main-hub-cta"><i class="fas fa-magnifying-glass"></i> Search All Resources</a>
+                <a href="learning-paths.html" class="bookmark-shortcut"><i class="fas fa-route"></i> Follow a Learning Path</a>
             </div>
         </section>
 
-        <section class="resource-section">
-            <h2>School + College Core Resources</h2>
+        <section class="library-stats" aria-label="Library overview">
+            <div class="library-stat"><strong>4</strong><span>Material types</span></div>
+            <div class="library-stat"><strong>4</strong><span>Learner stages</span></div>
+            <div class="library-stat"><strong>20+</strong><span>Featured resources</span></div>
+            <div class="library-stat"><strong>Free</strong><span>To discover and use</span></div>
+        </section>
+
+        <section class="library-toolbar" aria-label="Material filters">
+            <strong>Show:</strong>
+            <button class="library-filter active" data-filter="all" type="button">All</button>
+            <button class="library-filter" data-filter="video" type="button">Videos</button>
+            <button class="library-filter" data-filter="reading" type="button">Reading</button>
+            <button class="library-filter" data-filter="practice" type="button">Practice</button>
+        </section>
+
+        <div class="library-note"><i class="fas fa-circle-info"></i> EduCore links to external resources. Availability and content on those sites can change, so the library is periodically curated and cleaned.</div>
+
+        <section class="material-section">
+            <div class="material-section-header"><div><h2>School & College</h2><p>Foundation concepts, board preparation and general academic support.</p></div></div>
             <div class="resource-grid">
-                <a href="https://sabaq.pk" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge video">Video</div>
-                    <div class="rc-title">Sabaq.pk</div>
-                    <div class="rc-desc">Matric se FSc tak Urdu medium video lectures. Physics, Chemistry, Biology, aur Math sab cover.</div>
-                    <div class="rc-lang">Urdu</div>
-                </a>
-                <a href="https://www.ilmkidunya.com" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge reading">Reading</div>
-                    <div class="rc-title">IlmKiDunya</div>
-                    <div class="rc-desc">Notes, past papers, aur board solutions. Matric aur Intermediate ke liye useful.</div>
-                    <div class="rc-lang">Urdu</div>
-                </a>
-                <a href="https://pctb.punjab.gov.pk/E-Books" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge reading">Reading</div>
-                    <div class="rc-title">Punjab Textbooks (PCTB)</div>
-                    <div class="rc-desc">Official free eBooks for Class 1 to 12. Reliable government textbook source.</div>
-                    <div class="rc-lang">Urdu / English</div>
-                </a>
-                <a href="https://www.5abi.com" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge practice">Practice</div>
-                    <div class="rc-title">5abi.com</div>
-                    <div class="rc-desc">FSc Physics aur Math ke solved past papers aur chapter-wise practice.</div>
-                    <div class="rc-lang">Urdu</div>
-                </a>
-                <a href="https://www.khanacademy.org" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge video">Video</div>
-                    <div class="rc-title">Khan Academy</div>
-                    <div class="rc-desc">World-class free education for Math, Science, Computing, and test prep.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://www.pakistanbix.com" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge practice">Practice</div>
-                    <div class="rc-title">PakistanBIX</div>
-                    <div class="rc-desc">Chapter-wise MCQ bank for Matric, FSc, MDCAT, ECAT, aur NTS practice.</div>
-                    <div class="rc-lang">English</div>
-                </a>
+                <a data-type="video" href="https://sabaq.pk" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Video</span><span class="rc-title">Sabaq.pk</span><span class="rc-desc">Urdu-medium school and college video lessons across core subjects.</span><span class="rc-lang">Urdu</span></a>
+                <a data-type="reading" href="https://www.ilmkidunya.com" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Reading</span><span class="rc-title">IlmKiDunya</span><span class="rc-desc">Notes, exam information and academic material for Pakistani students.</span><span class="rc-lang">Urdu / English</span></a>
+                <a data-type="reading" href="https://pctb.punjab.gov.pk/E-Books" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Reading</span><span class="rc-title">Punjab Textbooks</span><span class="rc-desc">Official Punjab Curriculum and Textbook Board e-books.</span><span class="rc-lang">Urdu / English</span></a>
+                <a data-type="practice" href="https://www.khanacademy.org" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Practice</span><span class="rc-title">Khan Academy</span><span class="rc-desc">Free practice and lessons for maths, science, computing and more.</span><span class="rc-lang">English</span></a>
+                <a data-type="practice" href="https://www.pakistanbix.com" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Practice</span><span class="rc-title">PakistanBIX</span><span class="rc-desc">MCQ-focused practice for academic and entry-test preparation.</span><span class="rc-lang">English</span></a>
             </div>
         </section>
 
-        <section class="resource-section">
-            <h2>Entry Test Resources (MDCAT / ECAT / NTS)</h2>
+        <section class="material-section">
+            <div class="material-section-header"><div><h2>Entry Tests</h2><p>Resources for MDCAT, ECAT, NTS and general aptitude preparation.</p></div></div>
             <div class="resource-grid">
-                <a href="https://nearpeer.net" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge video">Video</div>
-                    <div class="rc-title">Nearpeer</div>
-                    <div class="rc-desc">MDCAT aur ECAT ke liye focused prep platform with Urdu support.</div>
-                    <div class="rc-lang">Urdu</div>
-                </a>
-                <a href="https://www.nts.org.pk" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge practice">Practice</div>
-                    <div class="rc-title">NTS Official</div>
-                    <div class="rc-desc">Official sample papers, test patterns, aur registration information.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://www.mcqslearn.com" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge practice">Practice</div>
-                    <div class="rc-title">MCQsLearn</div>
-                    <div class="rc-desc">Subject-wise MCQ practice for MDCAT Biology, Chemistry, aur Physics.</div>
-                    <div class="rc-lang">English</div>
-                </a>
+                <a data-type="video" href="https://nearpeer.net" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Video</span><span class="rc-title">Nearpeer</span><span class="rc-desc">Focused preparation resources for major Pakistani entry tests.</span><span class="rc-lang">Urdu / English</span></a>
+                <a data-type="practice" href="https://www.nts.org.pk" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Practice</span><span class="rc-title">NTS Official</span><span class="rc-desc">Official test information, patterns and relevant candidate material.</span><span class="rc-lang">English</span></a>
+                <a data-type="practice" href="https://www.mcqslearn.com" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Practice</span><span class="rc-title">MCQsLearn</span><span class="rc-desc">Subject-based MCQ practice for science and entry-test preparation.</span><span class="rc-lang">English</span></a>
             </div>
         </section>
 
-        <section class="resource-section">
-            <h2>University CS / IT Resources</h2>
+        <section class="material-section">
+            <div class="material-section-header"><div><h2>University CS / IT</h2><p>Build programming, computer-science and software-engineering skills.</p></div></div>
             <div class="resource-grid">
-                <a href="https://cs50.harvard.edu/x" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge video">Video</div>
-                    <div class="rc-title">Harvard CS50</div>
-                    <div class="rc-desc">Beginner-friendly computer science foundation course from Harvard.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://www.theodinproject.com" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge video">Video</div>
-                    <div class="rc-title">The Odin Project</div>
-                    <div class="rc-desc">Free full-stack web development path with practical project work.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://www.freecodecamp.org" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge practice">Practice</div>
-                    <div class="rc-title">freeCodeCamp</div>
-                    <div class="rc-desc">Certifications, projects, and articles across web dev, Python, and more.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge practice">Practice</div>
-                    <div class="rc-title">LeetCode</div>
-                    <div class="rc-desc">Interview preparation aur DSA practice ke liye strong problem set.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://visualgo.net" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge practice">Practice</div>
-                    <div class="rc-title">Visualgo</div>
-                    <div class="rc-desc">Algorithms, graphs, aur trees ko visual form mein samajhne ke liye.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://www.geeksforgeeks.org" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge reading">Reading</div>
-                    <div class="rc-title">GeeksforGeeks</div>
-                    <div class="rc-desc">CS theory, code examples, aur interview prep reference.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://sqlzoo.net" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge practice">Practice</div>
-                    <div class="rc-title">SQLZoo</div>
-                    <div class="rc-desc">Interactive SQL practice directly browser mein.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://cs50.harvard.edu/python" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge video">Video</div>
-                    <div class="rc-title">CS50 Python</div>
-                    <div class="rc-desc">Python programming scratch se seekhne ke liye Harvard course.</div>
-                    <div class="rc-lang">English</div>
-                </a>
+                <a data-type="video" href="https://cs50.harvard.edu/x" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Video</span><span class="rc-title">Harvard CS50x</span><span class="rc-desc">A strong introduction to computer science and programming.</span><span class="rc-lang">English</span></a>
+                <a data-type="video" href="https://www.theodinproject.com" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Video</span><span class="rc-title">The Odin Project</span><span class="rc-desc">Project-based full-stack web-development curriculum.</span><span class="rc-lang">English</span></a>
+                <a data-type="practice" href="https://www.freecodecamp.org" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Practice</span><span class="rc-title">freeCodeCamp</span><span class="rc-desc">Interactive coding curriculum, projects and certifications.</span><span class="rc-lang">English</span></a>
+                <a data-type="practice" href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Practice</span><span class="rc-title">LeetCode</span><span class="rc-desc">DSA and coding-interview problem solving practice.</span><span class="rc-lang">English</span></a>
+                <a data-type="practice" href="https://visualgo.net" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Practice</span><span class="rc-title">VisuAlgo</span><span class="rc-desc">Interactive visualizations for algorithms and data structures.</span><span class="rc-lang">English</span></a>
+                <a data-type="reading" href="https://www.geeksforgeeks.org" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Reading</span><span class="rc-title">GeeksforGeeks</span><span class="rc-desc">Reference material, explanations and examples across CS topics.</span><span class="rc-lang">English</span></a>
+                <a data-type="practice" href="https://sqlzoo.net" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Practice</span><span class="rc-title">SQLZoo</span><span class="rc-desc">Interactive SQL exercises that run directly in the browser.</span><span class="rc-lang">English</span></a>
+                <a data-type="video" href="https://cs50.harvard.edu/python" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Video</span><span class="rc-title">CS50 Python</span><span class="rc-desc">A practical introduction to programming with Python.</span><span class="rc-lang">English</span></a>
             </div>
         </section>
 
-        <section class="resource-section">
-            <h2>Interactive Labs & Free Books</h2>
+        <section class="material-section">
+            <div class="material-section-header"><div><h2>Interactive Labs & Free Books</h2><p>Learn by experimenting, visualizing and reading authoritative material.</p></div></div>
             <div class="resource-grid">
-                <a href="https://phet.colorado.edu" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge practice">Practice</div>
-                    <div class="rc-title">PhET Simulations</div>
-                    <div class="rc-desc">Science aur Math ke interactive simulations for visual learning.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://openstax.org" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge reading">Reading</div>
-                    <div class="rc-title">OpenStax Free Textbooks</div>
-                    <div class="rc-desc">University level free textbooks for science, math, and economics.</div>
-                    <div class="rc-lang">English</div>
-                </a>
-                <a href="https://www.bbc.co.uk/learningenglish" target="_blank" rel="noopener noreferrer" class="resource-card">
-                    <div class="rc-badge video">Video</div>
-                    <div class="rc-title">BBC Learning English</div>
-                    <div class="rc-desc">English grammar, pronunciation, aur vocabulary ke free lessons.</div>
-                    <div class="rc-lang">English</div>
-                </a>
+                <a data-type="practice" href="https://phet.colorado.edu" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Practice</span><span class="rc-title">PhET Simulations</span><span class="rc-desc">Interactive science and maths simulations for concept building.</span><span class="rc-lang">English</span></a>
+                <a data-type="reading" href="https://openstax.org" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Reading</span><span class="rc-title">OpenStax</span><span class="rc-desc">Free, peer-reviewed textbooks for school and university subjects.</span><span class="rc-lang">English</span></a>
+                <a data-type="video" href="https://www.bbc.co.uk/learningenglish" target="_blank" rel="noopener noreferrer" class="resource-card"><span class="rc-badge">Video</span><span class="rc-title">BBC Learning English</span><span class="rc-desc">Free lessons for grammar, pronunciation, vocabulary and communication.</span><span class="rc-lang">English</span></a>
             </div>
         </section>
 
-        <section class="page-footer">
-            EduCore Materials Library • April 2026 release • Built for students, instructors, and mentors.
-        </section>
-        </main>
-
-        <div id="globalFooter"></div>
-    </div>
-
-    <script src="site-shell.js"></script>
+        <div id="emptyLibrary" class="empty-library"><h3>No materials in this category</h3><p>Try another material type.</p></div>
+    </main>
+    <div id="globalFooter"></div>
+</div>
+<script src="site-shell.js"></script>
+<script>
+(() => {
+    const buttons = document.querySelectorAll('.library-filter');
+    const cards = document.querySelectorAll('.resource-card');
+    const empty = document.getElementById('emptyLibrary');
+    buttons.forEach(button => button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+        buttons.forEach(item => item.classList.toggle('active', item === button));
+        let visible = 0;
+        cards.forEach(card => {
+            const show = filter === 'all' || card.dataset.type === filter;
+            card.classList.toggle('hidden', !show);
+            if (show) visible++;
+        });
+        empty.classList.toggle('show', visible === 0);
+    }));
+})();
+</script>
 </body>
 </html>
