@@ -38,14 +38,16 @@
         root.innerHTML = PATHS.map(path => {
             const current = Math.min(Number(progress[path.id] || 0), path.steps.length);
             const percent = Math.round((current / path.steps.length) * 100);
+            const completed = current === path.steps.length;
             return `<article class="path-card" data-path="${path.id}">
                 <div class="path-icon"><i class="fas ${path.icon}" aria-hidden="true"></i></div>
                 <span class="path-subtitle">${path.subtitle}</span>
                 <h2>${path.title}</h2>
                 <p>${path.description}</p>
-                <div class="path-progress-row"><span>Progress</span><strong>${percent}%</strong></div>
-                <div class="path-progress"><span style="width:${percent}%"></span></div>
+                <div class="path-progress-row"><span>${completed ? 'Completed' : 'Progress'}</span><strong>${percent}%</strong></div>
+                <div class="path-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent}" aria-label="${path.title} progress"><span style="width:${percent}%"></span></div>
                 <ol class="path-steps">${path.steps.map((step, index) => `<li class="${index < current ? 'done' : ''}"><button type="button" data-step="${index}" aria-label="${index < current ? 'Mark incomplete' : 'Mark complete'}: ${step}"><i class="fas ${index < current ? 'fa-circle-check' : 'fa-circle'}" aria-hidden="true"></i>${step}</button></li>`).join('')}</ol>
+                ${completed ? '<div class="path-complete"><i class="fas fa-check-circle" aria-hidden="true"></i> Path completed — keep practicing and building.</div>' : ''}
             </article>`;
         }).join('');
 
@@ -61,6 +63,15 @@
                 saveProgress(next);
                 render();
             });
+        });
+    }
+
+    const resetButton = document.getElementById('resetProgress');
+    if (resetButton) {
+        resetButton.addEventListener('click', () => {
+            if (!window.confirm('Reset progress for all learning paths on this device?')) return;
+            saveProgress({});
+            render();
         });
     }
 
