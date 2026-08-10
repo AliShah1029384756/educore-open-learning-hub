@@ -20,31 +20,43 @@
         const fileName = window.location.pathname.split('/').pop() || 'index.html';
         document.querySelectorAll('.global-nav-link').forEach(link => {
             const target = link.getAttribute('data-nav');
-            if (target === fileName) {
-                link.classList.add('active');
+            const isActive = target === fileName;
+            link.classList.toggle('active', isActive);
+            if (isActive) {
+                link.setAttribute('aria-current', 'page');
+            } else {
+                link.removeAttribute('aria-current');
             }
         });
+    }
+
+    function getPreferredTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark' || savedTheme === 'light') {
+            return savedTheme;
+        }
+
+        const mediaQuery = window.matchMedia
+            ? window.matchMedia('(prefers-color-scheme: dark)')
+            : null;
+        return mediaQuery && mediaQuery.matches ? 'dark' : 'light';
     }
 
     function setupThemeToggle() {
         const html = document.documentElement;
         const button = document.getElementById('globalThemeToggle');
-        const savedTheme = localStorage.getItem('theme');
-        const fallbackTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        let theme = savedTheme || fallbackTheme;
+        let theme = getPreferredTheme();
 
         function renderTheme() {
             const dark = theme === 'dark';
-            if (dark) {
-                html.setAttribute('data-theme', 'dark');
-            } else {
-                html.removeAttribute('data-theme');
-            }
+            html.setAttribute('data-theme', dark ? 'dark' : 'light');
 
             if (button) {
+                button.setAttribute('aria-pressed', String(dark));
+                button.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
                 button.innerHTML = dark
-                    ? '<i class="fas fa-moon"></i> Theme'
-                    : '<i class="fas fa-sun"></i> Theme';
+                    ? '<i class="fas fa-moon" aria-hidden="true"></i> Theme'
+                    : '<i class="fas fa-sun" aria-hidden="true"></i> Theme';
             }
         }
 
@@ -60,8 +72,10 @@
     }
 
     async function initShell() {
-        await injectPartial('globalHeader', 'header.html');
-        await injectPartial('globalFooter', 'footer.html');
+        await Promise.all([
+            injectPartial('globalHeader', 'header.html'),
+            injectPartial('globalFooter', 'footer.html')
+        ]);
         applyActiveNav();
         setupThemeToggle();
     }
