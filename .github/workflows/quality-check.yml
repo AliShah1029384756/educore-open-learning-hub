@@ -1,0 +1,63 @@
+name: EduCore Quality Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-learning-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate learning datasets
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          files = [Path('data.json'), Path('subjects.json')]
+          seen_urls = set()
+          errors = []
+          topic_count = 0
+
+          for path in files:
+              if not path.exists():
+                  if path.name == 'subjects.json':
+                      continue
+                  errors.append(f'Missing required dataset: {path}')
+                  continue
+
+              try:
+                  data = json.loads(path.read_text(encoding='utf-8'))
+              except Exception as exc:
+                  errors.append(f'{path}: invalid JSON: {exc}')
+                  continue
+
+              categories = data.get('categories')
+              if not isinstance(categories, list):
+                  errors.append(f'{path}: categories must be an array')
+                  continue
+
+              for category in categories:
+                  for subject in category.get('subjects', []):
+                      for topic in subject.get('topics', []):
+                          topic_count += 1
+                          title = str(topic.get('title', '')).strip()
+                          url = str(topic.get('url', '')).strip()
+                          if not title:
+                              errors.append(f'{path}: topic without title')
+                          parsed = urlparse(url)
+                          if parsed.scheme not in {'http', 'https'} or not parsed.netloc:
+                              errors.append(f'{path}: invalid URL for {title!r}: {url!r}')
+                          if url in seen_urls:
+                              print(f'Warning: duplicate URL: {url}')
+                          seen_urls.add(url)
+
+          print(f'Validated {topic_count} learning topics.')
+          if errors:
+              print('\n'.join(errors))
+              raise SystemExit(1)
+          PY
