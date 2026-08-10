@@ -3,62 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About EduCore | Mission and Vision</title>
-    <meta name="description" content="EduCore mission page explaining the vision for free and structured education access in Pakistan.">
-    <meta name="keywords" content="EduCore about, mission, vision, free education Pakistan, student resources">
+    <title>About EduCore | Mission, Principles & Impact</title>
+    <meta name="description" content="Learn why EduCore exists, how it curates free learning resources, and how students can benefit or contribute.">
     <link rel="canonical" href="https://alishah1029384756.github.io/educore-open-learning-hub/about.html">
-    <meta property="og:title" content="About EduCore | Mission and Vision">
-    <meta property="og:description" content="EduCore mission page explaining the vision for free and structured education access in Pakistan.">
+    <meta property="og:title" content="About EduCore | Mission, Principles & Impact">
+    <meta property="og:description" content="A student-first open learning discovery project built around free, curated and structured educational resources.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://alishah1029384756.github.io/educore-open-learning-hub/about.html">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="global.css">
+    <style>
+        .about-hero { padding: 2.5rem 0 1.5rem; }
+        .about-hero h1 { max-width: 900px; margin: .45rem 0 .8rem; font-size: clamp(2.1rem, 4.5vw, 3.6rem); }
+        .about-hero > p { max-width: 780px; color: var(--text-soft); line-height: 1.75; }
+        .about-actions { display:flex; gap:.7rem; flex-wrap:wrap; margin-top:1.2rem; }
+        .about-intro { display:grid; grid-template-columns:1.4fr .8fr; gap:1rem; margin:1rem 0 2rem; }
+        .about-card { padding:1.25rem; border:1px solid var(--border); border-radius:20px; background:var(--bg-surface); box-shadow:var(--shadow-sm); }
+        .about-card h2 { margin-top:0; }
+        .about-card p { color:var(--text-soft); line-height:1.65; }
+        .about-stat { display:flex; align-items:center; gap:.85rem; padding:.8rem 0; border-bottom:1px solid var(--border); }
+        .about-stat:last-child { border-bottom:0; }
+        .about-stat i { width:38px; height:38px; display:grid; place-items:center; border-radius:11px; background:var(--bg-soft); }
+        .about-stat strong { display:block; }
+        .about-stat span { color:var(--text-muted); font-size:.82rem; }
+        .principles { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin:1rem 0 2rem; }
+        .principle { padding:1.15rem; border:1px solid var(--border); border-radius:18px; background:var(--bg-surface); }
+        .principle-number { font-size:.75rem; font-weight:900; color:var(--primary); letter-spacing:.08em; }
+        .principle h3 { margin:.45rem 0 .45rem; }
+        .principle p { margin:0; color:var(--text-soft); line-height:1.6; }
+        .flow { display:grid; grid-template-columns:repeat(4,1fr); gap:.75rem; margin:1rem 0 2rem; }
+        .flow-step { padding:1rem; text-align:center; border:1px solid var(--border); border-radius:16px; background:var(--bg-soft); }
+        .flow-step strong { display:block; margin-top:.45rem; }
+        .flow-step span { color:var(--text-muted); font-size:.8rem; }
+        .about-note { border-left:4px solid var(--primary); }
+        @media(max-width:800px){.about-intro,.principles{grid-template-columns:1fr;}.flow{grid-template-columns:repeat(2,1fr);}}
+        @media(max-width:500px){.flow{grid-template-columns:1fr;}}
+    </style>
 </head>
 <body>
-    <div class="page-shell">
-        <div id="globalHeader"></div>
-
-        <main class="container shell-padding global-main">
-        <section class="page-hero">
-            <p class="mission-label">EduCore Vision Statement</p>
-            <h1>Free, structured, and high-quality learning for every student.</h1>
-            <p>Taleem sab ka bunyadi haq hai, aur behtareen taleem bilkul free honi chahiye. EduCore ka maqsad internet par bikhray hue quality educational resources ko ek practical, organized, aur student-friendly platform par lana hai.</p>
-            <a href="materials-library.html" class="main-hub-cta"><i class="fas fa-layer-group"></i> Explore Materials</a>
+<div class="page-shell">
+    <div id="globalHeader"></div>
+    <main class="container shell-padding global-main">
+        <section class="about-hero">
+            <p class="mission-label">Why EduCore Exists</p>
+            <h1>Less time searching. More time learning.</h1>
+            <p>EduCore is a student-first open learning hub built around a simple problem: valuable educational material exists everywhere, but finding the right resource at the right level can take too much time. The project brings useful free resources into one organized discovery experience.</p>
+            <div class="about-actions">
+                <a href="materials-library.html" class="main-hub-cta"><i class="fas fa-layer-group"></i> Explore Materials</a>
+                <a href="learning-paths.html" class="bookmark-shortcut"><i class="fas fa-route"></i> Start a Learning Path</a>
+            </div>
         </section>
 
-        <section class="page-section page-grid">
-            <article class="page-card">
-                <h2>1. One-Stop Discovery</h2>
-                <p>Student ka waqt sirf sahi video ya notes dhoondne mein zaya na ho. EduCore pre-filtered links ke sath quick learning start karwata hai.</p>
+        <section class="about-intro">
+            <article class="about-card">
+                <h2>The idea</h2>
+                <p>EduCore is not meant to replace universities, teachers, textbooks or established learning platforms. It acts as a <strong>curation and discovery layer</strong>: organize useful resources, make them easier to search, and give students a clearer route from discovery to practice.</p>
+                <p>The platform is intentionally lightweight. Core discovery and progress features work without an account, while learning progress is stored locally in the learner's browser.</p>
             </article>
-            <article class="page-card">
-                <h2>2. Complete Learning Cycle</h2>
-                <p>Watch, Read, Practice model: concept samjho, theory parho, phir MCQs/labs se mastery build karo.</p>
-            </article>
-            <article class="page-card">
-                <h2>3. Inclusive for Every Level</h2>
-                <p>School, college, entry tests, university, and special-learning needs sab ke liye level-appropriate resources.</p>
-            </article>
-            <article class="page-card">
-                <h2>4. 100% Free and Fisabillah</h2>
-                <p>Yeh project commercial profit ke liye nahi bana. Core niyat community give-back aur free education access hai.</p>
-            </article>
-            <article class="page-card">
-                <h2>5. Sadqa-e-Jariya Mindset</h2>
-                <p>Knowledge share karna ek long-term impact hai. Is platform ko waqt ke sath learners aur educators mil kar better banayenge.</p>
-            </article>
+            <aside class="about-card" aria-label="EduCore snapshot">
+                <div class="about-stat"><i class="fas fa-book-open" aria-hidden="true"></i><div><strong>400+ resources</strong><span>Current curated collection</span></div></div>
+                <div class="about-stat"><i class="fas fa-layer-group" aria-hidden="true"></i><div><strong>Multiple stages</strong><span>School to university & entry tests</span></div></div>
+                <div class="about-stat"><i class="fas fa-user-lock" aria-hidden="true"></i><div><strong>No account required</strong><span>Core discovery stays lightweight</span></div></div>
+            </aside>
         </section>
 
-        <section class="page-section page-card">
-            <h2>Community Note</h2>
-            <p>Agar aap student, teacher, ya mentor hain aur high-value free resource jantay hain, to Contribute page se submit karen. Har verified addition kisi ek student ka raasta asaan kar sakta hai.</p>
+        <section class="page-section">
+            <p class="mission-label">Our Principles</p>
+            <h2>What makes the project worth maintaining</h2>
+            <div class="principles">
+                <article class="principle"><span class="principle-number">01</span><h3>Useful over huge</h3><p>A smaller collection of understandable, relevant resources is more valuable than an unmaintained dump of links.</p></article>
+                <article class="principle"><span class="principle-number">02</span><h3>Structured over scattered</h3><p>Resources should be searchable by learner stage, subject and material type, with paths for learners who need direction.</p></article>
+                <article class="principle"><span class="principle-number">03</span><h3>Free & accessible</h3><p>The project prioritizes freely accessible learning resources and a low-friction experience across devices.</p></article>
+                <article class="principle"><span class="principle-number">04</span><h3>Honest curation</h3><p>Descriptions should accurately represent what an external resource provides. Claims are kept conservative when source details are uncertain.</p></article>
+                <article class="principle"><span class="principle-number">05</span><h3>Community-minded</h3><p>Students, teachers and mentors can help improve the collection by suggesting useful resources and correcting metadata.</p></article>
+                <article class="principle"><span class="principle-number">06</span><h3>Built to improve</h3><p>The project treats maintenance, accessibility, data quality and discoverability as ongoing work—not one-time features.</p></article>
+            </div>
         </section>
-        </main>
 
-        <div id="globalFooter"></div>
-    </div>
+        <section class="page-section about-card">
+            <p class="mission-label">The Learning Loop</p>
+            <h2>From discovery to progress</h2>
+            <div class="flow" aria-label="EduCore learning flow">
+                <div class="flow-step"><i class="fas fa-magnifying-glass" aria-hidden="true"></i><strong>Find</strong><span>Search useful material</span></div>
+                <div class="flow-step"><i class="fas fa-filter" aria-hidden="true"></i><strong>Choose</strong><span>Filter by need and level</span></div>
+                <div class="flow-step"><i class="fas fa-book-open" aria-hidden="true"></i><strong>Learn</strong><span>Study from the source</span></div>
+                <div class="flow-step"><i class="fas fa-route" aria-hidden="true"></i><strong>Continue</strong><span>Use paths and progress</span></div>
+            </div>
+        </section>
 
-    <script src="site-shell.js"></script>
+        <section class="page-section about-card about-note">
+            <h2>A community project</h2>
+            <p>EduCore was created with a give-back mindset: make useful educational material easier to discover and leave behind something that can help another learner. The project is not a claim that one platform can solve education access; it is a practical attempt to remove one small barrier—finding good learning material.</p>
+            <a href="contribute.html" class="main-hub-cta"><i class="fas fa-hand-holding-heart"></i> Help Improve EduCore</a>
+        </section>
+    </main>
+    <div id="globalFooter"></div>
+</div>
+<script src="site-shell.js"></script>
 </body>
 </html>
