@@ -17,242 +17,44 @@
 </head>
 <body>
     <a class="skip-link" href="#subjectsContainer">Skip to resources</a>
-    <div class="ambient-bg" aria-hidden="true">
-        <div class="orb orb-one"></div>
-        <div class="orb orb-two"></div>
-        <div class="grid-glow"></div>
-    </div>
-
-    <!-- Navigation & Header -->
+    <div class="ambient-bg" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="grid-glow"></div></div>
     <div class="sticky-header">
         <div class="container shell-padding">
             <div class="header-top">
-                <div class="header-logo">
-                    <div class="header-emoji" aria-hidden="true">
-                        <i class="fas fa-book-open-reader"></i>
-                    </div>
-                    <div class="logo-text">
-                        <h1>EduCore</h1>
-                        <p id="logoTagline">Open Learning Hub for Pakistani Students</p>
-                    </div>
-                </div>
+                <div class="header-logo"><div class="header-emoji" aria-hidden="true"><i class="fas fa-book-open-reader"></i></div><div class="logo-text"><h1>EduCore</h1><p id="logoTagline">Open Learning Hub for Pakistani Students</p></div></div>
                 <div class="header-actions">
-                    <button id="languageToggle" class="theme-toggle" title="Toggle language mode" aria-label="Toggle language mode">
-                        <i class="fas fa-language"></i>
-                    </button>
-                    <button id="themeToggle" class="theme-toggle" title="Toggle Dark Mode" aria-label="Toggle dark mode">
-                        <i class="fas fa-sun"></i>
-                    </button>
-                    <button id="hamburgerMenu" class="hamburger-menu" title="Toggle Menu" aria-label="Toggle menu">
-                        <i class="fas fa-bars"></i>
-                    </button>
+                    <button id="languageToggle" class="theme-toggle" title="Toggle language mode" aria-label="Toggle language mode"><i class="fas fa-language"></i></button>
+                    <button id="themeToggle" class="theme-toggle" title="Toggle Dark Mode" aria-label="Toggle dark mode"><i class="fas fa-sun"></i></button>
+                    <button id="hamburgerMenu" class="hamburger-menu" title="Toggle Menu" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
                 </div>
             </div>
-
-            <div class="header-kpis">
-                <span id="kpiSubjectsLabel"><i class="fas fa-graduation-cap"></i> 68+ Subjects</span>
-                <span id="kpiResourcesLabel"><i class="fas fa-link"></i> 400+ Learning Resources</span>
-                <span id="kpiLanguageLabel"><i class="fas fa-language"></i> Urdu + English</span>
-            </div>
-
-            <div class="product-nav" aria-label="Primary">
-                <a href="index.html" class="product-nav-link active"><i class="fas fa-house"></i> Home</a>
+            <div class="header-kpis"><span id="kpiSubjectsLabel"><i class="fas fa-graduation-cap"></i> 68+ Subjects</span><span id="kpiResourcesLabel"><i class="fas fa-link"></i> 400+ Learning Resources</span><span id="kpiLanguageLabel"><i class="fas fa-language"></i> Urdu + English</span></div>
+            <nav class="product-nav" aria-label="Primary">
+                <a href="index.html" class="product-nav-link active" aria-current="page"><i class="fas fa-house"></i> Home</a>
                 <a href="about.html" class="product-nav-link"><i class="fas fa-bullseye"></i> About / Maqsad</a>
                 <a href="materials-library.html" class="product-nav-link"><i class="fas fa-layer-group"></i> Materials</a>
                 <a href="learning-paths.html" class="product-nav-link"><i class="fas fa-route"></i> Learning Paths</a>
                 <a href="contribute.html" class="product-nav-link"><i class="fas fa-hand-holding-heart"></i> Contribute</a>
-            </div>
-
-            <!-- Search Bar in Header -->
-            <div class="search-container">
-                <i class="fas fa-magnifying-glass"></i>
-                <input
-                    type="text"
-                    id="searchInput"
-                    placeholder="Search subjects, topics, or learning paths..."
-                    class="search-input"
-                    aria-label="Search resources"
-                >
-            </div>
-
-            <!-- Category Tabs (Hidden on mobile, shows hamburger instead) -->
-            <div id="categoryNav" class="category-tabs" role="tablist">
-                <!-- Categories loaded by JavaScript -->
-            </div>
+            </nav>
+            <div class="search-container"><i class="fas fa-magnifying-glass"></i><input type="text" id="searchInput" placeholder="Search subjects, topics, or learning paths..." class="search-input" aria-label="Search resources"></div>
+            <div id="categoryNav" class="category-tabs" role="tablist"></div>
         </div>
     </div>
-
-    <!-- Sidebar (Mobile Navigation) -->
-    <div id="sidebar" class="sidebar" role="navigation">
-        <div class="sidebar-inner">
-            <h3 class="sidebar-title" id="sidebarTitle">📂 Categories</h3>
-            <div id="sidebarNav" class="sidebar-nav">
-                <!-- Categories loaded by JavaScript -->
-            </div>
-        </div>
-    </div>
-    <div id="sidebarOverlay" class="sidebar-overlay"></div>
-
-    <!-- Main Content -->
+    <div id="sidebar" class="sidebar" role="navigation"><div class="sidebar-inner"><h3 class="sidebar-title" id="sidebarTitle">📂 Categories</h3><div id="sidebarNav" class="sidebar-nav"></div></div></div><div id="sidebarOverlay" class="sidebar-overlay"></div>
     <main class="container shell-padding">
-        <!-- Hero Section -->
-        <section class="hero-section" id="heroSection">
-            <div class="hero-badge" id="heroBadge">Trusted Education Resource Network</div>
-            <h2 class="hero-headline" id="heroHeadline">EduCore Open Learning Hub</h2>
-            <p class="hero-subheadline" id="heroSubheadline">Professional, free learning resources for School, College, Entry Test, and University success.</p>
-            <p class="hero-mission-quick" id="heroMissionQuick">Taleem sab ka bunyadi haq hai. Hum bikhray hue best free resources ko ek clear system mein la rahe hain.</p>
-            <div class="hero-search-container">
-                <div class="hero-search-wrapper">
-                    <input
-                        type="text"
-                        id="heroSearchInput"
-                        placeholder="Try: physics, python, mdcat, accounting"
-                        class="hero-search-input"
-                        aria-label="Quick search"
-                    >
-                    <button class="cta-button" id="getStartedBtn">Start Exploring</button>
-                </div>
-                <a href="materials-library.html" class="main-hub-cta"><i class="fas fa-layer-group"></i> Open Materials Library</a>
-            </div>
-            <div class="hero-notes">
-                <span id="heroNoteFree"><i class="fas fa-shield-heart"></i> Always free</span>
-                <span id="heroNoteCurated"><i class="fas fa-layer-group"></i> Curated by level</span>
-                <span id="heroNoteFast"><i class="fas fa-bolt"></i> Fast discovery flow</span>
-            </div>
-        </section>
-
-        <section class="mission-highlight" id="missionHighlight">
-            <div class="mission-content">
-                <p class="mission-label" id="missionLabel">Our Mission / Hamara Maqsad</p>
-                <h2 id="missionTitle">One platform for free, structured, and trustworthy education.</h2>
-                <p id="missionText">Is platform ka focus hai Watch, Read, Practice learning cycle ko simple banana, taa-ke Pakistan ka har student bina confusion ke level-appropriate material tak pohanch sake.</p>
-            </div>
-            <a href="about.html" class="mission-cta" id="missionCta">Read Full Vision</a>
-        </section>
-
-        <section class="discovery-controls" aria-label="Discovery controls">
-            <div id="breadcrumb" class="breadcrumb">Home / All Tracks</div>
-            <div class="filters-row">
-                <select id="languageFilter" class="filter-select" aria-label="Filter by language">
-                    <option value="all">Language: All</option>
-                    <option value="urdu">Urdu</option>
-                    <option value="english">English</option>
-                    <option value="mixed">Mixed</option>
-                </select>
-                <select id="typeFilter" class="filter-select" aria-label="Filter by resource type">
-                    <option value="all">Type: All</option>
-                    <option value="video">Video</option>
-                    <option value="read">Reading</option>
-                    <option value="practice">Practice</option>
-                </select>
-                <select id="levelFilter" class="filter-select" aria-label="Filter by level">
-                    <option value="all">Level: All</option>
-                    <option value="beginner">Beginner</option>
-                    <option value="intermediate">Intermediate</option>
-                    <option value="advanced">Advanced</option>
-                </select>
-                <button id="clearFiltersBtn" type="button" class="bookmark-shortcut"><i class="fas fa-filter-circle-xmark"></i> Clear Filters</button>
-            </div>
-        </section>
-
-        <!-- Featured Categories (Shows on first load) -->
-        <section class="section-header-block">
-            <div>
-                <h2 id="featuredHeading">Featured Learning Tracks</h2>
-                <p id="featuredSubheading">Start from your level and jump directly to trusted resources.</p>
-            </div>
-            <div class="section-actions">
-                <a href="materials-library.html" class="bookmark-shortcut">
-                    <i class="fas fa-layer-group"></i>
-                    <span id="materialsShortcutLabel">Materials Library</span>
-                </a>
-                <button id="desktopBookmarksBtn" class="bookmark-shortcut" type="button">
-                    <i class="fas fa-heart"></i>
-                    <span id="desktopBookmarksLabel">Bookmarks</span>
-                </button>
-            </div>
-        </section>
-        <section id="featuredSection" class="featured-categories">
-            <!-- Featured category cards loaded by JavaScript -->
-        </section>
-
-        <!-- Resources Grid -->
-        <section class="section-header-block compact">
-            <div>
-                <h2 id="subjectsHeading">Subjects and Resources</h2>
-                <p id="subjectsSubheading">Open any subject card to explore videos, readings, and practice links.</p>
-            </div>
-            <div class="section-actions">
-                <button id="showFeaturedBtn" class="bookmark-shortcut" type="button">
-                    <i class="fas fa-compass"></i>
-                    <span id="showFeaturedLabel">Show Featured</span>
-                </button>
-            </div>
-        </section>
-        <section id="subjectsContainer" class="subjects-container">
-            <!-- Subject cards loaded by JavaScript -->
-        </section>
-
-        <!-- No Results Message -->
-        <div id="noResults" class="no-results hidden">
-            <div class="no-results-icon">😕</div>
-            <h3 class="no-results-title">No resources found</h3>
-            <p class="no-results-text">Try another keyword or switch to a different category.</p>
-        </div>
+        <section class="hero-section" id="heroSection"><div class="hero-badge" id="heroBadge">Trusted Education Resource Network</div><h2 class="hero-headline" id="heroHeadline">EduCore Open Learning Hub</h2><p class="hero-subheadline" id="heroSubheadline">Professional, free learning resources for School, College, Entry Test, and University success.</p><p class="hero-mission-quick" id="heroMissionQuick">Taleem sab ka bunyadi haq hai. Hum bikhray hue best free resources ko ek clear system mein la rahe hain.</p><div class="hero-search-container"><div class="hero-search-wrapper"><input type="text" id="heroSearchInput" placeholder="Try: physics, python, mdcat, accounting" class="hero-search-input" aria-label="Quick search"><button class="cta-button" id="getStartedBtn">Start Exploring</button></div><a href="materials-library.html" class="main-hub-cta"><i class="fas fa-layer-group"></i> Open Materials Library</a></div><div class="hero-notes"><span id="heroNoteFree"><i class="fas fa-shield-heart"></i> Always free</span><span id="heroNoteCurated"><i class="fas fa-layer-group"></i> Curated by level</span><span id="heroNoteFast"><i class="fas fa-bolt"></i> Fast discovery flow</span></div></section>
+        <section class="mission-highlight" id="missionHighlight"><div class="mission-content"><p class="mission-label" id="missionLabel">Our Mission / Hamara Maqsad</p><h2 id="missionTitle">One platform for free, structured, and trustworthy education.</h2><p id="missionText">Is platform ka focus hai Watch, Read, Practice learning cycle ko simple banana, taa-ke Pakistan ka har student bina confusion ke level-appropriate material tak pohanch sake.</p></div><a href="about.html" class="mission-cta" id="missionCta">Read Full Vision</a></section>
+        <section class="learning-dashboard-section" aria-label="Continue learning"><div id="learningDashboard" class="learning-dashboard" aria-live="polite"></div></section>
+        <section class="discovery-controls" aria-label="Discovery controls"><div id="breadcrumb" class="breadcrumb">Home / All Tracks</div><div class="filters-row"><select id="languageFilter" class="filter-select" aria-label="Filter by language"><option value="all">Language: All</option><option value="urdu">Urdu</option><option value="english">English</option><option value="mixed">Mixed</option></select><select id="typeFilter" class="filter-select" aria-label="Filter by resource type"><option value="all">Type: All</option><option value="video">Video</option><option value="read">Reading</option><option value="practice">Practice</option></select><select id="levelFilter" class="filter-select" aria-label="Filter by level"><option value="all">Level: All</option><option value="beginner">Beginner</option><option value="intermediate">Intermediate</option><option value="advanced">Advanced</option></select><button id="clearFiltersBtn" type="button" class="bookmark-shortcut"><i class="fas fa-filter-circle-xmark"></i> Clear Filters</button></div></section>
+        <section class="section-header-block"><div><h2 id="featuredHeading">Featured Learning Tracks</h2><p id="featuredSubheading">Start from your level and jump directly to trusted resources.</p></div><div class="section-actions"><a href="materials-library.html" class="bookmark-shortcut"><i class="fas fa-layer-group"></i><span id="materialsShortcutLabel">Materials Library</span></a><button id="desktopBookmarksBtn" class="bookmark-shortcut" type="button"><i class="fas fa-heart"></i><span id="desktopBookmarksLabel">Bookmarks</span></button></div></section>
+        <section id="featuredSection" class="featured-categories"></section>
+        <section class="section-header-block compact"><div><h2 id="subjectsHeading">Subjects and Resources</h2><p id="subjectsSubheading">Open any subject card to explore videos, readings, and practice links.</p></div><div class="section-actions"><button id="showFeaturedBtn" class="bookmark-shortcut" type="button"><i class="fas fa-compass"></i><span id="showFeaturedLabel">Show Featured</span></button></div></section>
+        <section id="subjectsContainer" class="subjects-container"></section>
+        <div id="noResults" class="no-results hidden"><div class="no-results-icon">😕</div><h3 class="no-results-title">No resources found</h3><p class="no-results-text">Try another keyword or switch to a different category.</p></div>
     </main>
-
-    <!-- Topic Details Modal -->
-    <div id="topicModal" class="modal" role="dialog" aria-modal="true">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 id="modalTitle" class="modal-title"></h2>
-                <button id="closeModal" class="modal-close" aria-label="Close modal">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div id="modalTopics" class="topics-list">
-                <!-- Topics loaded by JavaScript -->
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container shell-padding">
-            <div class="footer-grid">
-                <div>
-                    <h3>About EduCore</h3>
-                    <p class="footer-description">A premium open-learning platform helping Pakistani students discover high-value educational resources quickly.</p>
-                </div>
-                <div>
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links-list">
-                        <li><a href="https://github.com/AliShah1029384756/educore-open-learning-hub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub Repository</a></li>
-                        <li><a href="about.html"><i class="fas fa-bullseye"></i> About / Maqsad</a></li>
-                        <li><a href="materials-library.html"><i class="fas fa-layer-group"></i> Materials Library</a></li>
-                        <li><a href="learning-paths.html"><i class="fas fa-route"></i> Learning Paths</a></li>
-                        <li><a href="contribute.html"><i class="fas fa-hand-holding-heart"></i> Contribute</a></li>
-                        <li><a href="https://alishah1029384756.github.io/AliShah1029384756/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Main Profile</a></li>
-                        <li><a href="https://github.com/AliShah1029384756" target="_blank" rel="noopener noreferrer"><i class="fas fa-user"></i> Creator Profile</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Resources</h3>
-                    <p class="footer-resources">
-                        <span id="subjectCount">68+</span> Subjects | 
-                        <span id="resourceCount">400+</span> Resources | 
-                        🌍 Multi-Language
-                    </p>
-                    <p class="footer-license">MIT Licensed • Open Source</p>
-                </div>
-            </div>
-            <div class="footer-divider"></div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Syed Muhammad Ali Naqvi. Built with care for Pakistan's learners.</p>
-            </div>
-        </div>
-    </footer>
-
+    <div id="topicModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-content"><div class="modal-header"><h2 id="modalTitle" class="modal-title"></h2><button id="closeModal" class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button></div><div id="modalTopics" class="topics-list"></div></div></div>
+    <footer><div class="container shell-padding"><div class="footer-grid"><div><h3>About EduCore</h3><p class="footer-description">A premium open-learning platform helping Pakistani students discover high-value educational resources quickly.</p></div><div><h3>Quick Links</h3><ul class="footer-links-list"><li><a href="https://github.com/AliShah1029384756/educore-open-learning-hub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub Repository</a></li><li><a href="about.html"><i class="fas fa-bullseye"></i> About / Maqsad</a></li><li><a href="materials-library.html"><i class="fas fa-layer-group"></i> Materials Library</a></li><li><a href="learning-paths.html"><i class="fas fa-route"></i> Learning Paths</a></li><li><a href="contribute.html"><i class="fas fa-hand-holding-heart"></i> Contribute</a></li><li><a href="https://alishah1029384756.github.io/AliShah1029384756/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Main Profile</a></li><li><a href="https://github.com/AliShah1029384756" target="_blank" rel="noopener noreferrer"><i class="fas fa-user"></i> Creator Profile</a></li></ul></div><div><h3>Resources</h3><p class="footer-resources"><span id="subjectCount">68+</span> Subjects | <span id="resourceCount">400+</span> Resources | 🌍 Multi-Language</p><p class="footer-license">MIT Licensed • Open Source</p></div></div><div class="footer-divider"></div><div class="footer-bottom"><p>&copy; 2026 Syed Muhammad Ali Naqvi. Built with care for Pakistan's learners.</p></div></div></footer>
     <script src="app.js"></script>
+    <script src="learning-dashboard.js"></script>
 </body>
 </html>
