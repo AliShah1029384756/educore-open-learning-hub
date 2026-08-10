@@ -4,95 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Paths | EduCore</title>
-    <meta name="description" content="Structured learning paths for school, college, entry tests, and university students.">
-    <meta name="keywords" content="EduCore learning paths, matric study plan, FSc roadmap, MDCAT preparation, university CS path">
+    <meta name="description" content="Structured, self-paced learning paths for Pakistani school, college, entry-test and university students.">
     <link rel="canonical" href="https://alishah1029384756.github.io/educore-open-learning-hub/learning-paths.html">
     <meta property="og:title" content="Learning Paths | EduCore">
-    <meta property="og:description" content="Structured study plans for Matric, FSc, MDCAT ECAT, and University CS students in Pakistan.">
+    <meta property="og:description" content="Choose a path, complete steps, and keep your progress privately on this device.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://alishah1029384756.github.io/educore-open-learning-hub/learning-paths.html">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="global.css">
+    <style>
+        .paths-hero { padding: 2rem 0 1.25rem; }
+        .paths-hero h1 { max-width: 780px; margin: .4rem 0 .65rem; }
+        .paths-hero p { max-width: 760px; color: var(--text-soft); }
+        .paths-note { margin-top: 1rem; padding: .8rem 1rem; border: 1px solid var(--border); border-radius: 14px; background: var(--bg-soft); color: var(--text-soft); font-size: .9rem; }
+        .path-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; padding-bottom: 2rem; }
+        .path-card { border: 1px solid var(--border); border-radius: 20px; padding: 1.2rem; background: var(--bg-surface); box-shadow: var(--shadow-sm); }
+        .path-icon { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 13px; color: #fff; background: linear-gradient(135deg, var(--primary), var(--secondary)); margin-bottom: .9rem; }
+        .path-subtitle { color: var(--text-muted); font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
+        .path-card h2 { margin: .3rem 0 .45rem; }
+        .path-card > p { color: var(--text-soft); min-height: 42px; }
+        .path-progress-row { display: flex; justify-content: space-between; margin-top: 1rem; font-size: .8rem; color: var(--text-muted); }
+        .path-progress { height: 8px; border-radius: 999px; background: var(--bg-soft); overflow: hidden; margin: .45rem 0 1rem; }
+        .path-progress span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--primary), var(--secondary)); transition: width .25s ease; }
+        .path-steps { list-style: none; padding: 0; margin: 0; display: grid; gap: .45rem; }
+        .path-steps button { width: 100%; border: 1px solid var(--border); border-radius: 11px; padding: .65rem .7rem; display: flex; gap: .55rem; align-items: center; text-align: left; background: var(--bg-surface); color: var(--text-soft); cursor: pointer; }
+        .path-steps button:hover { border-color: var(--primary); color: var(--text-main); }
+        .path-steps li.done button { color: var(--text-main); background: var(--bg-soft); }
+        @media (max-width: 760px) { .path-grid { grid-template-columns: 1fr; } }
+    </style>
 </head>
 <body>
     <div class="page-shell">
         <div id="globalHeader"></div>
-
         <main class="container shell-padding global-main">
-        <section class="page-hero">
-            <p class="mission-label">Structured Progress</p>
-            <h1>Pick your path and follow a clear sequence.</h1>
-            <p>Har path mein simple rule follow karein: Concept videos → Reading notes → Practice drills.</p>
-            <a href="materials-library.html" class="main-hub-cta"><i class="fas fa-route"></i> Browse Learning Kits</a>
-        </section>
-
-        <section class="page-section page-grid">
-            <article class="page-card">
-                <h2>School Foundation Path (Matric/O-Levels)</h2>
-                <p>Core science, maths, English, Islamiat, and Pak Studies ke liye strong base.</p>
-                <ol class="page-card-list">
-                    <li>2 concept videos per chapter</li>
-                    <li>1 reading summary or textbook reference</li>
-                    <li>20-40 MCQs practice</li>
-                    <li>Weekly revision test</li>
-                </ol>
-                <div class="page-toolbar">
-                    <a class="page-btn primary" href="index.html">Open School Track</a>
-                    <a class="page-btn secondary" href="materials-library.html">Practice Materials</a>
-                </div>
-            </article>
-
-            <article class="page-card">
-                <h2>College Exam Path (FSc/ICS/FA)</h2>
-                <p>Board prep + conceptual depth for Physics, Chemistry, Biology, Maths, and CS.</p>
-                <ol class="page-card-list">
-                    <li>Daily topic lecture blocks</li>
-                    <li>Past paper mapping per chapter</li>
-                    <li>Timed drill sessions</li>
-                    <li>Weak area remediation</li>
-                </ol>
-                <div class="page-toolbar">
-                    <a class="page-btn primary" href="index.html">Open College Track</a>
-                    <a class="page-btn secondary" href="materials-library.html">Board Resources</a>
-                </div>
-            </article>
-
-            <article class="page-card">
-                <h2>Entry Test Sprint (MDCAT/ECAT/NTS)</h2>
-                <p>Speed, accuracy, and timed practice ke liye focused test strategy path.</p>
-                <ol class="page-card-list">
-                    <li>Topic revision capsules</li>
-                    <li>Daily MCQ mixed sets</li>
-                    <li>Timed mock every 3 days</li>
-                    <li>Error log and targeted retry</li>
-                </ol>
-                <div class="page-toolbar">
-                    <a class="page-btn primary" href="index.html">Open Entry Tests</a>
-                    <a class="page-btn secondary" href="materials-library.html">Mock Packs</a>
-                </div>
-            </article>
-
-            <article class="page-card">
-                <h2>University Skill Path (CS/SE/IT)</h2>
-                <p>Programming, DSA, databases, web/backend, and project execution path.</p>
-                <ol class="page-card-list">
-                    <li>Concept + tutorial combo</li>
-                    <li>Weekly mini project</li>
-                    <li>Problem solving set</li>
-                    <li>Portfolio-ready capstone</li>
-                </ol>
-                <div class="page-toolbar">
-                    <a class="page-btn primary" href="index.html">Open University Track</a>
-                    <a class="page-btn secondary" href="materials-library.html">Project Kits</a>
-                </div>
-            </article>
-        </section>
+            <section class="paths-hero">
+                <p class="mission-label">Structured Progress</p>
+                <h1>Don't just collect resources. Follow a path.</h1>
+                <p>Choose a learning track, work through small steps, and keep your progress privately in your browser. No account required.</p>
+                <div class="paths-note"><i class="fas fa-lock" aria-hidden="true"></i> Your progress is stored locally on this device. EduCore does not need an account or server-side profile.</div>
+            </section>
+            <section id="learningPathGrid" class="path-grid" aria-label="Learning paths"></section>
         </main>
-
         <div id="globalFooter"></div>
     </div>
-
     <script src="site-shell.js"></script>
+    <script src="learning-paths.js"></script>
 </body>
 </html>
