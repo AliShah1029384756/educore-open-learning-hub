@@ -6,53 +6,17 @@
         {
           "subjectName": "Computer Skills and Digital Basics",
           "topics": [
-            {
-              "title": "Typing and Digital Skills for Students",
-              "type": "Practice",
-              "language": "English",
-              "url": "https://edu.gcfglobal.org/en/typing/",
-              "badge": "GCFGlobal"
-            },
-            {
-              "title": "Internet Safety Basics",
-              "type": "Read",
-              "language": "English",
-              "url": "https://edu.gcfglobal.org/en/internetsafety/",
-              "badge": "Safety"
-            },
-            {
-              "title": "Code.org CS Fundamentals",
-              "type": "Video",
-              "language": "English",
-              "url": "https://code.org/students",
-              "badge": "Code.org"
-            }
+            {"title":"Typing and Digital Skills for Students","type":"Practice","language":"English","url":"https://edu.gcfglobal.org/en/typing/","badge":"GCFGlobal"},
+            {"title":"Internet Safety Basics","type":"Read","language":"English","url":"https://edu.gcfglobal.org/en/internetsafety/","badge":"Safety"},
+            {"title":"Code.org CS Fundamentals","type":"Video","language":"English","url":"https://code.org/students","badge":"Code.org"}
           ]
         },
         {
           "subjectName": "General Science and Space Basics",
           "topics": [
-            {
-              "title": "NASA Climate Kids Learning Hub",
-              "type": "Read",
-              "language": "English",
-              "url": "https://climatekids.nasa.gov/",
-              "badge": "NASA"
-            },
-            {
-              "title": "Crash Course Kids Science Playlists",
-              "type": "Video",
-              "language": "English",
-              "url": "https://www.youtube.com/@crashcoursekids",
-              "badge": "CrashCourse"
-            },
-            {
-              "title": "PhET Basics Simulations",
-              "type": "Practice",
-              "language": "English",
-              "url": "https://phet.colorado.edu/",
-              "badge": "PhET"
-            }
+            {"title":"NASA Climate Kids Learning Hub","type":"Read","language":"English","url":"https://climatekids.nasa.gov/","badge":"NASA"},
+            {"title":"Crash Course Kids Science Playlists","type":"Video","language":"English","url":"https://www.youtube.com/@crashcoursekids","badge":"CrashCourse"},
+            {"title":"PhET Basics Simulations","type":"Practice","language":"English","url":"https://phet.colorado.edu/","badge":"PhET"}
           ]
         }
       ]
@@ -63,53 +27,17 @@
         {
           "subjectName": "Programming Foundations (C and Python)",
           "topics": [
-            {
-              "title": "freeCodeCamp Python Course",
-              "type": "Video",
-              "language": "English",
-              "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
-              "badge": "freeCodeCamp"
-            },
-            {
-              "title": "Learn C Programming (Programiz)",
-              "type": "Read",
-              "language": "English",
-              "url": "https://www.programiz.com/c-programming",
-              "badge": "Programiz"
-            },
-            {
-              "title": "HackerRank Problem Solving Practice",
-              "type": "Practice",
-              "language": "English",
-              "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript",
-              "badge": "HackerRank"
-            }
+            {"title":"freeCodeCamp Python Course","type":"Video","language":"English","url":"https://www.freecodecamp.org/learn/scientific-computing-with-python/","badge":"freeCodeCamp"},
+            {"title":"Learn C Programming (Programiz)","type":"Read","language":"English","url":"https://www.programiz.com/c-programming","badge":"Programiz"},
+            {"title":"HackerRank JavaScript Problem Solving","type":"Practice","language":"English","url":"https://www.hackerrank.com/domains/tutorials/10-days-of-javascript","badge":"HackerRank"}
           ]
         },
         {
           "subjectName": "Statistics and Data Thinking",
           "topics": [
-            {
-              "title": "Khan Academy Statistics and Probability",
-              "type": "Video",
-              "language": "English",
-              "url": "https://www.khanacademy.org/math/statistics-probability",
-              "badge": "Khan Academy"
-            },
-            {
-              "title": "OpenIntro Statistics Textbook",
-              "type": "Read",
-              "language": "English",
-              "url": "https://www.openintro.org/book/os/",
-              "badge": "OpenIntro"
-            },
-            {
-              "title": "StatQuest Playlists",
-              "type": "Video",
-              "language": "English",
-              "url": "https://www.youtube.com/@statquest",
-              "badge": "StatQuest"
-            }
+            {"title":"Khan Academy Statistics and Probability","type":"Video","language":"English","url":"https://www.khanacademy.org/math/statistics-probability","badge":"Khan Academy"},
+            {"title":"OpenIntro Statistics Textbook","type":"Read","language":"English","url":"https://www.openintro.org/book/os/","badge":"OpenIntro"},
+            {"title":"StatQuest Playlists","type":"Video","language":"English","url":"https://www.youtube.com/@statquest","badge":"StatQuest"}
           ]
         }
       ]
@@ -120,53 +48,17 @@
         {
           "subjectName": "System Design and Software Engineering",
           "topics": [
-            {
-              "title": "System Design Primer (GitHub)",
-              "type": "Read",
-              "language": "English",
-              "url": "https://github.com/donnemartin/system-design-primer",
-              "badge": "System Design"
-            },
-            {
-              "title": "Google Tech Dev Guide",
-              "type": "Read",
-              "language": "English",
-              "url": "https://techdevguide.withgoogle.com/",
-              "badge": "Google"
-            },
-            {
-              "title": "ByteByteGo System Design Videos",
-              "type": "Video",
-              "language": "English",
-              "url": "https://www.youtube.com/@ByteByteGo",
-              "badge": "ByteByteGo"
-            }
+            {"title":"System Design Primer (GitHub)","type":"Read","language":"English","url":"https://github.com/donnemartin/system-design-primer","badge":"System Design"},
+            {"title":"Google Tech Dev Guide","type":"Read","language":"English","url":"https://techdevguide.withgoogle.com/","badge":"Google"},
+            {"title":"ByteByteGo System Design Videos","type":"Video","language":"English","url":"https://www.youtube.com/@ByteByteGo","badge":"ByteByteGo"}
           ]
         },
         {
           "subjectName": "Data Structures and Algorithms",
           "topics": [
-            {
-              "title": "DSA in Urdu for Beginners",
-              "type": "Video",
-              "language": "Urdu",
-              "url": "https://www.youtube.com/results?search_query=data+structures+urdu+course",
-              "badge": "Urdu DSA"
-            },
-            {
-              "title": "freeCodeCamp Algorithms Course",
-              "type": "Video",
-              "language": "English",
-              "url": "https://www.freecodecamp.org/learn/algorithms-and-data-structures/",
-              "badge": "freeCodeCamp"
-            },
-            {
-              "title": "LeetCode Practice Set",
-              "type": "Practice",
-              "language": "English",
-              "url": "https://leetcode.com/problemset/",
-              "badge": "LeetCode"
-            }
+            {"title":"DSA in Urdu for Beginners","type":"Video","language":"Urdu","url":"https://www.youtube.com/results?search_query=data+structures+urdu+course","badge":"Urdu DSA"},
+            {"title":"freeCodeCamp Algorithms Course","type":"Video","language":"English","url":"https://www.freecodecamp.org/learn/algorithms-and-data-structures/","badge":"freeCodeCamp"},
+            {"title":"LeetCode Practice Set","type":"Practice","language":"English","url":"https://leetcode.com/problemset/","badge":"LeetCode"}
           ]
         }
       ]
@@ -177,53 +69,17 @@
         {
           "subjectName": "MDCAT and ECAT Prep",
           "topics": [
-            {
-              "title": "MDCAT Syllabus and Past Papers",
-              "type": "Read",
-              "language": "English",
-              "url": "https://www.ilmkidunya.com/mdcat/",
-              "badge": "MDCAT"
-            },
-            {
-              "title": "ECAT Maths Practice",
-              "type": "Practice",
-              "language": "English",
-              "url": "https://www.ilmkidunya.com/ecat/",
-              "badge": "ECAT"
-            },
-            {
-              "title": "NTS Preparation Notes",
-              "type": "Read",
-              "language": "English",
-              "url": "https://www.ilmkidunya.com/nts/",
-              "badge": "NTS"
-            }
+            {"title":"MDCAT Preparation Portal","type":"Read","language":"English","url":"https://www.ilmkidunya.com/mdcat/","badge":"MDCAT"},
+            {"title":"ECAT Preparation Portal","type":"Read","language":"English","url":"https://www.ilmkidunya.com/ecat/","badge":"ECAT"},
+            {"title":"NTS Preparation Portal","type":"Read","language":"English","url":"https://www.ilmkidunya.com/nts/","badge":"NTS"}
           ]
         },
         {
           "subjectName": "Entry Test English and IQ",
           "topics": [
-            {
-              "title": "English Grammar Revision",
-              "type": "Read",
-              "language": "English",
-              "url": "https://www.grammarly.com/blog/category/handbook/",
-              "badge": "Grammar"
-            },
-            {
-              "title": "Quantitative Aptitude Practice",
-              "type": "Practice",
-              "language": "English",
-              "url": "https://www.indiabix.com/quantitative-aptitude/questions-and-answers/",
-              "badge": "Aptitude"
-            },
-            {
-              "title": "Free IQ Tests and Puzzles",
-              "type": "Practice",
-              "language": "English",
-              "url": "https://www.proprofs.com/quiz-school/topic/iq",
-              "badge": "IQ"
-            }
+            {"title":"English Grammar Handbook","type":"Read","language":"English","url":"https://www.grammarly.com/blog/category/handbook/","badge":"Grammar"},
+            {"title":"Quantitative Aptitude Practice","type":"Practice","language":"English","url":"https://www.indiabix.com/quantitative-aptitude/questions-and-answers/","badge":"Aptitude"},
+            {"title":"IQ Tests and Puzzles","type":"Practice","language":"English","url":"https://www.proprofs.com/quiz-school/topic/iq","badge":"IQ"}
           ]
         }
       ]
