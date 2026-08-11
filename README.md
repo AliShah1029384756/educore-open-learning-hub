@@ -1,20 +1,20 @@
 # EduCore Open Learning Hub
 
 <p align="center">
-  <strong>Free, curated learning resources for Pakistani students.</strong><br>
-  <sub>Discover useful material faster — from school and college to university and entry-test preparation.</sub>
+  <strong>Free, curated learning resources for students.</strong><br>
+  <sub>Find useful material faster — from school and college to university and entry-test preparation.</sub>
 </p>
 
 <p align="center">
-  <a href="https://alishah1029384756.github.io/educore-open-learning-hub/"><img src="https://img.shields.io/badge/Live-EduCore-2ea44f" alt="Live site"></a>
-  <img src="https://img.shields.io/badge/resources-400%2B-orange" alt="400+ resources">
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license">
+  <a href="https://alishah1029384756.github.io/educore-open-learning-hub/"><img src="https://img.shields.io/badge/Live-EduCore-2ea44f" alt="Live EduCore site"></a>
+  <img src="https://img.shields.io/badge/resources-400%2B-orange" alt="400+ curated resources">
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License">
   <img src="https://img.shields.io/badge/frontend-Vanilla%20JS-yellow" alt="Vanilla JavaScript">
 </p>
 
 > **Maqsad:** Bikhray hue free educational resources ko ek simple, searchable aur student-friendly system mein lana — without paywalls and without mandatory signup.
 
-## 🌐 Live Demo
+## 🌐 Live EduCore
 
 **[Open EduCore](https://alishah1029384756.github.io/educore-open-learning-hub/)**
 
@@ -22,63 +22,83 @@
 
 ---
 
-## 🎯 Why EduCore?
+## 🎯 What Is EduCore?
 
-Students often know **what** they want to learn but waste time finding **where** to learn it.
+EduCore is a lightweight **open-learning discovery platform** that organizes useful free educational material from across the web into one searchable, student-friendly experience.
 
-EduCore is built around a simple flow:
+It is not another paid course platform and does not try to replace the original educators or publishers. Instead, EduCore acts as a **curated discovery layer**:
 
 **Find → Choose → Learn → Continue**
 
-Instead of creating another course platform, EduCore acts as a curated discovery layer over useful free resources already available across the web.
+The goal is simple: reduce the time students spend searching for good learning material and increase the time they spend actually learning.
 
 ### Designed for
 
-- Matric / O-Levels students
-- FSc / ICS / I.Com learners
+- School and college students
+- Matric / O-Levels learners
+- FSc / ICS / I.Com students
 - MDCAT / ECAT / NTS preparation
 - CS / SE / IT university students
-- Primary and middle-school learners
-- Commerce and Arts learners
-- Special-education and autism-support learning
 - Cambridge O-Level / IGCSE learners
+- Commerce and Arts learners
+- Students looking for Urdu or English resources
+- Special-education and autism-support learning
 
-## ✨ What It Does
+## ✨ Core Features
 
-- 🔍 Search subjects and resources in real time
-- 🧭 Browse by learning category
-- 🎛️ Filter by language, resource type and level
-- 🛣️ Follow structured learning paths
-- ▶️ Open curated external learning resources directly
-- ❤️ Save local bookmarks
-- 🕘 Continue recently opened learning resources
-- 📊 Track learning-path progress locally
-- 🌍 Support Urdu and English resource metadata
-- 🌙 Remember light/dark theme preference
-- 📱 Responsive desktop and mobile experience
-- ♿ Semantic, labelled and keyboard-friendly controls
-- 🚫 No account or backend required for core discovery
+### 🔍 Resource Discovery
 
-## 🧩 Product Flow
+- Real-time search across curated resources
+- Browse by subject and learning category
+- Filter by language, resource type and education level
+- Open the original external learning resource directly
+
+### 🧭 Guided Learning
+
+- Structured learning paths
+- Local progress tracking
+- Continue-learning history
+- Shareable search queries
+
+### ❤️ Personalization Without Accounts
+
+- Save bookmarks locally
+- Remember recently opened resources
+- Preserve learning-path progress
+- Remember light/dark theme preference
+
+These features use browser storage, so no account or backend is required for the core experience.
+
+### 🌍 Student-Friendly Access
+
+- Urdu and English metadata
+- Responsive desktop/mobile experience
+- Semantic and labelled controls
+- Keyboard-friendly interactions
+- No mandatory signup for resource discovery
+
+## 🧩 How EduCore Works
 
 ```text
-                    EduCore
-                       │
-          ┌────────────┼────────────┐
-          ▼            ▼            ▼
-       Search      Materials   Learning Paths
-          │            │            │
-          └────────────┼────────────┘
-                       ▼
-                Curated Resources
-                       │
-                ┌──────┴──────┐
-                ▼             ▼
-              Learn        Save / Continue
-                               │
-                               ▼
-                        Local Progress
+                         EduCore
+                            │
+              ┌─────────────┼─────────────┐
+              ▼             ▼             ▼
+           Search       Materials    Learning Paths
+              │             │             │
+              └─────────────┼─────────────┘
+                            ▼
+                    Curated Resources
+                            │
+                   ┌────────┴────────┐
+                   ▼                 ▼
+                 Learn          Save / Continue
+                                     │
+                                     ▼
+                              Local Progress
 ```
+
+EduCore stores curated resource metadata in repository data files and renders the discovery experience in the browser. Learning preferences and progress that do not require an account remain local to the user's browser.
 
 ## 🛠️ Technology
 
@@ -86,28 +106,28 @@ Instead of creating another course platform, EduCore acts as a curated discovery
 |---|---|
 | UI | HTML5, CSS3 |
 | Application | Vanilla JavaScript (ES6+) |
-| Data | JSON-based curated dataset |
+| Data | JSON-based curated datasets |
 | Persistence | Browser `localStorage` |
 | Icons | Font Awesome |
 | Hosting | GitHub Pages |
 | Build | No build step required |
 
-EduCore intentionally remains lightweight. There is no application server or database required for the core learning-discovery experience.
+The intentionally lightweight architecture keeps EduCore easy to host, inspect, maintain and contribute to.
 
 ## 📁 Project Structure
 
 ```text
 educore-open-learning-hub/
 ├── index.html                    # Main discovery experience
-├── about.html                    # Mission, principles and project story
+├── about.html                    # Mission and project story
 ├── materials-library.html        # Resource/material discovery
 ├── learning-paths.html           # Structured learning paths
-├── contribute.html               # Resource contribution workflow
+├── contribute.html               # Contribution workflow
 ├── app.js                        # Core search, filtering and rendering
 ├── learning-paths.js             # Learning-path logic
 ├── learning-dashboard.js         # Continue-learning/local dashboard
 ├── discovery-enhancements.js     # Search UX enhancements
-├── site-shell.js                 # Shared shell/navigation behavior
+├── site-shell.js                 # Shared shell/navigation behaviour
 ├── data.json                     # Main curated dataset
 ├── subjects.json                 # Supplemental subject/resource data
 ├── styles.css                    # Main UI styles
@@ -127,25 +147,31 @@ cd educore-open-learning-hub
 python -m http.server 8000
 ```
 
-Open **http://localhost:8000**.
+Then open:
 
-> A local HTTP server is recommended because the site loads local data and shared assets through browser requests.
+```text
+http://localhost:8000
+```
 
-## 📚 Curation Philosophy
+A local HTTP server is recommended because the site loads local data and shared assets through browser requests.
 
-EduCore is not trying to win by having the biggest list of links. The goal is to make the collection **useful, understandable and maintainable**.
+## 📚 Curation Principles
+
+EduCore is not trying to win by collecting the largest possible number of links. The priority is **usefulness, clarity and maintainability**.
 
 When adding a resource, prefer:
 
 1. Reputable educational sources
-2. Direct and working URLs
-3. Clear titles that do not overclaim what the link provides
-4. Correct subject/category placement
+2. Direct, working URLs
+3. Clear titles that accurately describe the destination
+4. Correct subject and category placement
 5. Useful language, type and level metadata
 6. Genuine learning value
-7. Resources that are accessible without unnecessary barriers
+7. Resources that are reasonably accessible without unnecessary barriers
 
-External links can change over time, so link verification remains an ongoing maintenance responsibility.
+External links can change, move or disappear. Resource quality and link health therefore require ongoing maintenance.
+
+> EduCore organizes and links to external learning material; it does not claim ownership of third-party content.
 
 ## ➕ Contributing
 
@@ -156,24 +182,47 @@ External links can change over time, so link verification remains an ongoing mai
 5. Test search/filter behaviour locally.
 6. Open a focused pull request explaining the improvement.
 
-Good contributions include **better resources, corrected metadata, accessibility improvements, UX fixes, documentation, and maintenance tooling**.
+Useful contributions include:
 
-You can also use the site's **Contribute** page to suggest a resource.
+- Better or missing learning resources
+- Corrected metadata
+- Broken-link fixes
+- Accessibility improvements
+- UX improvements
+- Documentation improvements
+- Dataset-quality and maintenance tooling
+
+The website also includes a **Contribute** page for resource suggestions.
 
 ## 🔒 Privacy by Simplicity
 
-Core personalization features are intentionally browser-local:
+EduCore intentionally keeps core personalization browser-local:
 
 - Bookmarks use `localStorage`.
 - Continue-learning history uses browser storage.
 - Learning-path progress uses browser storage.
-- No account is required for these features.
+- Theme preference can be remembered locally.
+- No account is required for core discovery.
 
-Progress is therefore **not synchronized between devices or browsers**.
+Because this data is local, progress is **not synchronized between different devices or browsers**.
+
+## 🧪 Quality & Maintenance
+
+The repository includes documentation and automated checks for the curated dataset. When maintaining the project, changes should be checked for:
+
+- Valid resource URLs
+- Consistent metadata
+- Duplicate or redundant resources
+- Correct category/subject placement
+- Search and filter behaviour
+- Responsive layout
+- Accessibility regressions
+
+Counts and resource availability can change as the dataset is cleaned, expanded and reorganized.
 
 ## 🗺️ Roadmap
 
-### Current direction
+### Current capabilities
 
 - [x] Curated resource discovery
 - [x] Search and filters
@@ -191,8 +240,8 @@ Progress is therefore **not synchronized between devices or browsers**.
 - [ ] Automated external-link health checks
 - [ ] More detailed resource-quality metadata
 - [ ] Offline / PWA support
-- [ ] Optional cloud sync
-- [ ] Community contribution workflow improvements
+- [ ] Optional cloud synchronization
+- [ ] Stronger community contribution workflows
 - [ ] AI-assisted resource recommendations
 
 Future items are exploratory and do not imply a release schedule.
@@ -200,12 +249,12 @@ Future items are exploratory and do not imply a release schedule.
 ## 📊 Current Snapshot
 
 - **400+ curated learning resources**
-- **68+ subjects** in the current project snapshot
+- **68+ subjects** in the documented project snapshot
 - **Multiple learning categories** across school, college, university and entry-test education
 - **Urdu + English** resource metadata
-- **Open-source MIT-licensed project**
+- **MIT-licensed open-source project**
 
-Counts may change as the dataset is cleaned, expanded and reorganized.
+These numbers are a snapshot rather than permanent limits; the dataset may change over time.
 
 ## 👨‍💻 Maintainer
 
@@ -221,4 +270,4 @@ Released under the **MIT License**. See [`LICENSE`](LICENSE).
 
 ---
 
-<p align="center"><strong>Built to make learning resources easier to find, understand and use.</strong></p>
+<p align="center"><strong>Built to make useful learning resources easier to find, understand and use.</strong></p>
